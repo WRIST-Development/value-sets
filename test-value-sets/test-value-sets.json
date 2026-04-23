@@ -32,6 +32,11 @@
         "code": "281239006",
         "display": "Acute asthma",
         "action": "exclude"
+      },
+      {
+        "code": "63088003",
+        "display": "Allergic asthma without status asthmaticus",
+        "action": "exclude"
       }
     ],
     "search": {
@@ -62,17 +67,23 @@
         "version": 3
       },
       {
-        "version": 4,
-        "reason": "testing",
+        "author": "FrankiePH",
         "date": "2026-04-23T15:27:32.109044+00:00",
+        "reason": "testing",
+        "version": 4
+      },
+      {
+        "version": 5,
+        "reason": "Excluded child of Asthma without status asthmaticus",
+        "date": "2026-04-23T16:34:30.614910+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "test-value-sets",
     "createdBy": "FrankiePH",
     "slug": "test-value-sets",
-    "updatedAt": "2026-04-23T15:27:32.109044+00:00",
-    "version": 4
+    "updatedAt": "2026-04-23T16:34:30.614910+00:00",
+    "version": 5
   },
   "compose": {
     "exclude": [
@@ -93,6 +104,10 @@
           {
             "code": "281239006",
             "display": "Acute asthma"
+          },
+          {
+            "code": "63088003",
+            "display": "Allergic asthma without status asthmaticus"
           }
         ],
         "system": "http://snomed.info/sct"
