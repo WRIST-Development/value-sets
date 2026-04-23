@@ -56,19 +56,48 @@
         "version": 2
       },
       {
-        "version": 3,
-        "reason": "removed acute asthma codes",
+        "author": "FrankiePH",
         "date": "2026-04-23T15:12:46.792022+00:00",
+        "reason": "removed acute asthma codes",
+        "version": 3
+      },
+      {
+        "version": 4,
+        "reason": "testing",
+        "date": "2026-04-23T15:27:32.109044+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "test-value-sets",
     "createdBy": "FrankiePH",
     "slug": "test-value-sets",
-    "updatedAt": "2026-04-23T15:12:46.792022+00:00",
-    "version": 3
+    "updatedAt": "2026-04-23T15:27:32.109044+00:00",
+    "version": 4
   },
   "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "72301000119103",
+            "display": "Asthma in pregnancy"
+          },
+          {
+            "code": "10742121000119104",
+            "display": "Asthma in mother complicating childbirth"
+          },
+          {
+            "code": "233678006",
+            "display": "Childhood asthma"
+          },
+          {
+            "code": "281239006",
+            "display": "Acute asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
     "include": [
       {
         "concept": [
