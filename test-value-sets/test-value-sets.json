@@ -1,41 +1,4 @@
 {
-  "_libraryMeta": {
-    "changeLog": [
-      {
-        "author": "FrankiePH",
-        "date": "2026-04-23T14:50:50.096865+00:00",
-        "reason": "Initial creation",
-        "version": 1
-      },
-      {
-        "version": 2,
-        "reason": "Init",
-        "date": "2026-04-23T15:12:01.399822+00:00",
-        "author": "FrankiePH"
-      }
-    ],
-    "collection": "test-value-sets",
-    "createdBy": "FrankiePH",
-    "slug": "test-value-sets",
-    "updatedAt": "2026-04-23T15:12:01.399822+00:00",
-    "version": 2
-  },
-  "compose": {
-    "include": [
-      {
-        "concept": [
-          {
-            "code": "195967001",
-            "display": "Asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ]
-  },
-  "resourceType": "ValueSet",
-  "status": "active",
-  "title": "Test Value Sets",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -64,6 +27,11 @@
         "code": "233678006",
         "display": "Childhood asthma",
         "action": "exclude"
+      },
+      {
+        "code": "281239006",
+        "display": "Acute asthma",
+        "action": "exclude"
       }
     ],
     "search": {
@@ -73,5 +41,48 @@
       "inspectingCode": "195967001"
     }
   },
-  "description": ""
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-04-23T14:50:50.096865+00:00",
+        "reason": "Initial creation",
+        "version": 1
+      },
+      {
+        "author": "FrankiePH",
+        "date": "2026-04-23T15:12:01.399822+00:00",
+        "reason": "Init",
+        "version": 2
+      },
+      {
+        "version": 3,
+        "reason": "removed acute asthma codes",
+        "date": "2026-04-23T15:12:46.792022+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "test-value-sets",
+    "createdBy": "FrankiePH",
+    "slug": "test-value-sets",
+    "updatedAt": "2026-04-23T15:12:46.792022+00:00",
+    "version": 3
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "",
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "Test Value Sets"
 }
