@@ -1,24 +1,121 @@
 {
-  "resourceType": "ValueSet",
-  "title": "NHS DD",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": 1,
-    "slug": "nhs-dd",
-    "collection": "Demo2",
-    "updatedAt": "2026-04-23T20:17:47.692341+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 1,
-        "reason": "Initial creation",
+        "author": "FrankiePH",
         "date": "2026-04-23T20:17:47.692341+00:00",
+        "reason": "Initial creation",
+        "version": 1
+      },
+      {
+        "version": 2,
+        "reason": "Init",
+        "date": "2026-04-23T20:37:16.414422+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "Demo2",
+    "createdBy": "FrankiePH",
+    "slug": "nhs-dd",
+    "updatedAt": "2026-04-23T20:37:16.414422+00:00",
+    "version": 2
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "19",
+            "display": "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."
+          },
+          {
+            "code": "51",
+            "display": "NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or Emergency Care Department"
+          },
+          {
+            "code": "52",
+            "display": "NHS other Hospital Provider - Ward for maternity Patients or Neonates"
+          },
+          {
+            "code": "79",
+            "display": "Babies born in or on the way to hospital"
+          }
+        ],
+        "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SourceOfAdmissionEngland"
+      },
+      {
+        "concept": [
+          {
+            "code": "1",
+            "display": "Discharged from consultant's care (last attendance)"
+          },
+          {
+            "code": "2",
+            "display": "Another appointment given"
+          },
+          {
+            "code": "3",
+            "display": "Appointment to be made at a later date"
+          }
+        ],
+        "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-OutcomeOfAttendanceEngland"
+      }
     ]
-  }
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "NHS DD",
+  "_builderState": {
+    "mode": "nhsdd",
+    "sourcePackage": "fhir.r4.ukcore.stu2",
+    "sourceVersion": "2.0.2",
+    "jurisdiction": "",
+    "selections": {
+      "https://fhir.hl7.org.uk/CodeSystem/UKCore-SourceOfAdmissionEngland": {
+        "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SourceOfAdmissionEngland",
+        "name": "UKCoreSourceOfAdmissionEngland",
+        "title": "UK Core Source Of Admission England",
+        "mode": "selected",
+        "codes": [
+          {
+            "code": "19",
+            "display": "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."
+          },
+          {
+            "code": "51",
+            "display": "NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or Emergency Care Department"
+          },
+          {
+            "code": "52",
+            "display": "NHS other Hospital Provider - Ward for maternity Patients or Neonates"
+          },
+          {
+            "code": "79",
+            "display": "Babies born in or on the way to hospital"
+          }
+        ]
+      },
+      "https://fhir.hl7.org.uk/CodeSystem/UKCore-OutcomeOfAttendanceEngland": {
+        "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-OutcomeOfAttendanceEngland",
+        "name": "UKCoreOutcomeOfAttendanceEngland",
+        "title": "UK Core Outcome Of Attendance England",
+        "mode": "selected",
+        "codes": [
+          {
+            "code": "1",
+            "display": "Discharged from consultant's care (last attendance)"
+          },
+          {
+            "code": "2",
+            "display": "Another appointment given"
+          },
+          {
+            "code": "3",
+            "display": "Appointment to be made at a later date"
+          }
+        ]
+      }
+    }
+  },
+  "description": ""
 }
