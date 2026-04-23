@@ -1,24 +1,77 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Test Value Sets",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": 1,
-    "slug": "test-value-sets",
-    "collection": "test-value-sets",
-    "updatedAt": "2026-04-23T14:50:50.096865+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 1,
-        "reason": "Initial creation",
+        "author": "FrankiePH",
         "date": "2026-04-23T14:50:50.096865+00:00",
+        "reason": "Initial creation",
+        "version": 1
+      },
+      {
+        "version": 2,
+        "reason": "Init",
+        "date": "2026-04-23T15:12:01.399822+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "test-value-sets",
+    "createdBy": "FrankiePH",
+    "slug": "test-value-sets",
+    "updatedAt": "2026-04-23T15:12:01.399822+00:00",
+    "version": 2
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
     ]
-  }
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "Test Value Sets",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "195967001",
+        "display": "Asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include"
+      },
+      {
+        "code": "72301000119103",
+        "display": "Asthma in pregnancy",
+        "action": "exclude"
+      },
+      {
+        "code": "10742121000119104",
+        "display": "Asthma in mother complicating childbirth",
+        "action": "exclude"
+      },
+      {
+        "code": "233678006",
+        "display": "Childhood asthma",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "195967001"
+    }
+  },
+  "description": ""
 }
