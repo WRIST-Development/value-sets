@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "title": "NHS DD",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "nhs-dd",
+    "collection": "Demo2",
+    "updatedAt": "2026-04-23T20:17:47.692341+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "Initial creation",
+        "date": "2026-04-23T20:17:47.692341+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
