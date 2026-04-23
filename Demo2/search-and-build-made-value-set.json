@@ -1,35 +1,5 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Search and Build Made Value Set",
-  "status": "draft",
   "_builderState": {
-    "decisions": [
-      {
-        "action": "include",
-        "code": "405944004",
-        "display": "Asthmatic bronchitis"
-      },
-      {
-        "action": "include",
-        "code": "13791008",
-        "display": "Asthenia"
-      },
-      {
-        "action": "exclude",
-        "code": "272036004",
-        "display": "Complaining of debility and malaise"
-      },
-      {
-        "action": "exclude",
-        "code": "161874006",
-        "display": "Heavy feeling"
-      },
-      {
-        "action": "exclude",
-        "code": "18726006",
-        "display": "Senile asthenia"
-      }
-    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -41,29 +11,81 @@
         "display": "Asthenia"
       }
     ],
+    "decisions": [
+      {
+        "code": "405944004",
+        "display": "Asthmatic bronchitis",
+        "action": "include"
+      },
+      {
+        "code": "13791008",
+        "display": "Asthenia",
+        "action": "include"
+      },
+      {
+        "code": "272036004",
+        "display": "Complaining of debility and malaise",
+        "action": "exclude"
+      },
+      {
+        "code": "161874006",
+        "display": "Heavy feeling",
+        "action": "exclude"
+      },
+      {
+        "code": "18726006",
+        "display": "Senile asthenia",
+        "action": "exclude"
+      }
+    ],
     "search": {
-      "activeOnly": true,
-      "inspectingCode": "13791008",
       "query": "asth",
-      "refsetCode": ""
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "13791008"
     }
   },
   "_libraryMeta": {
-    "updatedAt": "2026-04-23T17:18:36.231327+00:00",
-    "version": 1,
-    "slug": "search-and-build-made-value-set",
-    "collection": "Demo2",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 1,
-        "reason": "initial creation",
+        "author": "FrankiePH",
         "date": "2026-04-23T17:18:36.231327+00:00",
+        "reason": "initial creation",
+        "version": 1
+      },
+      {
+        "version": 2,
+        "reason": "test",
+        "date": "2026-04-23T17:20:30.107821+00:00",
         "author": "FrankiePH"
       }
-    ]
+    ],
+    "collection": "Demo2",
+    "createdBy": "FrankiePH",
+    "slug": "search-and-build-made-value-set",
+    "updatedAt": "2026-04-23T17:20:30.107821+00:00",
+    "version": 2
   },
   "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "272036004",
+            "display": "Complaining of debility and malaise"
+          },
+          {
+            "code": "161874006",
+            "display": "Heavy feeling"
+          },
+          {
+            "code": "18726006",
+            "display": "Senile asthenia"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
     "include": [
       {
         "concept": [
@@ -82,9 +104,12 @@
   },
   "description": "This is a test",
   "name": "SearchBuild",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Search and Build Made Value Set</p></div>",
     "status": "generated"
   },
+  "title": "Search and Build Made Value Set",
   "url": "https://ramseysystems.co.uk/fhir/ValueSet/searchbuild-2053fdd8c28d"
 }
