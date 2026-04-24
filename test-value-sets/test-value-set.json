@@ -1,0 +1,96 @@
+{
+  "resourceType": "ValueSet",
+  "title": "test value set",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "1751000119100",
+            "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma"
+          },
+          {
+            "code": "708094006",
+            "display": "Acute exacerbation of intrinsic asthma"
+          },
+          {
+            "code": "708090002",
+            "display": "Acute severe exacerbation of asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "281239006",
+            "display": "Acute asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "test",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test value set</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-865cc1c7a9cb",
+  "description": "This is a test value set made with the snomed CT search and build",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma",
+        "action": "include"
+      },
+      {
+        "code": "1751000119100",
+        "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "708094006",
+        "display": "Acute exacerbation of intrinsic asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "708090002",
+        "display": "Acute severe exacerbation of asthma",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "281239006"
+    }
+  },
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "test-value-set",
+    "collection": "test-value-sets",
+    "updatedAt": "2026-04-24T11:19:30.207143+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "test",
+        "date": "2026-04-24T11:19:30.207143+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
