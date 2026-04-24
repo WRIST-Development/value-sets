@@ -7,16 +7,16 @@
       {
         "concept": [
           {
-            "code": "389145006",
-            "display": "Allergic asthma"
+            "code": "708090002",
+            "display": "Acute severe exacerbation of asthma"
           },
           {
-            "code": "72301000119103",
-            "display": "Asthma in pregnancy"
+            "code": "10692721000119102",
+            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
           },
           {
-            "code": "55570000",
-            "display": "Asthma without status asthmaticus"
+            "code": "762521001",
+            "display": "Exacerbation of allergic asthma"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -26,8 +26,8 @@
       {
         "concept": [
           {
-            "code": "195967001",
-            "display": "Asthma"
+            "code": "281239006",
+            "display": "Acute asthma"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -39,35 +39,35 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>acute asthma</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-e9a9907a7ccd",
-  "description": "Blah blah blah",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-865cc1c7a9cb",
+  "description": "blah blah blah",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
       {
-        "code": "195967001",
-        "display": "Asthma"
+        "code": "281239006",
+        "display": "Acute asthma"
       }
     ],
     "decisions": [
       {
-        "code": "195967001",
-        "display": "Asthma",
+        "code": "281239006",
+        "display": "Acute asthma",
         "action": "include"
       },
       {
-        "code": "389145006",
-        "display": "Allergic asthma",
+        "code": "708090002",
+        "display": "Acute severe exacerbation of asthma",
         "action": "exclude"
       },
       {
-        "code": "72301000119103",
-        "display": "Asthma in pregnancy",
+        "code": "10692721000119102",
+        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
         "action": "exclude"
       },
       {
-        "code": "55570000",
-        "display": "Asthma without status asthmaticus",
+        "code": "762521001",
+        "display": "Exacerbation of allergic asthma",
         "action": "exclude"
       }
     ],
@@ -75,20 +75,20 @@
       "query": "asth",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "195967001"
+      "inspectingCode": "281239006"
     }
   },
   "_libraryMeta": {
-    "version": 2,
+    "version": 3,
     "slug": "acute-asthma",
     "collection": "test-value-sets",
-    "updatedAt": "2026-04-24T11:59:13.939092+00:00",
+    "updatedAt": "2026-04-24T12:46:07.593922+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 2,
-        "reason": "initial creation",
-        "date": "2026-04-24T11:59:13.939092+00:00",
+        "version": 3,
+        "reason": "init",
+        "date": "2026-04-24T12:46:07.593922+00:00",
         "author": "FrankiePH"
       }
     ]
