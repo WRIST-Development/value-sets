@@ -1,0 +1,109 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Search and Build Made Value Set",
+  "status": "draft",
+  "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "405944004",
+        "display": "Asthmatic bronchitis"
+      },
+      {
+        "action": "include",
+        "code": "13791008",
+        "display": "Asthenia"
+      },
+      {
+        "action": "exclude",
+        "code": "272036004",
+        "display": "Complaining of debility and malaise"
+      },
+      {
+        "action": "exclude",
+        "code": "161874006",
+        "display": "Heavy feeling"
+      },
+      {
+        "action": "exclude",
+        "code": "18726006",
+        "display": "Senile asthenia"
+      }
+    ],
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "405944004",
+        "display": "Asthmatic bronchitis"
+      },
+      {
+        "code": "13791008",
+        "display": "Asthenia"
+      }
+    ],
+    "search": {
+      "activeOnly": true,
+      "inspectingCode": "13791008",
+      "query": "asth",
+      "refsetCode": ""
+    }
+  },
+  "_libraryMeta": {
+    "updatedAt": "2026-04-24T11:03:17.041062+00:00",
+    "version": 1,
+    "slug": "search-and-build-made-value-set",
+    "collection": "test-value-sets",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "init",
+        "date": "2026-04-24T11:03:17.041062+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  },
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "272036004",
+            "display": "Complaining of debility and malaise"
+          },
+          {
+            "code": "161874006",
+            "display": "Heavy feeling"
+          },
+          {
+            "code": "18726006",
+            "display": "Senile asthenia"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "405944004",
+            "display": "Asthmatic bronchitis"
+          },
+          {
+            "code": "13791008",
+            "display": "Asthenia"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "This is a test",
+  "name": "SearchBuild",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Search and Build Made Value Set</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/searchbuild-2053fdd8c28d"
+}
