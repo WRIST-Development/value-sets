@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Person stated gender code",
+  "status": "draft",
+  "url": "https://datadictionary.nhs.uk/data_elements/person_stated_gender_code.html?hl=person%2Cstated%2Cgender%2Ccode",
+  "name": "Person-stated-gender-code",
+  "description": "testing",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://datadictionary.nhs.uk/data_elements/person_stated_gender_code.html?hl=person%2Cstated%2Cgender%2Ccode",
+    "display": "Person stated gender code"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "person-stated-gender-code",
+    "collection": "111-pem-for-information",
+    "updatedAt": "2026-04-24T21:27:59.877724+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "initial creation",
+        "date": "2026-04-24T21:27:59.877724+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
