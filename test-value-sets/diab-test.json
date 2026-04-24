@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "title": "diab test",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "530558861000132104",
+            "display": "Atypical diabetes mellitus"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "diab-test",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>diab test</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diab-test-3df72a592294",
+  "description": "teest",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "530558861000132104",
+        "display": "Atypical diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "530558861000132104",
+        "display": "Atypical diabetes mellitus",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "diabet",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "73211009"
+    }
+  },
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "diab-test",
+    "collection": "test-value-sets",
+    "updatedAt": "2026-04-24T13:06:47.307625+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "initial creation",
+        "date": "2026-04-24T13:06:47.307625+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
