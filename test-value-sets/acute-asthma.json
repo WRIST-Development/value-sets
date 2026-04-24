@@ -1,0 +1,96 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Acute Asthma",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "708090002",
+            "display": "Acute severe exacerbation of asthma"
+          },
+          {
+            "code": "1751000119100",
+            "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma"
+          },
+          {
+            "code": "762521001",
+            "display": "Exacerbation of allergic asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "281239006",
+            "display": "Acute asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "acute-asthma",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-865cc1c7a9cb",
+  "description": "This is to be used blah blah",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma",
+        "action": "include"
+      },
+      {
+        "code": "708090002",
+        "display": "Acute severe exacerbation of asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "1751000119100",
+        "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "762521001",
+        "display": "Exacerbation of allergic asthma",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "281239006"
+    }
+  },
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "acute-asthma",
+    "collection": "test-value-sets",
+    "updatedAt": "2026-04-24T11:56:21.155678+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "initial creation",
+        "date": "2026-04-24T11:56:21.155678+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
