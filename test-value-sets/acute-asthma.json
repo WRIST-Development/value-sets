@@ -7,16 +7,16 @@
       {
         "concept": [
           {
+            "code": "708094006",
+            "display": "Acute exacerbation of intrinsic asthma"
+          },
+          {
+            "code": "1751000119100",
+            "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma"
+          },
+          {
             "code": "708090002",
             "display": "Acute severe exacerbation of asthma"
-          },
-          {
-            "code": "10692721000119102",
-            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
-          },
-          {
-            "code": "762521001",
-            "display": "Exacerbation of allergic asthma"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -56,18 +56,18 @@
         "action": "include"
       },
       {
+        "code": "708094006",
+        "display": "Acute exacerbation of intrinsic asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "1751000119100",
+        "display": "Acute exacerbation of chronic obstructive pulmonary disease with asthma",
+        "action": "exclude"
+      },
+      {
         "code": "708090002",
         "display": "Acute severe exacerbation of asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "10692721000119102",
-        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "762521001",
-        "display": "Exacerbation of allergic asthma",
         "action": "exclude"
       }
     ],
@@ -79,16 +79,16 @@
     }
   },
   "_libraryMeta": {
-    "version": 3,
+    "version": 4,
     "slug": "acute-asthma",
     "collection": "test-value-sets",
-    "updatedAt": "2026-04-24T12:46:07.593922+00:00",
+    "updatedAt": "2026-04-24T13:05:04.616935+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 3,
-        "reason": "init",
-        "date": "2026-04-24T12:46:07.593922+00:00",
+        "version": 4,
+        "reason": "initial creation",
+        "date": "2026-04-24T13:05:04.616935+00:00",
         "author": "FrankiePH"
       }
     ]
