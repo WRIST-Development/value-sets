@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "library asthma",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "library-asthma",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>library asthma</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/library-asthma-e9a9907a7ccd",
+  "description": "test",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "195967001",
+        "display": "Asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "asthma",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "195967001"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "library-asthma",
+    "collection": "test-value-sets",
+    "updatedAt": "2026-04-24T13:21:24.072333+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "test",
+        "date": "2026-04-24T13:21:24.072333+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
