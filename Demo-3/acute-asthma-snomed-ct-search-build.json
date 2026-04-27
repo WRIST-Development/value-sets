@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Acute Asthma (Snomed CT Search & Build)",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "708094006",
+            "display": "Acute exacerbation of intrinsic asthma"
+          },
+          {
+            "code": "10692721000119102",
+            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "281239006",
+            "display": "Acute asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "acute-asthma",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-865cc1c7a9cb",
+  "description": "blah blah blah",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "281239006",
+        "display": "Acute asthma",
+        "action": "include"
+      },
+      {
+        "code": "708094006",
+        "display": "Acute exacerbation of intrinsic asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "10692721000119102",
+        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "195967001"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "acute-asthma-snomed-ct-search-build",
+    "collection": "Demo-3",
+    "updatedAt": "2026-04-27T11:32:34.233323+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "initial creation",
+        "date": "2026-04-27T11:32:34.233323+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
