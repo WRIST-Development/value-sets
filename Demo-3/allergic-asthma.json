@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Allergic asthma",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "389145006",
+            "display": "Allergic asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "allergic-asthma",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Allergic asthma</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/allergic-asthma-d2bd7f4306e3",
+  "description": "blah blah blah",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "389145006",
+        "display": "Allergic asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "389145006",
+        "display": "Allergic asthma",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "asthma",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "389145006"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "allergic-asthma",
+    "collection": "Demo-3",
+    "updatedAt": "2026-04-27T11:56:06.044185+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "Initial creation",
+        "date": "2026-04-27T11:56:06.044185+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
