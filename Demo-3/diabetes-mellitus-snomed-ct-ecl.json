@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes mellitus (Snomed CT ECL)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "(<< 73211009 |Diabetes mellitus|) MINUS ((<< 609568004 |Diabetes mellitus due to genetic defect in beta cell function|) OR (<< 190447002 |Steroid-induced diabetes|) OR (<< 385041000000108 |Diabetes mellitus with multiple complications|) OR (<< 445353002 |Brittle type 2 diabetes mellitus|))"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "diabetes-mellitus",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes mellitus (Snomed CT ECL)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetes-mellitus-95042b8233c0",
+  "description": "blah blah blah",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "diabetes-mellitus-snomed-ct-ecl",
+    "collection": "Demo-3",
+    "updatedAt": "2026-04-27T11:34:14.070798+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "initial creation",
+        "date": "2026-04-27T11:34:14.070798+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
