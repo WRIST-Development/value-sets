@@ -9,10 +9,6 @@
           {
             "code": "26091008",
             "display": "Aspartate aminotransferase"
-          },
-          {
-            "code": "1031101000000102",
-            "display": "Aspartate aminotransferase level"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -24,7 +20,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspartate aminotransferase</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/aspartate-aminotransferase-5bcdf3383d70",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/aspartate-aminotransferase-1a5e82e8a5d4",
   "description": "test usage description",
   "_builderState": {
     "mode": "snomed-tree",
@@ -32,10 +28,6 @@
       {
         "code": "26091008",
         "display": "Aspartate aminotransferase"
-      },
-      {
-        "code": "1031101000000102",
-        "display": "Aspartate aminotransferase level"
       }
     ],
     "decisions": [
@@ -43,32 +35,27 @@
         "code": "26091008",
         "display": "Aspartate aminotransferase",
         "action": "include"
-      },
-      {
-        "code": "1031101000000102",
-        "display": "Aspartate aminotransferase level",
-        "action": "include"
       }
     ],
     "search": {
       "query": "ast",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "1031101000000102"
+      "inspectingCode": "26091008"
     }
   },
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.2",
+    "version": "1-build.0.3",
     "slug": "aspartate-aminotransferase",
     "collection": "Demo-3",
-    "updatedAt": "2026-04-28T15:18:30.755520+00:00",
+    "updatedAt": "2026-04-28T15:20:07.978506+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.2",
+        "version": "1-build.0.3",
         "reason": "test",
-        "date": "2026-04-28T15:18:30.755520+00:00",
+        "date": "2026-04-28T15:20:07.978506+00:00",
         "author": "FrankiePH"
       }
     ]
