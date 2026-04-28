@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "mixed value set",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "((<< 195967001 |Asthma|) MINUS ((<< 10675471000119109 |Acute severe exacerbation of severe persistent allergic asthma|) OR (<< 708093000 |Acute exacerbation of allergic asthma|) OR (<< 195977004 |Mixed asthma|))) OR << 2324501000000108 |Diabetes distress|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "mixed-value-set",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>mixed value set</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/mixed-value-set-3fe661d5ebe0",
+  "description": "testigbhsdfgafd",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "mixed-value-set",
+    "collection": "Demo-3",
+    "updatedAt": "2026-04-28T17:58:32.334990+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-04-28T17:58:32.334990+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
