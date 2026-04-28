@@ -59,16 +59,16 @@
   },
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.1",
+    "version": "1-build.0.2",
     "slug": "aspartate-aminotransferase",
     "collection": "Demo-3",
-    "updatedAt": "2026-04-28T15:16:15.939434+00:00",
+    "updatedAt": "2026-04-28T15:18:30.755520+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.1",
+        "version": "1-build.0.2",
         "reason": "test",
-        "date": "2026-04-28T15:16:15.939434+00:00",
+        "date": "2026-04-28T15:18:30.755520+00:00",
         "author": "FrankiePH"
       }
     ]
