@@ -22,28 +22,8 @@
             "display": "Administration of epidural top-up"
           },
           {
-            "code": "231261002",
-            "display": "Combined spinal/epidural local anaesthetic block"
-          },
-          {
-            "code": "231263004",
-            "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle"
-          },
-          {
-            "code": "231262009",
-            "display": "Combined spinal/epidural technique with needles at separate spaces"
-          },
-          {
             "code": "427060008",
             "display": "Continuous thoracic epidural analgesia"
-          },
-          {
-            "code": "1285642008",
-            "display": "Dural puncture epidural"
-          },
-          {
-            "code": "18946005",
-            "display": "Epidural anaesthesia"
           },
           {
             "code": "67716003",
@@ -58,33 +38,64 @@
             "display": "Injection of epidural anaesthesia during maternal intrapartum period"
           },
           {
-            "code": "16388003",
-            "display": "Injection of spinal anaesthetic agent for analgesia"
-          },
-          {
-            "code": "2549821000000101",
-            "display": "Intramuscular injection of opioid"
-          },
-          {
-            "code": "2549841000000108",
-            "display": "Intravenous injection of opioid"
-          },
-          {
             "code": "180885006",
             "display": "Local anaesthetic lumbar epidural block"
-          },
-          {
-            "code": "231253007",
-            "display": "Local anaesthetic lumbar intrathecal block"
           },
           {
             "code": "398044000",
             "display": "Low dose epidural"
           },
           {
-            "code": "427035008",
-            "display": "Nitrous oxide and oxygen gas analgesia"
+            "code": "231261002",
+            "display": "Combined spinal/epidural local anaesthetic block"
           },
+          {
+            "code": "16388003",
+            "display": "Injection of spinal anaesthetic agent for analgesia"
+          },
+          {
+            "code": "231253007",
+            "display": "Local anaesthetic lumbar intrathecal block"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1285642008",
+            "display": "Dural puncture epidural"
+          },
+          {
+            "code": "18946005",
+            "display": "Epidural anaesthesia"
+          },
+          {
+            "code": "231249005",
+            "display": "Spinal anaesthesia"
+          },
+          {
+            "code": "2549871000000102",
+            "display": "Patient controlled intravenous analgesia of remifentanil"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "231263004",
+            "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle"
+          },
+          {
+            "code": "231262009",
+            "display": "Combined spinal/epidural technique with needles at separate spaces"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
             "code": "426060003",
             "display": "Nitrous oxide and oxygen gas analgesia in labour"
@@ -92,36 +103,70 @@
           {
             "code": "397905008",
             "display": "Patient controlled epidural analgesia"
-          },
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "2549821000000101",
+            "display": "Intramuscular injection of opioid"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "2549841000000108",
+            "display": "Intravenous injection of opioid"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "427035008",
+            "display": "Nitrous oxide and oxygen gas analgesia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
             "code": "2549861000000109",
             "display": "Patient controlled intravenous analgesia of opioid"
-          },
-          {
-            "code": "2549871000000102",
-            "display": "Patient controlled intravenous analgesia of remifentanil"
-          },
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
             "code": "2570311000000106",
             "display": "PIEB (programmed intermittent epidural bolus) infusion of therapeutic substance"
-          },
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
             "code": "231254001",
             "display": "Saddle block"
-          },
-          {
-            "code": "231249005",
-            "display": "Spinal anaesthesia"
           }
         ]
       }
     ]
   },
   "_libraryMeta": {
-    "version": 1,
+    "version": 2,
     "slug": "labour-analgesia-procedure",
     "collection": "excel-import-test",
-    "updatedAt": "2026-04-28T13:25:43.762698+00:00",
+    "updatedAt": "2026-04-28T13:26:24.765409+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
@@ -129,6 +174,184 @@
         "reason": "Import from Labour_analgesia_procedure_1.0.0.xlsx",
         "date": "2026-04-28T13:25:43.762698+00:00",
         "author": "FrankiePH"
+      },
+      {
+        "version": 2,
+        "reason": "Apply hierarchy analysis",
+        "date": "2026-04-28T13:26:24.765409+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "745638006",
+        "display": "Injection of anaesthetic agent"
+      },
+      {
+        "code": "399097000",
+        "display": "Administration of anaesthesia"
+      },
+      {
+        "code": "303356007",
+        "display": "Local anaesthetic nerve block around spinal cord meninges"
+      },
+      {
+        "code": "52685006",
+        "display": "Administration of analgesic"
+      },
+      {
+        "code": "76601001",
+        "display": "Intramuscular injection"
+      },
+      {
+        "code": "1285293005",
+        "display": "Administration via intravenous route"
+      },
+      {
+        "code": "18629005",
+        "display": "Administration of medication"
+      },
+      {
+        "code": "241716000",
+        "display": "Patient controlled analgesia"
+      },
+      {
+        "code": "118678004",
+        "display": "Procedure on nervous system"
+      },
+      {
+        "code": "120170007",
+        "display": "Abdomen injection"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "231259006",
+        "display": "Administration of epidural test dose",
+        "action": "include"
+      },
+      {
+        "code": "231260001",
+        "display": "Administration of epidural top-up",
+        "action": "include"
+      },
+      {
+        "code": "427060008",
+        "display": "Continuous thoracic epidural analgesia",
+        "action": "include"
+      },
+      {
+        "code": "67716003",
+        "display": "Epidural injection of anaesthetic substance, therapeutic, caudal, continuous",
+        "action": "include"
+      },
+      {
+        "code": "58611004",
+        "display": "Epidural injection of anaesthetic substance, therapeutic, lumbar, continuous",
+        "action": "include"
+      },
+      {
+        "code": "1287360000",
+        "display": "Injection of epidural anaesthesia during maternal intrapartum period",
+        "action": "include"
+      },
+      {
+        "code": "180885006",
+        "display": "Local anaesthetic lumbar epidural block",
+        "action": "include"
+      },
+      {
+        "code": "398044000",
+        "display": "Low dose epidural",
+        "action": "include"
+      },
+      {
+        "code": "231261002",
+        "display": "Combined spinal/epidural local anaesthetic block",
+        "action": "include"
+      },
+      {
+        "code": "16388003",
+        "display": "Injection of spinal anaesthetic agent for analgesia",
+        "action": "include"
+      },
+      {
+        "code": "231253007",
+        "display": "Local anaesthetic lumbar intrathecal block",
+        "action": "include"
+      },
+      {
+        "code": "1285642008",
+        "display": "Dural puncture epidural",
+        "action": "include"
+      },
+      {
+        "code": "18946005",
+        "display": "Epidural anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "231249005",
+        "display": "Spinal anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "2549871000000102",
+        "display": "Patient controlled intravenous analgesia of remifentanil",
+        "action": "include"
+      },
+      {
+        "code": "231263004",
+        "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle",
+        "action": "include"
+      },
+      {
+        "code": "231262009",
+        "display": "Combined spinal/epidural technique with needles at separate spaces",
+        "action": "include"
+      },
+      {
+        "code": "426060003",
+        "display": "Nitrous oxide and oxygen gas analgesia in labour",
+        "action": "include"
+      },
+      {
+        "code": "397905008",
+        "display": "Patient controlled epidural analgesia",
+        "action": "include"
+      },
+      {
+        "code": "2549821000000101",
+        "display": "Intramuscular injection of opioid",
+        "action": "include"
+      },
+      {
+        "code": "2549841000000108",
+        "display": "Intravenous injection of opioid",
+        "action": "include"
+      },
+      {
+        "code": "427035008",
+        "display": "Nitrous oxide and oxygen gas analgesia",
+        "action": "include"
+      },
+      {
+        "code": "2549861000000109",
+        "display": "Patient controlled intravenous analgesia of opioid",
+        "action": "include"
+      },
+      {
+        "code": "2570311000000106",
+        "display": "PIEB (programmed intermittent epidural bolus) infusion of therapeutic substance",
+        "action": "include"
+      },
+      {
+        "code": "231254001",
+        "display": "Saddle block",
+        "action": "include"
       }
     ]
   }
