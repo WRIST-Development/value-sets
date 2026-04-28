@@ -14,64 +14,12 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "76880004",
-            "display": "Angelman syndrome"
-          },
-          {
-            "code": "14091009",
-            "display": "12p partial trisomy syndrome"
-          },
-          {
-            "code": "699254009",
-            "display": "15q13.3 microdeletion"
-          },
-          {
-            "code": "699306003",
-            "display": "1p36 deletion syndrome"
-          },
-          {
-            "code": "403757004",
-            "display": "Aplasia cutis in Chromosome 4 short-arm deletion syndrome (Wolf-Hirschhorn)"
-          },
-          {
-            "code": "1259087007",
-            "display": "Autoimmune encephalitis caused by N-methyl-D-aspartate receptor antibody"
-          },
-          {
-            "code": "95883001",
-            "display": "Bacterial meningitis"
-          },
-          {
-            "code": "445359003",
-            "display": "Bacterial meningoencephalitis"
-          },
-          {
-            "code": "8808004",
-            "display": "Biotinidase deficiency"
-          },
-          {
             "code": "1237417007",
             "display": "CAD-CDG - carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase congenital disorder of glycosylation"
           },
           {
-            "code": "722386009",
-            "display": "Celiac disease with epilepsy and cerebral calcification syndrome"
-          },
-          {
-            "code": "234142008",
-            "display": "Cerebral arteriovenous malformation"
-          },
-          {
             "code": "711403001",
             "display": "Cerebral folate transport deficiency"
-          },
-          {
-            "code": "53622003",
-            "display": "Cerebral malaria"
-          },
-          {
-            "code": "230690007",
-            "display": "Cerebrovascular accident"
           },
           {
             "code": "768663003",
@@ -82,48 +30,8 @@
             "display": "CNTNAP2-related developmental and epileptic encephalopathy"
           },
           {
-            "code": "778060000",
-            "display": "COL4A1-related familial vascular leucoencephalopathy"
-          },
-          {
             "code": "1172844009",
             "display": "Combined oxidative phosphorylation defect type 27"
-          },
-          {
-            "code": "41040004",
-            "display": "Complete trisomy 21 syndrome"
-          },
-          {
-            "code": "773230003",
-            "display": "CDKL5 developmental and epileptic encephalopathy"
-          },
-          {
-            "code": "187148002",
-            "display": "Cysticercosis of central nervous system"
-          },
-          {
-            "code": "28944009",
-            "display": "Cytomegalovirus infection"
-          },
-          {
-            "code": "124239003",
-            "display": "Deficiency of guanidinoacetate methyltransferase"
-          },
-          {
-            "code": "124174008",
-            "display": "Deficiency of pyridoxamine-phosphate oxidase"
-          },
-          {
-            "code": "270889005",
-            "display": "Deletion of long arm of chromosome 18"
-          },
-          {
-            "code": "1196837008",
-            "display": "Dysembryoplastic neuroepithelial neoplasm of brain"
-          },
-          {
-            "code": "770431001",
-            "display": "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
           },
           {
             "code": "733082001",
@@ -142,150 +50,6 @@
             "display": "Fibrosis, neurodegeneration, cerebral angiomatosis syndrome"
           },
           {
-            "code": "717276003",
-            "display": "Folinic acid responsive developmental and epileptic encephalopathy"
-          },
-          {
-            "code": "702450004",
-            "display": "FOXG1 syndrome"
-          },
-          {
-            "code": "613003",
-            "display": "Fragile X syndrome"
-          },
-          {
-            "code": "87191000119100",
-            "display": "Ganglioglioma"
-          },
-          {
-            "code": "445252005",
-            "display": "Glucose transporter protein type 1 deficiency syndrome"
-          },
-          {
-            "code": "253170008",
-            "display": "Hemimegalencephaly"
-          },
-          {
-            "code": "702783007",
-            "display": "Heterozygous protocadherin 19 gene mutation detected"
-          },
-          {
-            "code": "360369003",
-            "display": "Holocarboxylase synthase deficiency"
-          },
-          {
-            "code": "86406008",
-            "display": "Human immunodeficiency virus infection"
-          },
-          {
-            "code": "766932005",
-            "display": "Hypothalamic hamartoma with gelastic seizure"
-          },
-          {
-            "code": "230791000",
-            "display": "Hypothalamic neuronal hamartoma"
-          },
-          {
-            "code": "703300001",
-            "display": "Hypoxic ischemic encephalopathy"
-          },
-          {
-            "code": "10087007",
-            "display": "Infection caused by Schistosoma"
-          },
-          {
-            "code": "406619001",
-            "display": "Infection caused by Toxocara"
-          },
-          {
-            "code": "723332005",
-            "display": "Isodicentric chromosome 15 syndrome"
-          },
-          {
-            "code": "39925003",
-            "display": "Juvenile myopathy, encephalopathy, lactic acidosis, stroke"
-          },
-          {
-            "code": "778001003",
-            "display": "KCNQ2 developmental and epileptic encephalopathy"
-          },
-          {
-            "code": "22053006",
-            "display": "Klinefelter syndrome"
-          },
-          {
-            "code": "763794005",
-            "display": "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies"
-          },
-          {
-            "code": "204036008",
-            "display": "Lissencephaly"
-          },
-          {
-            "code": "770560008",
-            "display": "Lissencephaly due to LIS1 mutation"
-          },
-          {
-            "code": "718759003",
-            "display": "Lissencephaly due to TUBA1A (tubulin alpha 1A) mutation"
-          },
-          {
-            "code": "253154006",
-            "display": "Localized cortical dysplasia"
-          },
-          {
-            "code": "23502006",
-            "display": "Lyme disease"
-          },
-          {
-            "code": "1269516003",
-            "display": "Lyme neuroborreliosis"
-          },
-          {
-            "code": "1296869000",
-            "display": "MECP2 related disorder"
-          },
-          {
-            "code": "770643005",
-            "display": "Mesial temporal lobe epilepsy with hippocampal sclerosis"
-          },
-          {
-            "code": "4945003",
-            "display": "Microgyria"
-          },
-          {
-            "code": "253148005",
-            "display": "Miller Dieker syndrome"
-          },
-          {
-            "code": "240096000",
-            "display": "Mitochondrial cytopathy"
-          },
-          {
-            "code": "703535000",
-            "display": "Mowat-Wilson syndrome"
-          },
-          {
-            "code": "230426003",
-            "display": "Myoclonic epilepsy with ragged red fibres"
-          },
-          {
-            "code": "448041008",
-            "display": "Neuronal heterotopia"
-          },
-          {
-            "code": "737037004",
-            "display": "PIK3CA related overgrowth syndrome"
-          },
-          {
-            "code": "702344008",
-            "display": "Pitt-Hopkins syndrome"
-          },
-          {
-            "code": "65705009",
-            "display": "Porencephalic cyst"
-          },
-          {
             "code": "724576005",
             "display": "Pyridoxal 5-phosphate dependent epilepsy"
           },
@@ -294,28 +58,97 @@
             "display": "Pyridoxine-dependent epilepsy"
           },
           {
-            "code": "230191005",
-            "display": "Rasmussen syndrome"
+            "code": "445252005",
+            "display": "Glucose transporter protein type 1 deficiency syndrome"
           },
           {
-            "code": "702345009",
-            "display": "Ring chromosome 14 syndrome"
+            "code": "718759003",
+            "display": "Lissencephaly due to TUBA1A (tubulin alpha 1A) mutation"
           },
           {
-            "code": "23686004",
-            "display": "Ring chromosome 20 syndrome"
+            "code": "703535000",
+            "display": "Mowat-Wilson syndrome"
+          },
+          {
+            "code": "702344008",
+            "display": "Pitt-Hopkins syndrome"
+          },
+          {
+            "code": "7199000",
+            "display": "Tuberous sclerosis syndrome"
+          },
+          {
+            "code": "1296869000",
+            "display": "MECP2 related disorder"
+          },
+          {
+            "code": "778060000",
+            "display": "COL4A1-related familial vascular leucoencephalopathy"
+          },
+          {
+            "code": "28944009",
+            "display": "Cytomegalovirus infection"
+          },
+          {
+            "code": "86406008",
+            "display": "Human immunodeficiency virus infection"
+          },
+          {
+            "code": "406619001",
+            "display": "Infection caused by Toxocara"
+          },
+          {
+            "code": "23502006",
+            "display": "Lyme disease"
+          },
+          {
+            "code": "124239003",
+            "display": "Deficiency of guanidinoacetate methyltransferase"
+          },
+          {
+            "code": "230791000",
+            "display": "Hypothalamic neuronal hamartoma"
+          },
+          {
+            "code": "717223008",
+            "display": "X-linked epilepsy with learning disability and behaviour disorder syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "95883001",
+            "display": "Bacterial meningitis"
+          },
+          {
+            "code": "204036008",
+            "display": "Lissencephaly"
+          },
+          {
+            "code": "234142008",
+            "display": "Cerebral arteriovenous malformation"
+          },
+          {
+            "code": "773230003",
+            "display": "CDKL5 developmental and epileptic encephalopathy"
+          },
+          {
+            "code": "770431001",
+            "display": "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+          },
+          {
+            "code": "766932005",
+            "display": "Hypothalamic hamartoma with gelastic seizure"
+          },
+          {
+            "code": "778001003",
+            "display": "KCNQ2 developmental and epileptic encephalopathy"
           },
           {
             "code": "1222659003",
             "display": "RNF13-related severe early-onset epileptic encephalopathy"
-          },
-          {
-            "code": "253159001",
-            "display": "Schizencephaly"
-          },
-          {
-            "code": "778002005",
-            "display": "SCN2A encephalopathy"
           },
           {
             "code": "765170001",
@@ -326,14 +159,6 @@
             "display": "Solute carrier family 35 member A2 congenital disorder of glycosylation"
           },
           {
-            "code": "771271000",
-            "display": "Steroid-responsive encephalopathy associated with autoimmune thyroiditis"
-          },
-          {
-            "code": "19886006",
-            "display": "Sturge-Weber syndrome"
-          },
-          {
             "code": "768666006",
             "display": "STXBP1 developmental and epileptic encephalopathy"
           },
@@ -342,45 +167,335 @@
             "display": "SYNGAP1-related developmental and epileptic encephalopathy"
           },
           {
-            "code": "9527009",
-            "display": "Tetrasomy 12p syndrome"
+            "code": "725163002",
+            "display": "X-linked spasticity, intellectual disability, epilepsy syndrome"
           },
           {
-            "code": "192701001",
-            "display": "Toxoplasma encephalitis"
+            "code": "124174008",
+            "display": "Deficiency of pyridoxamine-phosphate oxidase"
           },
           {
-            "code": "127295002",
-            "display": "Traumatic brain injury"
+            "code": "87191000119100",
+            "display": "Ganglioglioma"
           },
           {
             "code": "56717001",
             "display": "Tuberculosis"
           },
           {
-            "code": "7199000",
-            "display": "Tuberous sclerosis syndrome"
+            "code": "702783007",
+            "display": "Heterozygous protocadherin 19 gene mutation detected"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "76880004",
+            "display": "Angelman syndrome"
           },
           {
-            "code": "230423006",
-            "display": "Unverricht-Lundborg syndrome"
+            "code": "613003",
+            "display": "Fragile X syndrome"
           },
           {
-            "code": "34476008",
-            "display": "Viral encephalitis"
+            "code": "230690007",
+            "display": "Cerebrovascular accident"
           },
           {
-            "code": "717223008",
-            "display": "X-linked epilepsy with learning disability and behaviour disorder syndrome"
+            "code": "127295002",
+            "display": "Traumatic brain injury"
           },
           {
-            "code": "725163002",
-            "display": "X-linked spasticity, intellectual disability, epilepsy syndrome"
+            "code": "1196837008",
+            "display": "Dysembryoplastic neuroepithelial neoplasm of brain"
+          },
+          {
+            "code": "763794005",
+            "display": "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "253170008",
+            "display": "Hemimegalencephaly"
+          },
+          {
+            "code": "4945003",
+            "display": "Microgyria"
+          },
+          {
+            "code": "65705009",
+            "display": "Porencephalic cyst"
+          },
+          {
+            "code": "230191005",
+            "display": "Rasmussen syndrome"
+          },
+          {
+            "code": "253159001",
+            "display": "Schizencephaly"
+          },
+          {
+            "code": "240096000",
+            "display": "Mitochondrial cytopathy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "403757004",
+            "display": "Aplasia cutis in Chromosome 4 short-arm deletion syndrome (Wolf-Hirschhorn)"
+          },
+          {
+            "code": "737037004",
+            "display": "PIK3CA related overgrowth syndrome"
           },
           {
             "code": "88469006",
             "display": "Zellweger syndrome"
           },
+          {
+            "code": "702450004",
+            "display": "FOXG1 syndrome"
+          },
+          {
+            "code": "723332005",
+            "display": "Isodicentric chromosome 15 syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "41040004",
+            "display": "Complete trisomy 21 syndrome"
+          },
+          {
+            "code": "22053006",
+            "display": "Klinefelter syndrome"
+          },
+          {
+            "code": "702345009",
+            "display": "Ring chromosome 14 syndrome"
+          },
+          {
+            "code": "23686004",
+            "display": "Ring chromosome 20 syndrome"
+          },
+          {
+            "code": "9527009",
+            "display": "Tetrasomy 12p syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "717276003",
+            "display": "Folinic acid responsive developmental and epileptic encephalopathy"
+          },
+          {
+            "code": "39925003",
+            "display": "Juvenile myopathy, encephalopathy, lactic acidosis, stroke"
+          },
+          {
+            "code": "778002005",
+            "display": "SCN2A encephalopathy"
+          },
+          {
+            "code": "19886006",
+            "display": "Sturge-Weber syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1259087007",
+            "display": "Autoimmune encephalitis caused by N-methyl-D-aspartate receptor antibody"
+          },
+          {
+            "code": "771271000",
+            "display": "Steroid-responsive encephalopathy associated with autoimmune thyroiditis"
+          },
+          {
+            "code": "34476008",
+            "display": "Viral encephalitis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53622003",
+            "display": "Cerebral malaria"
+          },
+          {
+            "code": "10087007",
+            "display": "Infection caused by Schistosoma"
+          },
+          {
+            "code": "1269516003",
+            "display": "Lyme neuroborreliosis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "770560008",
+            "display": "Lissencephaly due to LIS1 mutation"
+          },
+          {
+            "code": "253148005",
+            "display": "Miller Dieker syndrome"
+          },
+          {
+            "code": "253154006",
+            "display": "Localized cortical dysplasia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "699254009",
+            "display": "15q13.3 microdeletion"
+          },
+          {
+            "code": "699306003",
+            "display": "1p36 deletion syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "8808004",
+            "display": "Biotinidase deficiency"
+          },
+          {
+            "code": "360369003",
+            "display": "Holocarboxylase synthase deficiency"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "14091009",
+            "display": "12p partial trisomy syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "445359003",
+            "display": "Bacterial meningoencephalitis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "722386009",
+            "display": "Celiac disease with epilepsy and cerebral calcification syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "187148002",
+            "display": "Cysticercosis of central nervous system"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "270889005",
+            "display": "Deletion of long arm of chromosome 18"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "703300001",
+            "display": "Hypoxic ischemic encephalopathy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "770643005",
+            "display": "Mesial temporal lobe epilepsy with hippocampal sclerosis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "230426003",
+            "display": "Myoclonic epilepsy with ragged red fibres"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "448041008",
+            "display": "Neuronal heterotopia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "192701001",
+            "display": "Toxoplasma encephalitis"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "230423006",
+            "display": "Unverricht-Lundborg syndrome"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
             "code": "238061001",
             "display": "Neonatal adrenoleukodystrophy"
@@ -393,452 +508,111 @@
     "mode": "snomed-tree",
     "roots": [
       {
-        "code": "76880004",
-        "display": "Angelman syndrome"
+        "code": "64572001",
+        "display": "Disease"
       },
       {
-        "code": "14091009",
-        "display": "12p partial trisomy syndrome"
+        "code": "404684003",
+        "display": "Clinical finding"
       },
       {
-        "code": "699254009",
-        "display": "15q13.3 microdeletion"
+        "code": "406122000",
+        "display": "Head finding"
       },
       {
-        "code": "699306003",
-        "display": "1p36 deletion syndrome"
+        "code": "138875005",
+        "display": "SNOMED CT Concept"
       },
       {
-        "code": "403757004",
-        "display": "Aplasia cutis in Chromosome 4 short-arm deletion syndrome (Wolf-Hirschhorn)"
+        "code": "5294002",
+        "display": "Developmental disorder"
       },
       {
-        "code": "1259087007",
-        "display": "Autoimmune encephalitis caused by N-methyl-D-aspartate receptor antibody"
+        "code": "414025005",
+        "display": "Fetal and/or neonatal disorder"
       },
       {
-        "code": "95883001",
-        "display": "Bacterial meningitis"
+        "code": "138875005",
+        "display": "SNOMED CT Concept"
       },
       {
-        "code": "445359003",
-        "display": "Bacterial meningoencephalitis"
+        "code": "128139000",
+        "display": "Inflammatory disorder"
       },
       {
-        "code": "8808004",
-        "display": "Biotinidase deficiency"
+        "code": "40733004",
+        "display": "Infectious disease"
       },
       {
-        "code": "1237417007",
-        "display": "CAD-CDG - carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase congenital disorder of glycosylation"
+        "code": "23853001",
+        "display": "Disorder of the central nervous system"
       },
       {
-        "code": "722386009",
-        "display": "Celiac disease with epilepsy and cerebral calcification syndrome"
+        "code": "74345006",
+        "display": "Congenital chromosomal disease"
       },
       {
-        "code": "234142008",
-        "display": "Cerebral arteriovenous malformation"
+        "code": "782964007",
+        "display": "Genetic disease"
       },
       {
-        "code": "711403001",
-        "display": "Cerebral folate transport deficiency"
+        "code": "403759001",
+        "display": "Autosomal chromosomal disorder"
       },
       {
-        "code": "53622003",
-        "display": "Cerebral malaria"
+        "code": "246556002",
+        "display": "Central nervous system finding"
       },
       {
-        "code": "230690007",
-        "display": "Cerebrovascular accident"
+        "code": "420134006",
+        "display": "Propensity to adverse reaction"
       },
       {
-        "code": "768663003",
-        "display": "CLCN2-related leucoencephalopathy"
+        "code": "86133004",
+        "display": "Cestode infection"
       },
       {
-        "code": "1230376005",
-        "display": "CNTNAP2-related developmental and epileptic encephalopathy"
+        "code": "66091009",
+        "display": "Congenital disease"
       },
       {
-        "code": "778060000",
-        "display": "COL4A1-related familial vascular leucoencephalopathy"
+        "code": "118934005",
+        "display": "Disorder of head"
       },
       {
-        "code": "1172844009",
-        "display": "Combined oxidative phosphorylation defect type 27"
+        "code": "128613002",
+        "display": "Seizure disorder"
       },
       {
-        "code": "41040004",
-        "display": "Complete trisomy 21 syndrome"
+        "code": "313287004",
+        "display": "Seizure related finding"
       },
       {
-        "code": "773230003",
-        "display": "CDKL5 developmental and epileptic encephalopathy"
+        "code": "123037004",
+        "display": "Body structure"
       },
       {
-        "code": "187148002",
-        "display": "Cysticercosis of central nervous system"
+        "code": "363170005",
+        "display": "Inflammation of specific body structures or tissue"
       },
       {
-        "code": "28944009",
-        "display": "Cytomegalovirus infection"
+        "code": "91175000",
+        "display": "Seizure"
       },
       {
-        "code": "124239003",
-        "display": "Deficiency of guanidinoacetate methyltransferase"
-      },
-      {
-        "code": "124174008",
-        "display": "Deficiency of pyridoxamine-phosphate oxidase"
-      },
-      {
-        "code": "270889005",
-        "display": "Deletion of long arm of chromosome 18"
-      },
-      {
-        "code": "1196837008",
-        "display": "Dysembryoplastic neuroepithelial neoplasm of brain"
-      },
-      {
-        "code": "770431001",
-        "display": "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
-      },
-      {
-        "code": "733082001",
-        "display": "Early-onset Lafora body disease"
-      },
-      {
-        "code": "778029000",
-        "display": "FASTKD2-related infantile mitochondrial encephalomyopathy"
-      },
-      {
-        "code": "1237619001",
-        "display": "Fatty acyl-CoA reductase 1 deficiency"
-      },
-      {
-        "code": "1348304006",
-        "display": "Fibrosis, neurodegeneration, cerebral angiomatosis syndrome"
-      },
-      {
-        "code": "717276003",
-        "display": "Folinic acid responsive developmental and epileptic encephalopathy"
-      },
-      {
-        "code": "702450004",
-        "display": "FOXG1 syndrome"
-      },
-      {
-        "code": "613003",
-        "display": "Fragile X syndrome"
-      },
-      {
-        "code": "87191000119100",
-        "display": "Ganglioglioma"
-      },
-      {
-        "code": "445252005",
-        "display": "Glucose transporter protein type 1 deficiency syndrome"
-      },
-      {
-        "code": "253170008",
-        "display": "Hemimegalencephaly"
-      },
-      {
-        "code": "702783007",
-        "display": "Heterozygous protocadherin 19 gene mutation detected"
-      },
-      {
-        "code": "360369003",
-        "display": "Holocarboxylase synthase deficiency"
-      },
-      {
-        "code": "86406008",
-        "display": "Human immunodeficiency virus infection"
-      },
-      {
-        "code": "766932005",
-        "display": "Hypothalamic hamartoma with gelastic seizure"
-      },
-      {
-        "code": "230791000",
-        "display": "Hypothalamic neuronal hamartoma"
-      },
-      {
-        "code": "703300001",
-        "display": "Hypoxic ischemic encephalopathy"
-      },
-      {
-        "code": "10087007",
-        "display": "Infection caused by Schistosoma"
-      },
-      {
-        "code": "406619001",
-        "display": "Infection caused by Toxocara"
-      },
-      {
-        "code": "723332005",
-        "display": "Isodicentric chromosome 15 syndrome"
-      },
-      {
-        "code": "39925003",
-        "display": "Juvenile myopathy, encephalopathy, lactic acidosis, stroke"
-      },
-      {
-        "code": "778001003",
-        "display": "KCNQ2 developmental and epileptic encephalopathy"
-      },
-      {
-        "code": "22053006",
-        "display": "Klinefelter syndrome"
-      },
-      {
-        "code": "763794005",
-        "display": "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies"
-      },
-      {
-        "code": "204036008",
-        "display": "Lissencephaly"
-      },
-      {
-        "code": "770560008",
-        "display": "Lissencephaly due to LIS1 mutation"
-      },
-      {
-        "code": "718759003",
-        "display": "Lissencephaly due to TUBA1A (tubulin alpha 1A) mutation"
-      },
-      {
-        "code": "253154006",
-        "display": "Localized cortical dysplasia"
-      },
-      {
-        "code": "23502006",
-        "display": "Lyme disease"
-      },
-      {
-        "code": "1269516003",
-        "display": "Lyme neuroborreliosis"
-      },
-      {
-        "code": "1296869000",
-        "display": "MECP2 related disorder"
-      },
-      {
-        "code": "770643005",
-        "display": "Mesial temporal lobe epilepsy with hippocampal sclerosis"
-      },
-      {
-        "code": "4945003",
-        "display": "Microgyria"
-      },
-      {
-        "code": "253148005",
-        "display": "Miller Dieker syndrome"
-      },
-      {
-        "code": "240096000",
-        "display": "Mitochondrial cytopathy"
-      },
-      {
-        "code": "703535000",
-        "display": "Mowat-Wilson syndrome"
-      },
-      {
-        "code": "230426003",
-        "display": "Myoclonic epilepsy with ragged red fibres"
-      },
-      {
-        "code": "448041008",
-        "display": "Neuronal heterotopia"
-      },
-      {
-        "code": "737037004",
-        "display": "PIK3CA related overgrowth syndrome"
-      },
-      {
-        "code": "702344008",
-        "display": "Pitt-Hopkins syndrome"
-      },
-      {
-        "code": "65705009",
-        "display": "Porencephalic cyst"
-      },
-      {
-        "code": "724576005",
-        "display": "Pyridoxal 5-phosphate dependent epilepsy"
-      },
-      {
-        "code": "734434007",
-        "display": "Pyridoxine-dependent epilepsy"
-      },
-      {
-        "code": "230191005",
-        "display": "Rasmussen syndrome"
-      },
-      {
-        "code": "702345009",
-        "display": "Ring chromosome 14 syndrome"
-      },
-      {
-        "code": "23686004",
-        "display": "Ring chromosome 20 syndrome"
-      },
-      {
-        "code": "1222659003",
-        "display": "RNF13-related severe early-onset epileptic encephalopathy"
-      },
-      {
-        "code": "253159001",
-        "display": "Schizencephaly"
-      },
-      {
-        "code": "778002005",
-        "display": "SCN2A encephalopathy"
-      },
-      {
-        "code": "765170001",
-        "display": "SCN8A developmental and epileptic encephalopathy"
-      },
-      {
-        "code": "771516000",
-        "display": "Solute carrier family 35 member A2 congenital disorder of glycosylation"
-      },
-      {
-        "code": "771271000",
-        "display": "Steroid-responsive encephalopathy associated with autoimmune thyroiditis"
-      },
-      {
-        "code": "19886006",
-        "display": "Sturge-Weber syndrome"
-      },
-      {
-        "code": "768666006",
-        "display": "STXBP1 developmental and epileptic encephalopathy"
-      },
-      {
-        "code": "1222656005",
-        "display": "SYNGAP1-related developmental and epileptic encephalopathy"
-      },
-      {
-        "code": "9527009",
-        "display": "Tetrasomy 12p syndrome"
-      },
-      {
-        "code": "192701001",
-        "display": "Toxoplasma encephalitis"
-      },
-      {
-        "code": "127295002",
-        "display": "Traumatic brain injury"
-      },
-      {
-        "code": "56717001",
-        "display": "Tuberculosis"
-      },
-      {
-        "code": "7199000",
-        "display": "Tuberous sclerosis syndrome"
-      },
-      {
-        "code": "230423006",
-        "display": "Unverricht-Lundborg syndrome"
-      },
-      {
-        "code": "34476008",
-        "display": "Viral encephalitis"
-      },
-      {
-        "code": "717223008",
-        "display": "X-linked epilepsy with learning disability and behaviour disorder syndrome"
-      },
-      {
-        "code": "725163002",
-        "display": "X-linked spasticity, intellectual disability, epilepsy syndrome"
-      },
-      {
-        "code": "88469006",
-        "display": "Zellweger syndrome"
-      },
-      {
-        "code": "238061001",
-        "display": "Neonatal adrenoleukodystrophy"
+        "code": "362965005",
+        "display": "Disorder of body system"
       }
     ],
     "decisions": [
-      {
-        "code": "76880004",
-        "display": "Angelman syndrome",
-        "action": "include"
-      },
-      {
-        "code": "14091009",
-        "display": "12p partial trisomy syndrome",
-        "action": "include"
-      },
-      {
-        "code": "699254009",
-        "display": "15q13.3 microdeletion",
-        "action": "include"
-      },
-      {
-        "code": "699306003",
-        "display": "1p36 deletion syndrome",
-        "action": "include"
-      },
-      {
-        "code": "403757004",
-        "display": "Aplasia cutis in Chromosome 4 short-arm deletion syndrome (Wolf-Hirschhorn)",
-        "action": "include"
-      },
-      {
-        "code": "1259087007",
-        "display": "Autoimmune encephalitis caused by N-methyl-D-aspartate receptor antibody",
-        "action": "include"
-      },
-      {
-        "code": "95883001",
-        "display": "Bacterial meningitis",
-        "action": "include"
-      },
-      {
-        "code": "445359003",
-        "display": "Bacterial meningoencephalitis",
-        "action": "include"
-      },
-      {
-        "code": "8808004",
-        "display": "Biotinidase deficiency",
-        "action": "include"
-      },
       {
         "code": "1237417007",
         "display": "CAD-CDG - carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase congenital disorder of glycosylation",
         "action": "include"
       },
       {
-        "code": "722386009",
-        "display": "Celiac disease with epilepsy and cerebral calcification syndrome",
-        "action": "include"
-      },
-      {
-        "code": "234142008",
-        "display": "Cerebral arteriovenous malformation",
-        "action": "include"
-      },
-      {
         "code": "711403001",
         "display": "Cerebral folate transport deficiency",
-        "action": "include"
-      },
-      {
-        "code": "53622003",
-        "display": "Cerebral malaria",
-        "action": "include"
-      },
-      {
-        "code": "230690007",
-        "display": "Cerebrovascular accident",
         "action": "include"
       },
       {
@@ -852,58 +626,8 @@
         "action": "include"
       },
       {
-        "code": "778060000",
-        "display": "COL4A1-related familial vascular leucoencephalopathy",
-        "action": "include"
-      },
-      {
         "code": "1172844009",
         "display": "Combined oxidative phosphorylation defect type 27",
-        "action": "include"
-      },
-      {
-        "code": "41040004",
-        "display": "Complete trisomy 21 syndrome",
-        "action": "include"
-      },
-      {
-        "code": "773230003",
-        "display": "CDKL5 developmental and epileptic encephalopathy",
-        "action": "include"
-      },
-      {
-        "code": "187148002",
-        "display": "Cysticercosis of central nervous system",
-        "action": "include"
-      },
-      {
-        "code": "28944009",
-        "display": "Cytomegalovirus infection",
-        "action": "include"
-      },
-      {
-        "code": "124239003",
-        "display": "Deficiency of guanidinoacetate methyltransferase",
-        "action": "include"
-      },
-      {
-        "code": "124174008",
-        "display": "Deficiency of pyridoxamine-phosphate oxidase",
-        "action": "include"
-      },
-      {
-        "code": "270889005",
-        "display": "Deletion of long arm of chromosome 18",
-        "action": "include"
-      },
-      {
-        "code": "1196837008",
-        "display": "Dysembryoplastic neuroepithelial neoplasm of brain",
-        "action": "include"
-      },
-      {
-        "code": "770431001",
-        "display": "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation",
         "action": "include"
       },
       {
@@ -927,186 +651,6 @@
         "action": "include"
       },
       {
-        "code": "717276003",
-        "display": "Folinic acid responsive developmental and epileptic encephalopathy",
-        "action": "include"
-      },
-      {
-        "code": "702450004",
-        "display": "FOXG1 syndrome",
-        "action": "include"
-      },
-      {
-        "code": "613003",
-        "display": "Fragile X syndrome",
-        "action": "include"
-      },
-      {
-        "code": "87191000119100",
-        "display": "Ganglioglioma",
-        "action": "include"
-      },
-      {
-        "code": "445252005",
-        "display": "Glucose transporter protein type 1 deficiency syndrome",
-        "action": "include"
-      },
-      {
-        "code": "253170008",
-        "display": "Hemimegalencephaly",
-        "action": "include"
-      },
-      {
-        "code": "702783007",
-        "display": "Heterozygous protocadherin 19 gene mutation detected",
-        "action": "include"
-      },
-      {
-        "code": "360369003",
-        "display": "Holocarboxylase synthase deficiency",
-        "action": "include"
-      },
-      {
-        "code": "86406008",
-        "display": "Human immunodeficiency virus infection",
-        "action": "include"
-      },
-      {
-        "code": "766932005",
-        "display": "Hypothalamic hamartoma with gelastic seizure",
-        "action": "include"
-      },
-      {
-        "code": "230791000",
-        "display": "Hypothalamic neuronal hamartoma",
-        "action": "include"
-      },
-      {
-        "code": "703300001",
-        "display": "Hypoxic ischemic encephalopathy",
-        "action": "include"
-      },
-      {
-        "code": "10087007",
-        "display": "Infection caused by Schistosoma",
-        "action": "include"
-      },
-      {
-        "code": "406619001",
-        "display": "Infection caused by Toxocara",
-        "action": "include"
-      },
-      {
-        "code": "723332005",
-        "display": "Isodicentric chromosome 15 syndrome",
-        "action": "include"
-      },
-      {
-        "code": "39925003",
-        "display": "Juvenile myopathy, encephalopathy, lactic acidosis, stroke",
-        "action": "include"
-      },
-      {
-        "code": "778001003",
-        "display": "KCNQ2 developmental and epileptic encephalopathy",
-        "action": "include"
-      },
-      {
-        "code": "22053006",
-        "display": "Klinefelter syndrome",
-        "action": "include"
-      },
-      {
-        "code": "763794005",
-        "display": "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies",
-        "action": "include"
-      },
-      {
-        "code": "204036008",
-        "display": "Lissencephaly",
-        "action": "include"
-      },
-      {
-        "code": "770560008",
-        "display": "Lissencephaly due to LIS1 mutation",
-        "action": "include"
-      },
-      {
-        "code": "718759003",
-        "display": "Lissencephaly due to TUBA1A (tubulin alpha 1A) mutation",
-        "action": "include"
-      },
-      {
-        "code": "253154006",
-        "display": "Localized cortical dysplasia",
-        "action": "include"
-      },
-      {
-        "code": "23502006",
-        "display": "Lyme disease",
-        "action": "include"
-      },
-      {
-        "code": "1269516003",
-        "display": "Lyme neuroborreliosis",
-        "action": "include"
-      },
-      {
-        "code": "1296869000",
-        "display": "MECP2 related disorder",
-        "action": "include"
-      },
-      {
-        "code": "770643005",
-        "display": "Mesial temporal lobe epilepsy with hippocampal sclerosis",
-        "action": "include"
-      },
-      {
-        "code": "4945003",
-        "display": "Microgyria",
-        "action": "include"
-      },
-      {
-        "code": "253148005",
-        "display": "Miller Dieker syndrome",
-        "action": "include"
-      },
-      {
-        "code": "240096000",
-        "display": "Mitochondrial cytopathy",
-        "action": "include"
-      },
-      {
-        "code": "703535000",
-        "display": "Mowat-Wilson syndrome",
-        "action": "include"
-      },
-      {
-        "code": "230426003",
-        "display": "Myoclonic epilepsy with ragged red fibres",
-        "action": "include"
-      },
-      {
-        "code": "448041008",
-        "display": "Neuronal heterotopia",
-        "action": "include"
-      },
-      {
-        "code": "737037004",
-        "display": "PIK3CA related overgrowth syndrome",
-        "action": "include"
-      },
-      {
-        "code": "702344008",
-        "display": "Pitt-Hopkins syndrome",
-        "action": "include"
-      },
-      {
-        "code": "65705009",
-        "display": "Porencephalic cyst",
-        "action": "include"
-      },
-      {
         "code": "724576005",
         "display": "Pyridoxal 5-phosphate dependent epilepsy",
         "action": "include"
@@ -1117,33 +661,113 @@
         "action": "include"
       },
       {
-        "code": "230191005",
-        "display": "Rasmussen syndrome",
+        "code": "445252005",
+        "display": "Glucose transporter protein type 1 deficiency syndrome",
         "action": "include"
       },
       {
-        "code": "702345009",
-        "display": "Ring chromosome 14 syndrome",
+        "code": "718759003",
+        "display": "Lissencephaly due to TUBA1A (tubulin alpha 1A) mutation",
         "action": "include"
       },
       {
-        "code": "23686004",
-        "display": "Ring chromosome 20 syndrome",
+        "code": "703535000",
+        "display": "Mowat-Wilson syndrome",
+        "action": "include"
+      },
+      {
+        "code": "702344008",
+        "display": "Pitt-Hopkins syndrome",
+        "action": "include"
+      },
+      {
+        "code": "7199000",
+        "display": "Tuberous sclerosis syndrome",
+        "action": "include"
+      },
+      {
+        "code": "1296869000",
+        "display": "MECP2 related disorder",
+        "action": "include"
+      },
+      {
+        "code": "778060000",
+        "display": "COL4A1-related familial vascular leucoencephalopathy",
+        "action": "include"
+      },
+      {
+        "code": "28944009",
+        "display": "Cytomegalovirus infection",
+        "action": "include"
+      },
+      {
+        "code": "86406008",
+        "display": "Human immunodeficiency virus infection",
+        "action": "include"
+      },
+      {
+        "code": "406619001",
+        "display": "Infection caused by Toxocara",
+        "action": "include"
+      },
+      {
+        "code": "23502006",
+        "display": "Lyme disease",
+        "action": "include"
+      },
+      {
+        "code": "124239003",
+        "display": "Deficiency of guanidinoacetate methyltransferase",
+        "action": "include"
+      },
+      {
+        "code": "230791000",
+        "display": "Hypothalamic neuronal hamartoma",
+        "action": "include"
+      },
+      {
+        "code": "717223008",
+        "display": "X-linked epilepsy with learning disability and behaviour disorder syndrome",
+        "action": "include"
+      },
+      {
+        "code": "95883001",
+        "display": "Bacterial meningitis",
+        "action": "include"
+      },
+      {
+        "code": "204036008",
+        "display": "Lissencephaly",
+        "action": "include"
+      },
+      {
+        "code": "234142008",
+        "display": "Cerebral arteriovenous malformation",
+        "action": "include"
+      },
+      {
+        "code": "773230003",
+        "display": "CDKL5 developmental and epileptic encephalopathy",
+        "action": "include"
+      },
+      {
+        "code": "770431001",
+        "display": "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation",
+        "action": "include"
+      },
+      {
+        "code": "766932005",
+        "display": "Hypothalamic hamartoma with gelastic seizure",
+        "action": "include"
+      },
+      {
+        "code": "778001003",
+        "display": "KCNQ2 developmental and epileptic encephalopathy",
         "action": "include"
       },
       {
         "code": "1222659003",
         "display": "RNF13-related severe early-onset epileptic encephalopathy",
-        "action": "include"
-      },
-      {
-        "code": "253159001",
-        "display": "Schizencephaly",
-        "action": "include"
-      },
-      {
-        "code": "778002005",
-        "display": "SCN2A encephalopathy",
         "action": "include"
       },
       {
@@ -1157,16 +781,6 @@
         "action": "include"
       },
       {
-        "code": "771271000",
-        "display": "Steroid-responsive encephalopathy associated with autoimmune thyroiditis",
-        "action": "include"
-      },
-      {
-        "code": "19886006",
-        "display": "Sturge-Weber syndrome",
-        "action": "include"
-      },
-      {
         "code": "768666006",
         "display": "STXBP1 developmental and epileptic encephalopathy",
         "action": "include"
@@ -1177,18 +791,18 @@
         "action": "include"
       },
       {
-        "code": "9527009",
-        "display": "Tetrasomy 12p syndrome",
+        "code": "725163002",
+        "display": "X-linked spasticity, intellectual disability, epilepsy syndrome",
         "action": "include"
       },
       {
-        "code": "192701001",
-        "display": "Toxoplasma encephalitis",
+        "code": "124174008",
+        "display": "Deficiency of pyridoxamine-phosphate oxidase",
         "action": "include"
       },
       {
-        "code": "127295002",
-        "display": "Traumatic brain injury",
+        "code": "87191000119100",
+        "display": "Ganglioglioma",
         "action": "include"
       },
       {
@@ -1197,13 +811,148 @@
         "action": "include"
       },
       {
-        "code": "7199000",
-        "display": "Tuberous sclerosis syndrome",
+        "code": "702783007",
+        "display": "Heterozygous protocadherin 19 gene mutation detected",
         "action": "include"
       },
       {
-        "code": "230423006",
-        "display": "Unverricht-Lundborg syndrome",
+        "code": "76880004",
+        "display": "Angelman syndrome",
+        "action": "include"
+      },
+      {
+        "code": "613003",
+        "display": "Fragile X syndrome",
+        "action": "include"
+      },
+      {
+        "code": "230690007",
+        "display": "Cerebrovascular accident",
+        "action": "include"
+      },
+      {
+        "code": "127295002",
+        "display": "Traumatic brain injury",
+        "action": "include"
+      },
+      {
+        "code": "1196837008",
+        "display": "Dysembryoplastic neuroepithelial neoplasm of brain",
+        "action": "include"
+      },
+      {
+        "code": "763794005",
+        "display": "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies",
+        "action": "include"
+      },
+      {
+        "code": "253170008",
+        "display": "Hemimegalencephaly",
+        "action": "include"
+      },
+      {
+        "code": "4945003",
+        "display": "Microgyria",
+        "action": "include"
+      },
+      {
+        "code": "65705009",
+        "display": "Porencephalic cyst",
+        "action": "include"
+      },
+      {
+        "code": "230191005",
+        "display": "Rasmussen syndrome",
+        "action": "include"
+      },
+      {
+        "code": "253159001",
+        "display": "Schizencephaly",
+        "action": "include"
+      },
+      {
+        "code": "240096000",
+        "display": "Mitochondrial cytopathy",
+        "action": "include"
+      },
+      {
+        "code": "403757004",
+        "display": "Aplasia cutis in Chromosome 4 short-arm deletion syndrome (Wolf-Hirschhorn)",
+        "action": "include"
+      },
+      {
+        "code": "737037004",
+        "display": "PIK3CA related overgrowth syndrome",
+        "action": "include"
+      },
+      {
+        "code": "88469006",
+        "display": "Zellweger syndrome",
+        "action": "include"
+      },
+      {
+        "code": "702450004",
+        "display": "FOXG1 syndrome",
+        "action": "include"
+      },
+      {
+        "code": "723332005",
+        "display": "Isodicentric chromosome 15 syndrome",
+        "action": "include"
+      },
+      {
+        "code": "41040004",
+        "display": "Complete trisomy 21 syndrome",
+        "action": "include"
+      },
+      {
+        "code": "22053006",
+        "display": "Klinefelter syndrome",
+        "action": "include"
+      },
+      {
+        "code": "702345009",
+        "display": "Ring chromosome 14 syndrome",
+        "action": "include"
+      },
+      {
+        "code": "23686004",
+        "display": "Ring chromosome 20 syndrome",
+        "action": "include"
+      },
+      {
+        "code": "9527009",
+        "display": "Tetrasomy 12p syndrome",
+        "action": "include"
+      },
+      {
+        "code": "717276003",
+        "display": "Folinic acid responsive developmental and epileptic encephalopathy",
+        "action": "include"
+      },
+      {
+        "code": "39925003",
+        "display": "Juvenile myopathy, encephalopathy, lactic acidosis, stroke",
+        "action": "include"
+      },
+      {
+        "code": "778002005",
+        "display": "SCN2A encephalopathy",
+        "action": "include"
+      },
+      {
+        "code": "19886006",
+        "display": "Sturge-Weber syndrome",
+        "action": "include"
+      },
+      {
+        "code": "1259087007",
+        "display": "Autoimmune encephalitis caused by N-methyl-D-aspartate receptor antibody",
+        "action": "include"
+      },
+      {
+        "code": "771271000",
+        "display": "Steroid-responsive encephalopathy associated with autoimmune thyroiditis",
         "action": "include"
       },
       {
@@ -1212,18 +961,108 @@
         "action": "include"
       },
       {
-        "code": "717223008",
-        "display": "X-linked epilepsy with learning disability and behaviour disorder syndrome",
+        "code": "53622003",
+        "display": "Cerebral malaria",
         "action": "include"
       },
       {
-        "code": "725163002",
-        "display": "X-linked spasticity, intellectual disability, epilepsy syndrome",
+        "code": "10087007",
+        "display": "Infection caused by Schistosoma",
         "action": "include"
       },
       {
-        "code": "88469006",
-        "display": "Zellweger syndrome",
+        "code": "1269516003",
+        "display": "Lyme neuroborreliosis",
+        "action": "include"
+      },
+      {
+        "code": "770560008",
+        "display": "Lissencephaly due to LIS1 mutation",
+        "action": "include"
+      },
+      {
+        "code": "253148005",
+        "display": "Miller Dieker syndrome",
+        "action": "include"
+      },
+      {
+        "code": "253154006",
+        "display": "Localized cortical dysplasia",
+        "action": "include"
+      },
+      {
+        "code": "699254009",
+        "display": "15q13.3 microdeletion",
+        "action": "include"
+      },
+      {
+        "code": "699306003",
+        "display": "1p36 deletion syndrome",
+        "action": "include"
+      },
+      {
+        "code": "8808004",
+        "display": "Biotinidase deficiency",
+        "action": "include"
+      },
+      {
+        "code": "360369003",
+        "display": "Holocarboxylase synthase deficiency",
+        "action": "include"
+      },
+      {
+        "code": "14091009",
+        "display": "12p partial trisomy syndrome",
+        "action": "include"
+      },
+      {
+        "code": "445359003",
+        "display": "Bacterial meningoencephalitis",
+        "action": "include"
+      },
+      {
+        "code": "722386009",
+        "display": "Celiac disease with epilepsy and cerebral calcification syndrome",
+        "action": "include"
+      },
+      {
+        "code": "187148002",
+        "display": "Cysticercosis of central nervous system",
+        "action": "include"
+      },
+      {
+        "code": "270889005",
+        "display": "Deletion of long arm of chromosome 18",
+        "action": "include"
+      },
+      {
+        "code": "703300001",
+        "display": "Hypoxic ischemic encephalopathy",
+        "action": "include"
+      },
+      {
+        "code": "770643005",
+        "display": "Mesial temporal lobe epilepsy with hippocampal sclerosis",
+        "action": "include"
+      },
+      {
+        "code": "230426003",
+        "display": "Myoclonic epilepsy with ragged red fibres",
+        "action": "include"
+      },
+      {
+        "code": "448041008",
+        "display": "Neuronal heterotopia",
+        "action": "include"
+      },
+      {
+        "code": "192701001",
+        "display": "Toxoplasma encephalitis",
+        "action": "include"
+      },
+      {
+        "code": "230423006",
+        "display": "Unverricht-Lundborg syndrome",
         "action": "include"
       },
       {
@@ -1234,16 +1073,22 @@
     ]
   },
   "_libraryMeta": {
-    "version": 1,
+    "version": 2,
     "slug": "epilepsy-aetiology",
     "collection": "excel-import-test",
-    "updatedAt": "2026-04-28T12:50:41.078316+00:00",
+    "updatedAt": "2026-04-28T13:22:34.528039+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
         "version": 1,
         "reason": "Import from epilepsy_aetiology_0.1.0.xlsx",
         "date": "2026-04-28T12:50:41.078316+00:00",
+        "author": "FrankiePH"
+      },
+      {
+        "version": 2,
+        "reason": "Apply hierarchy analysis",
+        "date": "2026-04-28T13:22:34.528039+00:00",
         "author": "FrankiePH"
       }
     ]
