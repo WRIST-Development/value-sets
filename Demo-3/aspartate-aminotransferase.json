@@ -1,7 +1,4 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Aspartate aminotransferase",
-  "status": "draft",
   "compose": {
     "include": [
       {
@@ -20,10 +17,13 @@
     ]
   },
   "name": "Aspartate-aminotransferase",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspartate aminotransferase</p></div>",
     "status": "generated"
   },
+  "title": "Aspartate aminotransferase",
   "url": "https://ramseysystems.co.uk/fhir/ValueSet/aspartate-aminotransferase-0f818ec35e07",
   "description": "test usage description",
   "_builderState": {
@@ -57,18 +57,17 @@
       "inspectingCode": "75640001"
     }
   },
-  "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.4",
+    "version": "1-build.0.5",
     "slug": "aspartate-aminotransferase",
     "collection": "Demo-3",
-    "updatedAt": "2026-04-28T17:14:59.953025+00:00",
+    "updatedAt": "2026-04-28T17:20:32.465354+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.4",
+        "version": "1-build.0.5",
         "reason": "testing",
-        "date": "2026-04-28T17:14:59.953025+00:00",
+        "date": "2026-04-28T17:20:32.465354+00:00",
         "author": "FrankiePH"
       }
     ]
