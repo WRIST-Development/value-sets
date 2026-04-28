@@ -1,12 +1,24 @@
 {
-  "resourceType": "ValueSet",
-  "status": "draft",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/labour-analgesia-procedure-ba48fcea652d",
-  "name": "labour-analgesia-procedure",
-  "title": "Labour analgesia procedure",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Labour analgesia procedure</p></div>"
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-04-28T13:25:43.762698+00:00",
+        "reason": "Import from Labour_analgesia_procedure_1.0.0.xlsx",
+        "version": 1
+      },
+      {
+        "version": 3,
+        "reason": "updated hierachy",
+        "date": "2026-04-28T13:26:34.354010+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "excel-import-test",
+    "createdBy": "FrankiePH",
+    "slug": "labour-analgesia-procedure",
+    "updatedAt": "2026-04-28T13:26:34.354010+00:00",
+    "version": 3
   },
   "compose": {
     "include": [
@@ -162,27 +174,15 @@
       }
     ]
   },
-  "_libraryMeta": {
-    "version": 2,
-    "slug": "labour-analgesia-procedure",
-    "collection": "excel-import-test",
-    "updatedAt": "2026-04-28T13:26:24.765409+00:00",
-    "createdBy": "FrankiePH",
-    "changeLog": [
-      {
-        "version": 1,
-        "reason": "Import from Labour_analgesia_procedure_1.0.0.xlsx",
-        "date": "2026-04-28T13:25:43.762698+00:00",
-        "author": "FrankiePH"
-      },
-      {
-        "version": 2,
-        "reason": "Apply hierarchy analysis",
-        "date": "2026-04-28T13:26:24.765409+00:00",
-        "author": "FrankiePH"
-      }
-    ]
+  "name": "labour-analgesia-procedure",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Labour analgesia procedure</p></div>",
+    "status": "generated"
   },
+  "title": "Labour analgesia procedure",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/labour-analgesia-procedure-ba48fcea652d",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -354,5 +354,6 @@
         "action": "include"
       }
     ]
-  }
+  },
+  "description": ""
 }
