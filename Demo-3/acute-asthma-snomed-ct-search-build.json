@@ -1,42 +1,5 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Acute Asthma (Snomed CT Search & Build)",
-  "status": "draft",
-  "compose": {
-    "exclude": [
-      {
-        "concept": [
-          {
-            "code": "708094006",
-            "display": "Acute exacerbation of intrinsic asthma"
-          },
-          {
-            "code": "10692721000119102",
-            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ],
-    "include": [
-      {
-        "concept": [
-          {
-            "code": "281239006",
-            "display": "Acute asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ]
-  },
-  "name": "acute-asthma",
-  "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
-    "status": "generated"
-  },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-865cc1c7a9cb",
-  "description": "blah blah blah",
+  "_bindingStrength": "preferred",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -69,20 +32,63 @@
       "inspectingCode": "195967001"
     }
   },
-  "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": 1,
-    "slug": "acute-asthma-snomed-ct-search-build",
-    "collection": "Demo-3",
-    "updatedAt": "2026-04-27T11:32:34.233323+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": 1,
-        "reason": "initial creation",
+        "author": "FrankiePH",
         "date": "2026-04-27T11:32:34.233323+00:00",
+        "reason": "initial creation",
+        "version": 1
+      },
+      {
+        "version": 2,
+        "reason": "changesd someting",
+        "date": "2026-04-28T08:13:29.088482+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "Demo-3",
+    "createdBy": "FrankiePH",
+    "slug": "acute-asthma-snomed-ct-search-build",
+    "updatedAt": "2026-04-28T08:13:29.088482+00:00",
+    "version": 2
+  },
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "708094006",
+            "display": "Acute exacerbation of intrinsic asthma"
+          },
+          {
+            "code": "10692721000119102",
+            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "281239006",
+            "display": "Acute asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
     ]
-  }
+  },
+  "description": "blah blah blah",
+  "name": "acute-asthma",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
+    "status": "generated"
+  },
+  "title": "Acute Asthma (Snomed CT Search & Build)",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-865cc1c7a9cb"
 }
