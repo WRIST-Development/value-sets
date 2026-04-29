@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Asthenia",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "13791008",
+            "display": "Asthenia"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Asthenia",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Asthenia</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthenia-e17354231f92",
+  "description": "Asthenia",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "13791008",
+        "display": "Asthenia"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "13791008",
+        "display": "Asthenia",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "ast",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "13791008"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "asthenia",
+    "collection": "Demo-3",
+    "updatedAt": "2026-04-29T14:06:29.293377+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Asthenia",
+        "date": "2026-04-29T14:06:29.293377+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
