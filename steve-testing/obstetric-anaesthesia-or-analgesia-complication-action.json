@@ -1,0 +1,298 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-anaesthesia-or-analgesia-complication-action-32b531f7d22a",
+  "name": "obstetric-anaesthesia-or-analgesia-complication-action",
+  "title": "Obstetric anaesthesia or analgesia complication action",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric anaesthesia or analgesia complication action</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "40617009",
+            "display": "Artificial ventilation"
+          },
+          {
+            "code": "448442005",
+            "display": "Transtracheal jet ventilation"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1956111000000101",
+            "display": "CT guided injection of autologous whole blood into spinal epidural space"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "56721008",
+            "display": "Epidural lumbar injection of blood patch"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "713381008",
+            "display": "Lipid rescue therapy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "118441006",
+            "display": "Evacuation of haematoma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "447366001",
+            "display": "Injection of autologous whole blood into spinal epidural space"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "429705000",
+            "display": "Insertion of oesophageal tracheal combitube"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "427753009",
+            "display": "Insertion of oesophageal tracheal double lumen supraglottic airway"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "173067007",
+            "display": "Cricothyroidotomy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "69621000052107",
+            "display": "Flexible bronchoscopy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "250980009",
+            "display": "Cardioversion"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "89666000",
+            "display": "Cardiopulmonary resuscitation"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "447996002",
+            "display": "Intubation of respiratory tract"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "55622001",
+            "display": "Tracheostomy, emergency procedure by transtracheal approach"
+          }
+        ]
+      }
+    ]
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "53950000",
+        "display": "Respiratory therapy"
+      },
+      {
+        "code": "866231008",
+        "display": "CT guided spinal injection"
+      },
+      {
+        "code": "447366001",
+        "display": "Injection of autologous whole blood into spinal epidural space"
+      },
+      {
+        "code": "67329000",
+        "display": "Administration of antidote"
+      },
+      {
+        "code": "122461007",
+        "display": "Evacuation procedure"
+      },
+      {
+        "code": "51898002",
+        "display": "Injection of spinal epidural space"
+      },
+      {
+        "code": "427753009",
+        "display": "Insertion of oesophageal tracheal double lumen supraglottic airway"
+      },
+      {
+        "code": "232663008",
+        "display": "Airway procedure"
+      },
+      {
+        "code": "61561005",
+        "display": "Incision of larynx"
+      },
+      {
+        "code": "10847001",
+        "display": "Bronchoscopy"
+      },
+      {
+        "code": "233154000",
+        "display": "Procedure for arrhythmia"
+      },
+      {
+        "code": "69779005",
+        "display": "Cardiac resuscitation"
+      },
+      {
+        "code": "118717007",
+        "display": "Procedure on organ"
+      },
+      {
+        "code": "73994005",
+        "display": "Emergency operation"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "40617009",
+        "display": "Artificial ventilation",
+        "action": "include"
+      },
+      {
+        "code": "448442005",
+        "display": "Transtracheal jet ventilation",
+        "action": "include"
+      },
+      {
+        "code": "1956111000000101",
+        "display": "CT guided injection of autologous whole blood into spinal epidural space",
+        "action": "include"
+      },
+      {
+        "code": "56721008",
+        "display": "Epidural lumbar injection of blood patch",
+        "action": "include"
+      },
+      {
+        "code": "713381008",
+        "display": "Lipid rescue therapy",
+        "action": "include"
+      },
+      {
+        "code": "118441006",
+        "display": "Evacuation of haematoma",
+        "action": "include"
+      },
+      {
+        "code": "447366001",
+        "display": "Injection of autologous whole blood into spinal epidural space",
+        "action": "include"
+      },
+      {
+        "code": "429705000",
+        "display": "Insertion of oesophageal tracheal combitube",
+        "action": "include"
+      },
+      {
+        "code": "427753009",
+        "display": "Insertion of oesophageal tracheal double lumen supraglottic airway",
+        "action": "include"
+      },
+      {
+        "code": "173067007",
+        "display": "Cricothyroidotomy",
+        "action": "include"
+      },
+      {
+        "code": "69621000052107",
+        "display": "Flexible bronchoscopy",
+        "action": "include"
+      },
+      {
+        "code": "250980009",
+        "display": "Cardioversion",
+        "action": "include"
+      },
+      {
+        "code": "89666000",
+        "display": "Cardiopulmonary resuscitation",
+        "action": "include"
+      },
+      {
+        "code": "447996002",
+        "display": "Intubation of respiratory tract",
+        "action": "include"
+      },
+      {
+        "code": "55622001",
+        "display": "Tracheostomy, emergency procedure by transtracheal approach",
+        "action": "include"
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-anaesthesia-or-analgesia-complication-action",
+    "collection": "steve-testing",
+    "updatedAt": "2026-04-29T10:33:55.200338+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_anaesthesia_analgesia_-complication_-action_1.0.0.xlsx",
+        "date": "2026-04-29T10:33:55.200338+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
