@@ -1,0 +1,595 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-anaesthetic-procedure-3459ee58761b",
+  "name": "obstetric-anaesthetic-procedure",
+  "title": "Obstetric anaesthetic procedure",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric anaesthetic procedure</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "231259006",
+            "display": "Administration of epidural test dose"
+          },
+          {
+            "code": "231260001",
+            "display": "Administration of epidural top-up"
+          },
+          {
+            "code": "427060008",
+            "display": "Continuous thoracic epidural analgesia"
+          },
+          {
+            "code": "58611004",
+            "display": "Epidural injection of anaesthetic substance, therapeutic, lumbar, continuous"
+          },
+          {
+            "code": "67716003",
+            "display": "Epidural injection of anaesthetic substance, therapeutic, caudal, continuous"
+          },
+          {
+            "code": "1287360000",
+            "display": "Injection of epidural anaesthesia during maternal intrapartum period"
+          },
+          {
+            "code": "180885006",
+            "display": "Local anaesthetic lumbar epidural block"
+          },
+          {
+            "code": "398044000",
+            "display": "Low dose epidural"
+          },
+          {
+            "code": "231261002",
+            "display": "Combined spinal/epidural local anaesthetic block"
+          },
+          {
+            "code": "16388003",
+            "display": "Injection of spinal anaesthetic agent for analgesia"
+          },
+          {
+            "code": "231253007",
+            "display": "Local anaesthetic lumbar intrathecal block"
+          },
+          {
+            "code": "449126000",
+            "display": "Administration of inhalation anaesthetic using endotracheal tube"
+          },
+          {
+            "code": "180878007",
+            "display": "Inhalation anaesthetic using muscle relaxant"
+          },
+          {
+            "code": "241692007",
+            "display": "Inhalational induction"
+          },
+          {
+            "code": "241690004",
+            "display": "Intramuscular induction of general anaesthesia"
+          },
+          {
+            "code": "241688000",
+            "display": "Intravenous induction of general anaesthesia"
+          },
+          {
+            "code": "448585004",
+            "display": "Target controlled total intravenous anaesthesia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "420105000",
+            "display": "Dissociative anaesthesia"
+          },
+          {
+            "code": "266802007",
+            "display": "Endotracheal anaesthesia"
+          },
+          {
+            "code": "288186007",
+            "display": "General anaesthesia and muscle relaxant"
+          },
+          {
+            "code": "448583006",
+            "display": "High dose opiate anaesthesia"
+          },
+          {
+            "code": "241687005",
+            "display": "Induction of general anaesthesia"
+          },
+          {
+            "code": "288185006",
+            "display": "Inhalation general anaesthesia"
+          },
+          {
+            "code": "241695009",
+            "display": "Maintenance of general anaesthesia"
+          },
+          {
+            "code": "274507007",
+            "display": "Operative general anaesthesia"
+          },
+          {
+            "code": "241696005",
+            "display": "Total intravenous anaesthesia"
+          },
+          {
+            "code": "1285642008",
+            "display": "Dural puncture epidural"
+          },
+          {
+            "code": "18946005",
+            "display": "Epidural anaesthesia"
+          },
+          {
+            "code": "68248001",
+            "display": "Injection of anaesthetic agent into pudendal nerve"
+          },
+          {
+            "code": "231249005",
+            "display": "Spinal anaesthesia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "232682004",
+            "display": "Nasotracheal fibreoptic intubation"
+          },
+          {
+            "code": "232675003",
+            "display": "Oral intubation awake"
+          },
+          {
+            "code": "232678001",
+            "display": "Orotracheal fibreoptic intubation"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "231263004",
+            "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle"
+          },
+          {
+            "code": "231262009",
+            "display": "Combined spinal/epidural technique with needles at separate spaces"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "405657009",
+            "display": "Intravenous induction by target-controlled infusion"
+          },
+          {
+            "code": "241689008",
+            "display": "Rapid sequence induction"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "699799000",
+            "display": "Local anaesthetic block of transversus abdominis plane"
+          },
+          {
+            "code": "231196008",
+            "display": "Local anaesthetic field block of abdomen"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "426060003",
+            "display": "Nitrous oxide and oxygen gas analgesia in labour"
+          },
+          {
+            "code": "397905008",
+            "display": "Patient controlled epidural analgesia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "50697003",
+            "display": "Administration of general anaesthetic"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "304341005",
+            "display": "Awake intubation"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "448235007",
+            "display": "Modified rapid sequence induction"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "427035008",
+            "display": "Nitrous oxide and oxygen gas analgesia"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "231254001",
+            "display": "Saddle block"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "830001000000106",
+            "display": "Transversus abdominis plane block"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "789172006",
+            "display": "Ultrasonography guided erector spinae plane block"
+          }
+        ]
+      }
+    ]
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "399097000",
+        "display": "Administration of anaesthesia"
+      },
+      {
+        "code": "410011004",
+        "display": "Administration of anaesthesia AND/OR sedation"
+      },
+      {
+        "code": "426153007",
+        "display": "Insertion of artificial airway"
+      },
+      {
+        "code": "118886002",
+        "display": "Procedure on spinal meninges"
+      },
+      {
+        "code": "50697003",
+        "display": "Administration of general anaesthetic"
+      },
+      {
+        "code": "88815003",
+        "display": "Peripheral block anaesthesia"
+      },
+      {
+        "code": "18629005",
+        "display": "Administration of medication"
+      },
+      {
+        "code": "1263452006",
+        "display": "Anaesthesia and/or sedation procedure"
+      },
+      {
+        "code": "397982008",
+        "display": "Insertion of device into airway"
+      },
+      {
+        "code": "241687005",
+        "display": "Induction of general anaesthesia"
+      },
+      {
+        "code": "107733003",
+        "display": "Introduction procedure"
+      },
+      {
+        "code": "118698009",
+        "display": "Procedure on abdomen"
+      },
+      {
+        "code": "303508000",
+        "display": "Local anaesthetic nerve block in trunk"
+      },
+      {
+        "code": "16310003",
+        "display": "Ultrasonography"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "231259006",
+        "display": "Administration of epidural test dose",
+        "action": "include"
+      },
+      {
+        "code": "231260001",
+        "display": "Administration of epidural top-up",
+        "action": "include"
+      },
+      {
+        "code": "427060008",
+        "display": "Continuous thoracic epidural analgesia",
+        "action": "include"
+      },
+      {
+        "code": "58611004",
+        "display": "Epidural injection of anaesthetic substance, therapeutic, lumbar, continuous",
+        "action": "include"
+      },
+      {
+        "code": "67716003",
+        "display": "Epidural injection of anaesthetic substance, therapeutic, caudal, continuous",
+        "action": "include"
+      },
+      {
+        "code": "1287360000",
+        "display": "Injection of epidural anaesthesia during maternal intrapartum period",
+        "action": "include"
+      },
+      {
+        "code": "180885006",
+        "display": "Local anaesthetic lumbar epidural block",
+        "action": "include"
+      },
+      {
+        "code": "398044000",
+        "display": "Low dose epidural",
+        "action": "include"
+      },
+      {
+        "code": "231261002",
+        "display": "Combined spinal/epidural local anaesthetic block",
+        "action": "include"
+      },
+      {
+        "code": "16388003",
+        "display": "Injection of spinal anaesthetic agent for analgesia",
+        "action": "include"
+      },
+      {
+        "code": "231253007",
+        "display": "Local anaesthetic lumbar intrathecal block",
+        "action": "include"
+      },
+      {
+        "code": "449126000",
+        "display": "Administration of inhalation anaesthetic using endotracheal tube",
+        "action": "include"
+      },
+      {
+        "code": "180878007",
+        "display": "Inhalation anaesthetic using muscle relaxant",
+        "action": "include"
+      },
+      {
+        "code": "241692007",
+        "display": "Inhalational induction",
+        "action": "include"
+      },
+      {
+        "code": "241690004",
+        "display": "Intramuscular induction of general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "241688000",
+        "display": "Intravenous induction of general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "448585004",
+        "display": "Target controlled total intravenous anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "420105000",
+        "display": "Dissociative anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "266802007",
+        "display": "Endotracheal anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "288186007",
+        "display": "General anaesthesia and muscle relaxant",
+        "action": "include"
+      },
+      {
+        "code": "448583006",
+        "display": "High dose opiate anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "241687005",
+        "display": "Induction of general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "288185006",
+        "display": "Inhalation general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "241695009",
+        "display": "Maintenance of general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "274507007",
+        "display": "Operative general anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "241696005",
+        "display": "Total intravenous anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "1285642008",
+        "display": "Dural puncture epidural",
+        "action": "include"
+      },
+      {
+        "code": "18946005",
+        "display": "Epidural anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "68248001",
+        "display": "Injection of anaesthetic agent into pudendal nerve",
+        "action": "include"
+      },
+      {
+        "code": "231249005",
+        "display": "Spinal anaesthesia",
+        "action": "include"
+      },
+      {
+        "code": "232682004",
+        "display": "Nasotracheal fibreoptic intubation",
+        "action": "include"
+      },
+      {
+        "code": "232675003",
+        "display": "Oral intubation awake",
+        "action": "include"
+      },
+      {
+        "code": "232678001",
+        "display": "Orotracheal fibreoptic intubation",
+        "action": "include"
+      },
+      {
+        "code": "231263004",
+        "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle",
+        "action": "include"
+      },
+      {
+        "code": "231262009",
+        "display": "Combined spinal/epidural technique with needles at separate spaces",
+        "action": "include"
+      },
+      {
+        "code": "405657009",
+        "display": "Intravenous induction by target-controlled infusion",
+        "action": "include"
+      },
+      {
+        "code": "241689008",
+        "display": "Rapid sequence induction",
+        "action": "include"
+      },
+      {
+        "code": "699799000",
+        "display": "Local anaesthetic block of transversus abdominis plane",
+        "action": "include"
+      },
+      {
+        "code": "231196008",
+        "display": "Local anaesthetic field block of abdomen",
+        "action": "include"
+      },
+      {
+        "code": "426060003",
+        "display": "Nitrous oxide and oxygen gas analgesia in labour",
+        "action": "include"
+      },
+      {
+        "code": "397905008",
+        "display": "Patient controlled epidural analgesia",
+        "action": "include"
+      },
+      {
+        "code": "50697003",
+        "display": "Administration of general anaesthetic",
+        "action": "include"
+      },
+      {
+        "code": "304341005",
+        "display": "Awake intubation",
+        "action": "include"
+      },
+      {
+        "code": "448235007",
+        "display": "Modified rapid sequence induction",
+        "action": "include"
+      },
+      {
+        "code": "427035008",
+        "display": "Nitrous oxide and oxygen gas analgesia",
+        "action": "include"
+      },
+      {
+        "code": "231254001",
+        "display": "Saddle block",
+        "action": "include"
+      },
+      {
+        "code": "830001000000106",
+        "display": "Transversus abdominis plane block",
+        "action": "include"
+      },
+      {
+        "code": "789172006",
+        "display": "Ultrasonography guided erector spinae plane block",
+        "action": "include"
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-anaesthetic-procedure",
+    "collection": "steve-testing",
+    "updatedAt": "2026-04-29T10:34:00.661694+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_anaesthetic_procedure_1.0.0.xlsx",
+        "date": "2026-04-29T10:34:00.661694+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
