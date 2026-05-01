@@ -1,0 +1,94 @@
+{
+  "_bindingStrength": "preferred",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "389145006",
+        "display": "Allergic asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "389145006",
+        "display": "Allergic asthma",
+        "action": "include"
+      },
+      {
+        "code": "703953004",
+        "display": "Allergic asthma caused by Dermatophagoides pteronyssinus",
+        "action": "exclude"
+      },
+      {
+        "code": "56968009",
+        "display": "Asthma caused by wood dust",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asthma",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "401193004"
+    }
+  },
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-04-27T11:56:06.044185+00:00",
+        "reason": "Initial creation",
+        "version": 1
+      },
+      {
+        "version": "1.0.0",
+        "reason": "testking",
+        "date": "2026-04-28T22:10:54.387119+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "WRIST-Frankie-Test",
+    "createdBy": "FrankiePH",
+    "slug": "allergic-asthma",
+    "updatedAt": "2026-04-28T22:10:54.387119+00:00",
+    "version": "1.0.0"
+  },
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "703953004",
+            "display": "Allergic asthma caused by Dermatophagoides pteronyssinus"
+          },
+          {
+            "code": "56968009",
+            "display": "Asthma caused by wood dust"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "389145006",
+            "display": "Allergic asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "blah blah blah",
+  "name": "allergic-asthma",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Allergic asthma</p></div>",
+    "status": "generated"
+  },
+  "title": "Allergic asthma",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/allergic-asthma-d2bd7f4306e3"
+}
