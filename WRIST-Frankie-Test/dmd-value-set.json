@@ -1,0 +1,64 @@
+{
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-04-23T17:25:44.780408+00:00",
+        "reason": "Initial creation",
+        "version": 1
+      },
+      {
+        "version": 2,
+        "reason": "initial creation",
+        "date": "2026-04-23T17:26:16.952656+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "WRIST-Frankie-Test",
+    "createdBy": "FrankiePH",
+    "slug": "dmd-value-set",
+    "updatedAt": "2026-04-23T17:26:16.952656+00:00",
+    "version": 2
+  },
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "13005911000001103",
+            "display": "Metolazone 2.5mg/5ml oral solution"
+          },
+          {
+            "code": "13006011000001106",
+            "display": "Metolazone 2.5mg/5ml oral suspension"
+          },
+          {
+            "code": "13006111000001107",
+            "display": "Metolazone 500micrograms/5ml oral solution"
+          },
+          {
+            "code": "13006211000001101",
+            "display": "Metolazone 500micrograms/5ml oral suspension"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776769002"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "dm+d value set",
+  "description": ""
+}
