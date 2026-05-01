@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Asthma",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "72301000119103",
+            "display": "Asthma in pregnancy"
+          },
+          {
+            "code": "10742121000119104",
+            "display": "Asthma in mother complicating childbirth"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Asthma",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Asthma</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd",
+  "description": "Testing value sets commenting",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "195967001",
+        "display": "Asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include"
+      },
+      {
+        "code": "72301000119103",
+        "display": "Asthma in pregnancy",
+        "action": "exclude"
+      },
+      {
+        "code": "10742121000119104",
+        "display": "Asthma in mother complicating childbirth",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "195967001"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "asthma",
+    "collection": "test1",
+    "updatedAt": "2026-05-01T09:43:19.458774+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-01T09:43:19.458774+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
