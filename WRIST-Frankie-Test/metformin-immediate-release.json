@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Metformin (Immediate-Release)",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "38893711000001104",
+            "display": "Metformin 1g modified-release tablets"
+          },
+          {
+            "code": "39113511000001101",
+            "display": "Metformin 500mg modified-release tablets"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776713006"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "MetforminImmediateRelease",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Metformin (Immediate-Release)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/metforminimmediaterelease-364dd5dc540f",
+  "description": "dm+d value set for Metformin products, including all formulations but excluding modified-release tablets (1g and 500mg). Built using dm+d Tree Browser.",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "776713006": {
+        "action": "include",
+        "code": "776713006",
+        "display": "Metformin",
+        "level": "VTM"
+      },
+      "38893711000001104": {
+        "action": "exclude",
+        "code": "38893711000001104",
+        "display": "Metformin 1g modified-release tablets",
+        "level": "VMP"
+      },
+      "39113511000001101": {
+        "action": "exclude",
+        "code": "39113511000001101",
+        "display": "Metformin 500mg modified-release tablets",
+        "level": "VMP"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "metformin-immediate-release",
+    "collection": "WRIST-Frankie-Test",
+    "updatedAt": "2026-04-28T19:14:13.528990+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation of Metformin Immediate-Release dm+d value set",
+        "date": "2026-04-28T19:14:13.528990+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
