@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes Mellitus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "73211009",
+            "display": "Diabetes mellitus"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "DiabetesMellitusValueSet",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes Mellitus</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmellitusvalueset-e336da48262d",
+  "description": "SNOMED CT value set for Diabetes Mellitus and all its subtypes, built using Search & Build.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "Diabetes mellitus",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "73211009"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabetes-mellitus",
+    "collection": "WRIST-Frankie-Test",
+    "updatedAt": "2026-04-28T19:01:47.080468+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation of Diabetes Mellitus SNOMED CT value set",
+        "date": "2026-04-28T19:01:47.080468+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
