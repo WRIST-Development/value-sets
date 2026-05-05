@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes Mellitus Disorder",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "73211009",
+            "display": "Diabetes mellitus"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "DiabetesMellitusDisorder",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes Mellitus Disorder</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmellitusdisorder-e336da48262d",
+  "description": "SNOMED CT value set containing Diabetes mellitus (73211009) and all subtypes including Type 1, Type 2, gestational and secondary diabetes disorders.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "diabetes mellitus",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "73211009"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabetes-mellitus-disorder",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T20:42:42.859410+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-05T20:42:42.859410+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
