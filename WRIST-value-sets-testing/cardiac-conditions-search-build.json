@@ -1,0 +1,119 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Cardiac Conditions - Search and Build",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "426856002",
+            "display": "Ischaemic congestive cardiomyopathy"
+          },
+          {
+            "code": "82522008",
+            "display": "Ischaemic contracture of left ventricle syndrome"
+          },
+          {
+            "code": "703214003",
+            "display": "Silent coronary vasospastic disease"
+          },
+          {
+            "code": "397829000",
+            "display": "Asystole"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "414545008",
+            "display": "Ischaemic heart disease"
+          },
+          {
+            "code": "410429000",
+            "display": "Cardiac arrest"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "CardiacConditionsSearchBuild",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Cardiac Conditions - Search and Build</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cardiacconditionssearchbuild-75342526190a",
+  "description": "Complex SNOMED CT search and build value set covering ischaemic heart disease (excl. congestive cardiomyopathy, vasospastic disease and contracture syndrome) and cardiac arrest (excl. asystole). Used for acute cardiac event coding.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "414545008",
+        "display": "Ischaemic heart disease"
+      },
+      {
+        "code": "410429000",
+        "display": "Cardiac arrest"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "414545008",
+        "display": "Ischaemic heart disease",
+        "action": "include"
+      },
+      {
+        "code": "426856002",
+        "display": "Ischaemic congestive cardiomyopathy",
+        "action": "exclude"
+      },
+      {
+        "code": "82522008",
+        "display": "Ischaemic contracture of left ventricle syndrome",
+        "action": "exclude"
+      },
+      {
+        "code": "703214003",
+        "display": "Silent coronary vasospastic disease",
+        "action": "exclude"
+      },
+      {
+        "code": "410429000",
+        "display": "Cardiac arrest",
+        "action": "include"
+      },
+      {
+        "code": "397829000",
+        "display": "Asystole",
+        "action": "exclude"
+      }
+    ],
+    "search": {
+      "query": "cardiac arrest",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "410429000"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "cardiac-conditions-search-build",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T20:49:10.812573+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-05T20:49:10.812573+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
