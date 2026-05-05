@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "test",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "((<< 73211009 |Diabetes mellitus|) MINUS (<< 105401000119101 |Diabetes mellitus due to pancreatic injury|))"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "test",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-441efb333947",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "test",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T13:11:28.158933+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "test",
+        "date": "2026-05-05T13:11:28.158933+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
