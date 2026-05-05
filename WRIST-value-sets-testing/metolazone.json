@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Metolazone",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "13005911000001103",
+            "display": "Metolazone 2.5mg/5ml oral solution"
+          },
+          {
+            "code": "13006011000001106",
+            "display": "Metolazone 2.5mg/5ml oral suspension"
+          },
+          {
+            "code": "13006111000001107",
+            "display": "Metolazone 500micrograms/5ml oral solution"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776769002"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Metolazone",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Metolazone</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/metolazone-c74501d870dd",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "776769002": {
+        "action": "include",
+        "code": "776769002",
+        "display": "Metolazone",
+        "level": "VTM"
+      },
+      "13005911000001103": {
+        "action": "exclude",
+        "code": "13005911000001103",
+        "display": "Metolazone 2.5mg/5ml oral solution",
+        "level": "VMP"
+      },
+      "13006011000001106": {
+        "action": "exclude",
+        "code": "13006011000001106",
+        "display": "Metolazone 2.5mg/5ml oral suspension",
+        "level": "VMP"
+      },
+      "13006111000001107": {
+        "action": "exclude",
+        "code": "13006111000001107",
+        "display": "Metolazone 500micrograms/5ml oral solution",
+        "level": "VMP"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "metolazone",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T09:45:36.595578+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-05T09:45:36.595578+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
