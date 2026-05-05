@@ -1,0 +1,131 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Oral Diabetes Medications - DM+D Tree Build",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "8664011000001106",
+            "display": "Metformin 250mg/5ml oral suspension"
+          },
+          {
+            "code": "8664211000001101",
+            "display": "Metformin 425mg/5ml oral suspension"
+          },
+          {
+            "code": "8664411000001102",
+            "display": "Metformin 500mg/5ml oral suspension"
+          },
+          {
+            "code": "32879911000001101",
+            "display": "Sitagliptin 50mg/5ml oral suspension"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776713006"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      },
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "777541003"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      },
+      {
+        "concept": [
+          {
+            "code": "45270811000001109",
+            "display": "Sitagliptin 50mg / Metformin 850mg tablets"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "OralDiabetesMedicationsDMD",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Oral Diabetes Medications - DM+D Tree Build</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/oraldiabetesmedicationsdmd-af3a9d52d523",
+  "description": "DM+D tree build value set for oral diabetes medications. Includes Metformin (VTM), Sitagliptin (VTM) and Sitagliptin/Metformin combination. Excludes all oral suspension formulations (Metformin 250/425/500mg and Sitagliptin 50mg suspensions) - tablets and standard oral solutions only.",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "776713006": {
+        "action": "include",
+        "code": "776713006",
+        "display": "Metformin",
+        "level": "VTM"
+      },
+      "777541003": {
+        "action": "include",
+        "code": "777541003",
+        "display": "Sitagliptin",
+        "level": "VTM"
+      },
+      "8664011000001106": {
+        "action": "exclude",
+        "code": "8664011000001106",
+        "display": "Metformin 250mg/5ml oral suspension",
+        "level": "VMP"
+      },
+      "8664211000001101": {
+        "action": "exclude",
+        "code": "8664211000001101",
+        "display": "Metformin 425mg/5ml oral suspension",
+        "level": "VMP"
+      },
+      "8664411000001102": {
+        "action": "exclude",
+        "code": "8664411000001102",
+        "display": "Metformin 500mg/5ml oral suspension",
+        "level": "VMP"
+      },
+      "45270811000001109": {
+        "action": "include",
+        "code": "45270811000001109",
+        "display": "Sitagliptin 50mg / Metformin 850mg tablets",
+        "level": "VMP"
+      },
+      "32879911000001101": {
+        "action": "exclude",
+        "code": "32879911000001101",
+        "display": "Sitagliptin 50mg/5ml oral suspension",
+        "level": "VMP"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "oral-diabetes-medications-dmd",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T21:00:32.959666+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-05T21:00:32.959666+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
