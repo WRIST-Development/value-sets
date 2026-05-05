@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabiom",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "12466801000001102",
+            "display": "Diabiom"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Diabiom",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabiom</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabiom-62939b35c371",
+  "description": "Diabiom",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "12466801000001102",
+        "display": "Diabiom"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "12466801000001102",
+        "display": "Diabiom",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "diab",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "12466801000001102"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabiom",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T12:30:02.046279+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Diabiom",
+        "date": "2026-05-05T12:30:02.046279+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
