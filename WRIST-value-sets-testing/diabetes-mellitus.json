@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes-Mellitus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "73211009",
+            "display": "Diabetes mellitus"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Diabetes-Mellitus",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes-Mellitus</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetes-mellitus-e336da48262d",
+  "description": "Diabetes-Mellitus",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "diabeties",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "73211009"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabetes-mellitus",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T11:02:14.068360+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Diabetes-Mellitus",
+        "date": "2026-05-05T11:02:14.068360+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
