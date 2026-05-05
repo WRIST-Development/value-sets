@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes Mellitus Registry - ECL",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "((<< 44054006 |Type 2 diabetes mellitus|) MINUS (<< 609567009 |Pre-existing type 2 diabetes mellitus in pregnancy|)) OR ((<< 46635009 |Type 1 diabetes mellitus|) MINUS (<< 609564002 |Pre-existing type 1 diabetes mellitus in pregnancy|)) OR 11687002 |Gestational diabetes mellitus|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "DiabetesMellitusRegistryECL",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes Mellitus Registry - ECL</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmellitusregistryecl-9105c000061a",
+  "description": "Complex SNOMED CT ECL value set for diabetes mellitus registry. Includes T1DM and T2DM (descendants or self of), excludes pre-existing diabetes in pregnancy from both. Also includes gestational diabetes mellitus (self only). Built using visual ECL builder.",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabetes-mellitus-registry-ecl",
+    "collection": "WRIST-value-sets-testing",
+    "updatedAt": "2026-05-05T20:54:16.216908+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-05T20:54:16.216908+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
