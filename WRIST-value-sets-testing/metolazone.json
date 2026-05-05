@@ -1,7 +1,61 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Metolazone",
-  "status": "draft",
+  "_bindingStrength": "preferred",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "776769002": {
+        "action": "include",
+        "code": "776769002",
+        "display": "Metolazone",
+        "level": "VTM"
+      },
+      "13005911000001103": {
+        "action": "exclude",
+        "code": "13005911000001103",
+        "display": "Metolazone 2.5mg/5ml oral solution",
+        "level": "VMP"
+      },
+      "13006011000001106": {
+        "action": "exclude",
+        "code": "13006011000001106",
+        "display": "Metolazone 2.5mg/5ml oral suspension",
+        "level": "VMP"
+      },
+      "13006111000001107": {
+        "action": "exclude",
+        "code": "13006111000001107",
+        "display": "Metolazone 500micrograms/5ml oral solution",
+        "level": "VMP"
+      },
+      "42213711000001103": {
+        "action": "include",
+        "code": "42213711000001103",
+        "display": "Metolazone 5mg tablets",
+        "level": "VMP"
+      }
+    }
+  },
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-05-05T09:45:36.595578+00:00",
+        "reason": "init",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "removed cpde",
+        "date": "2026-05-05T10:02:27.103971+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "WRIST-value-sets-testing",
+    "createdBy": "FrankiePH",
+    "slug": "metolazone",
+    "updatedAt": "2026-05-05T10:02:27.103971+00:00",
+    "version": "1-build.0.1"
+  },
   "compose": {
     "exclude": [
       {
@@ -32,58 +86,26 @@
           }
         ],
         "system": "https://dmd.nhs.uk"
+      },
+      {
+        "concept": [
+          {
+            "code": "42213711000001103",
+            "display": "Metolazone 5mg tablets"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
       }
     ]
   },
   "name": "Metolazone",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Metolazone</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/metolazone-c74501d870dd",
-  "_builderState": {
-    "mode": "dmd-tree",
-    "decisions": {
-      "776769002": {
-        "action": "include",
-        "code": "776769002",
-        "display": "Metolazone",
-        "level": "VTM"
-      },
-      "13005911000001103": {
-        "action": "exclude",
-        "code": "13005911000001103",
-        "display": "Metolazone 2.5mg/5ml oral solution",
-        "level": "VMP"
-      },
-      "13006011000001106": {
-        "action": "exclude",
-        "code": "13006011000001106",
-        "display": "Metolazone 2.5mg/5ml oral suspension",
-        "level": "VMP"
-      },
-      "13006111000001107": {
-        "action": "exclude",
-        "code": "13006111000001107",
-        "display": "Metolazone 500micrograms/5ml oral solution",
-        "level": "VMP"
-      }
-    }
-  },
-  "_bindingStrength": "preferred",
-  "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "metolazone",
-    "collection": "WRIST-value-sets-testing",
-    "updatedAt": "2026-05-05T09:45:36.595578+00:00",
-    "createdBy": "FrankiePH",
-    "changeLog": [
-      {
-        "version": "1-build.0.0",
-        "reason": "init",
-        "date": "2026-05-05T09:45:36.595578+00:00",
-        "author": "FrankiePH"
-      }
-    ]
-  }
+  "title": "Metolazone",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/metolazone-441d9a344cb2",
+  "description": ""
 }
