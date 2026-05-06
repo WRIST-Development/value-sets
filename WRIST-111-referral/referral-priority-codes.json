@@ -1,24 +1,89 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Referral Priority Codes",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "referral-priority-codes",
-    "collection": "WRIST-111-referral",
-    "updatedAt": "2026-05-06T12:52:04.414220+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "Initial creation",
+        "author": "FrankiePH",
         "date": "2026-05-06T12:52:04.414220+00:00",
+        "reason": "Initial creation",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "Initial value set definition with urgent referral, specialist referral, and consultation referral codes",
+        "date": "2026-05-06T12:54:14.659516+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "WRIST-111-referral",
+    "createdBy": "FrankiePH",
+    "slug": "referral-priority-codes",
+    "updatedAt": "2026-05-06T12:54:14.659516+00:00",
+    "version": "1-build.0.1"
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "134403003",
+            "display": "Urgent referral"
+          },
+          {
+            "code": "103696004",
+            "display": "Patient referral to specialist"
+          },
+          {
+            "code": "44383000",
+            "display": "Patient referral for consultation"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
     ]
-  }
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "Referral Priority Codes",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "134403003",
+        "display": "Urgent referral"
+      },
+      {
+        "code": "103696004",
+        "display": "Patient referral to specialist"
+      },
+      {
+        "code": "44383000",
+        "display": "Patient referral for consultation"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "134403003",
+        "display": "Urgent referral",
+        "action": "include"
+      },
+      {
+        "code": "103696004",
+        "display": "Patient referral to specialist",
+        "action": "include"
+      },
+      {
+        "code": "44383000",
+        "display": "Patient referral for consultation",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "patient referral",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "44383000"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/referral-priority-codes-b6ac2d8a6b73",
+  "description": "Codes used to classify the urgency and priority level of patient referrals within the healthcare system."
 }
