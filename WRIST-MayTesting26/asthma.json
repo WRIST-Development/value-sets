@@ -1,41 +1,5 @@
 {
-  "resourceType": "ValueSet",
-  "title": "asthma",
-  "status": "draft",
-  "compose": {
-    "exclude": [
-      {
-        "concept": [
-          {
-            "code": "389145006",
-            "display": "Allergic asthma"
-          },
-          {
-            "code": "10742121000119104",
-            "display": "Asthma in mother complicating childbirth"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ],
-    "include": [
-      {
-        "concept": [
-          {
-            "code": "195967001",
-            "display": "Asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ]
-  },
-  "name": "asthma",
-  "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>asthma</p></div>",
-    "status": "generated"
-  },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd",
+  "_bindingStrength": "preferred",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -59,6 +23,11 @@
         "code": "10742121000119104",
         "display": "Asthma in mother complicating childbirth",
         "action": "exclude"
+      },
+      {
+        "code": "233678006",
+        "display": "Childhood asthma",
+        "action": "exclude"
       }
     ],
     "search": {
@@ -68,20 +37,67 @@
       "inspectingCode": "195967001"
     }
   },
-  "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "asthma",
-    "collection": "WRIST-MayTesting26",
-    "updatedAt": "2026-05-06T16:18:35.524749+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "int",
+        "author": "FrankiePH",
         "date": "2026-05-06T16:18:35.524749+00:00",
+        "reason": "int",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1-build.1.0",
+        "reason": "removed Childhood asthma",
+        "date": "2026-05-06T16:20:34.359283+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "WRIST-MayTesting26",
+    "createdBy": "FrankiePH",
+    "slug": "asthma",
+    "updatedAt": "2026-05-06T16:20:34.359283+00:00",
+    "version": "1-build.1.0"
+  },
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "389145006",
+            "display": "Allergic asthma"
+          },
+          {
+            "code": "10742121000119104",
+            "display": "Asthma in mother complicating childbirth"
+          },
+          {
+            "code": "233678006",
+            "display": "Childhood asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
     ]
-  }
+  },
+  "name": "asthma",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>asthma</p></div>",
+    "status": "generated"
+  },
+  "title": "asthma",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd",
+  "description": ""
 }
