@@ -1,32 +1,5 @@
 {
   "_builderState": {
-    "decisions": [
-      {
-        "action": "include",
-        "code": "134403003",
-        "display": "Urgent referral"
-      },
-      {
-        "action": "include",
-        "code": "103696004",
-        "display": "Patient referral to specialist"
-      },
-      {
-        "action": "include",
-        "code": "44383000",
-        "display": "Patient referral for consultation"
-      },
-      {
-        "action": "include",
-        "code": "81294000",
-        "display": "Patient referral for psychotherapy"
-      },
-      {
-        "action": "include",
-        "code": "397721007",
-        "display": "Referral by Accident and Emergency"
-      }
-    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -50,11 +23,33 @@
         "display": "Referral by Accident and Emergency"
       }
     ],
+    "decisions": [
+      {
+        "code": "134403003",
+        "display": "Urgent referral",
+        "action": "include"
+      },
+      {
+        "code": "44383000",
+        "display": "Patient referral for consultation",
+        "action": "include"
+      },
+      {
+        "code": "81294000",
+        "display": "Patient referral for psychotherapy",
+        "action": "include"
+      },
+      {
+        "code": "397721007",
+        "display": "Referral by Accident and Emergency",
+        "action": "include"
+      }
+    ],
     "search": {
-      "activeOnly": true,
-      "inspectingCode": "397721007",
       "query": "emergency referral",
-      "refsetCode": ""
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "397721007"
     }
   },
   "_libraryMeta": {
@@ -84,17 +79,23 @@
         "version": "1-build.0.3"
       },
       {
-        "version": "1-build.0.4",
-        "reason": "Updated description to reflect full scope of referral pathways covered by this value set",
+        "author": "FrankiePH",
         "date": "2026-05-06T12:57:34.217306+00:00",
+        "reason": "Updated description to reflect full scope of referral pathways covered by this value set",
+        "version": "1-build.0.4"
+      },
+      {
+        "version": "1-build.0.5",
+        "reason": "Removed 'Patient referral to specialist' - scope narrowed to procedure-type referral pathway codes only",
+        "date": "2026-05-06T12:59:44.539806+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-111-referral",
     "createdBy": "FrankiePH",
     "slug": "referral-priority-codes",
-    "updatedAt": "2026-05-06T12:57:34.217306+00:00",
-    "version": "1-build.0.4"
+    "updatedAt": "2026-05-06T12:59:44.539806+00:00",
+    "version": "1-build.0.5"
   },
   "compose": {
     "include": [
@@ -103,10 +104,6 @@
           {
             "code": "134403003",
             "display": "Urgent referral"
-          },
-          {
-            "code": "103696004",
-            "display": "Patient referral to specialist"
           },
           {
             "code": "44383000",
@@ -129,5 +126,5 @@
   "resourceType": "ValueSet",
   "status": "active",
   "title": "Referral Priority Codes",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/referral-priority-codes-c312fe6a350c"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/referral-priority-codes-a88eea68d16b"
 }
