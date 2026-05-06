@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "title": "dm+d medication name",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "VTM",
+            "display": "Any code from VTM, VMP, AMP, VMPP, AMPP concept classes"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "DmdMedicationName",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>dm+d medication name</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/dmdmedicationname-d3586ee360e5",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "dmd-medication-name",
+    "collection": "WRIST-diabetes",
+    "updatedAt": "2026-05-06T22:13:26.046906+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-06T22:13:26.046906+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
