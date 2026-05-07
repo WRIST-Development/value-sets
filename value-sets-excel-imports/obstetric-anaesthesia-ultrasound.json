@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-anaesthesia-ultrasound-dff603a22131",
+  "name": "obstetric-anaesthesia-ultrasound",
+  "title": "Obstetric anaesthesia ultrasound",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric anaesthesia ultrasound</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "61593002",
+            "display": "Ultrasonic guidance procedure"
+          },
+          {
+            "code": "16310003",
+            "display": "Ultrasonography"
+          },
+          {
+            "code": "843961000000104",
+            "display": "Ultrasonography guided catheterisation of epidural space"
+          },
+          {
+            "code": "45036003",
+            "display": "Ultrasonography of abdomen"
+          },
+          {
+            "code": "275631000000109",
+            "display": "US scan of back"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-anaesthesia-ultrasound",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:40.635169+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_anaesthesia_ultrasound_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:40.635169+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
