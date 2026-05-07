@@ -28,6 +28,11 @@
         "code": "72301000119103",
         "display": "Asthma in pregnancy",
         "action": "exclude"
+      },
+      {
+        "code": "55570000",
+        "display": "Asthma without status asthmaticus",
+        "action": "exclude"
       }
     ],
     "search": {
@@ -46,17 +51,23 @@
         "version": "1-build.0.0"
       },
       {
-        "version": "1-build.1.3",
-        "reason": "removed Asthma in pregnancy",
+        "author": "FrankiePH",
         "date": "2026-05-06T17:01:42.213716+00:00",
+        "reason": "removed Asthma in pregnancy",
+        "version": "1-build.1.3"
+      },
+      {
+        "version": "1-build.1.4",
+        "reason": "removed Asthma without status asthmaticus",
+        "date": "2026-05-07T10:00:29.087527+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-MayTesting26",
     "createdBy": "FrankiePH",
     "slug": "asthma",
-    "updatedAt": "2026-05-06T17:01:42.213716+00:00",
-    "version": "1-build.1.3"
+    "updatedAt": "2026-05-07T10:00:29.087527+00:00",
+    "version": "1-build.1.4"
   },
   "compose": {
     "exclude": [
@@ -73,6 +84,10 @@
           {
             "code": "72301000119103",
             "display": "Asthma in pregnancy"
+          },
+          {
+            "code": "55570000",
+            "display": "Asthma without status asthmaticus"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -90,6 +105,7 @@
       }
     ]
   },
+  "description": "",
   "name": "asthma",
   "resourceType": "ValueSet",
   "status": "draft",
@@ -98,6 +114,5 @@
     "status": "generated"
   },
   "title": "asthma",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd",
-  "description": ""
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd"
 }
