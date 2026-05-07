@@ -1,0 +1,367 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-surgery-07b5eaf6ffab",
+  "name": "obstetric-surgery",
+  "title": "Obstetric surgery",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric surgery</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "236989008",
+            "display": "Abdominal delivery for shoulder dystocia"
+          },
+          {
+            "code": "359944002",
+            "display": "Anal sphincteroplasty for current obstetrical laceration"
+          },
+          {
+            "code": "41059002",
+            "display": "Caesarean hysterectomy"
+          },
+          {
+            "code": "11466000",
+            "display": "Caesarean section"
+          },
+          {
+            "code": "450483001",
+            "display": "Caesarean section through inverted T shaped incision of uterus"
+          },
+          {
+            "code": "450484007",
+            "display": "Caesarean section through J shaped incision of uterus"
+          },
+          {
+            "code": "46681009",
+            "display": "Cerclage of cervix during pregnancy by abdominal approach"
+          },
+          {
+            "code": "90442009",
+            "display": "Cerclage of cervix during pregnancy by vaginal approach"
+          },
+          {
+            "code": "265636007",
+            "display": "Cerclage of uterine cervix"
+          },
+          {
+            "code": "708967005",
+            "display": "Cervical cerclage of internal os during pregnancy"
+          },
+          {
+            "code": "84195007",
+            "display": "Classical caesarean section"
+          },
+          {
+            "code": "57411006",
+            "display": "Colpoperineorrhaphy following delivery"
+          },
+          {
+            "code": "310603006",
+            "display": "Digital evacuation of retained products of conception"
+          },
+          {
+            "code": "176827002",
+            "display": "Dilation of cervix uteri and vacuum aspiration of products of conception from uterus"
+          },
+          {
+            "code": "236988000",
+            "display": "Elective caesarean hysterectomy"
+          },
+          {
+            "code": "177141003",
+            "display": "Elective caesarean section"
+          },
+          {
+            "code": "177143000",
+            "display": "Elective lower segment caesarean section"
+          },
+          {
+            "code": "1197219005",
+            "display": "Elective lower segment caesarean section through inverted T shaped incision of uterus"
+          },
+          {
+            "code": "736026009",
+            "display": "Elective lower segment caesarean section with bilateral tubal ligation"
+          },
+          {
+            "code": "177142005",
+            "display": "Elective upper segment caesarean section"
+          },
+          {
+            "code": "736018001",
+            "display": "Elective upper segment caesarean section with bilateral tubal ligation"
+          },
+          {
+            "code": "236987005",
+            "display": "Emergency caesarean hysterectomy"
+          },
+          {
+            "code": "274130007",
+            "display": "Emergency caesarean section"
+          },
+          {
+            "code": "236985002",
+            "display": "Emergency lower segment caesarean section"
+          },
+          {
+            "code": "736118004",
+            "display": "Emergency lower segment caesarean section with bilateral tubal ligation"
+          },
+          {
+            "code": "709004006",
+            "display": "Emergency lower segment caesarean section with inverted T incision"
+          },
+          {
+            "code": "236986001",
+            "display": "Emergency upper segment caesarean section"
+          },
+          {
+            "code": "736020003",
+            "display": "Emergency upper segment caesarean section with bilateral tubal ligation"
+          },
+          {
+            "code": "236883005",
+            "display": "Evacuation of retained product of conception"
+          },
+          {
+            "code": "274943006",
+            "display": "Examination of female genital tract under anaesthetic"
+          },
+          {
+            "code": "40801000",
+            "display": "Exploration of pelvis by laparotomy"
+          },
+          {
+            "code": "74770008",
+            "display": "Exploratory laparotomy"
+          },
+          {
+            "code": "12324002",
+            "display": "Exploratory laparotomy with biopsy"
+          },
+          {
+            "code": "310602001",
+            "display": "Expression of retained products of conception"
+          },
+          {
+            "code": "240278000",
+            "display": "External cephalic version"
+          },
+          {
+            "code": "5048009",
+            "display": "External cephalic version with tocolysis"
+          },
+          {
+            "code": "57271003",
+            "display": "Extraperitoneal caesarean section"
+          },
+          {
+            "code": "302383004",
+            "display": "Forceps delivery"
+          },
+          {
+            "code": "71166009",
+            "display": "Forceps delivery with rotation of fetal head"
+          },
+          {
+            "code": "89849000",
+            "display": "High forceps delivery"
+          },
+          {
+            "code": "1359709000",
+            "display": "Hysteroscopic evacuation of retained product of conception"
+          },
+          {
+            "code": "177219009",
+            "display": "Immediate repair of obstetric laceration of perineum and sphincter of anus"
+          },
+          {
+            "code": "177200004",
+            "display": "Instrumental removal of products of conception from delivered uterus"
+          },
+          {
+            "code": "274492009",
+            "display": "Insertion of pack to control vaginal bleeding"
+          },
+          {
+            "code": "236972000",
+            "display": "Insertion of balloon catheter into uterine cavity"
+          },
+          {
+            "code": "840831000000107",
+            "display": "Laparoscopic cerclage of cervix"
+          },
+          {
+            "code": "446942007",
+            "display": "Laparoscopic incision and drainage of cyst of ovary with conversion to laparotomy"
+          },
+          {
+            "code": "86481000",
+            "display": "Laparotomy"
+          },
+          {
+            "code": "264969004",
+            "display": "Laparotomy and removal of foreign body from abdominal cavity"
+          },
+          {
+            "code": "788180009",
+            "display": "Lower uterine segment caesarean section"
+          },
+          {
+            "code": "18625004",
+            "display": "Low forceps delivery"
+          },
+          {
+            "code": "28233006",
+            "display": "Manual removal of retained placenta"
+          },
+          {
+            "code": "236946009",
+            "display": "McDonald cervical cerclage"
+          },
+          {
+            "code": "854611000000109",
+            "display": "Medical evacuation of retained products of conception using prostaglandin"
+          },
+          {
+            "code": "62508004",
+            "display": "Mid forceps delivery"
+          },
+          {
+            "code": "260645006",
+            "display": "Minilaparotomy"
+          },
+          {
+            "code": "236975003",
+            "display": "Nonrotational forceps delivery"
+          },
+          {
+            "code": "265641004",
+            "display": "Packing to control postnatal vaginal bleeding"
+          },
+          {
+            "code": "243414007",
+            "display": "Pelvic examination under anaesthesia"
+          },
+          {
+            "code": "244645007",
+            "display": "Pelvic examination under general anaesthesia"
+          },
+          {
+            "code": "13341006",
+            "display": "Reduction of volvulus by laparotomy"
+          },
+          {
+            "code": "32023008",
+            "display": "Removal of packing from vagina"
+          },
+          {
+            "code": "237027001",
+            "display": "Repair of complete perineal tear"
+          },
+          {
+            "code": "359946000",
+            "display": "Repair of current obstetric laceration of rectum and sphincter ani"
+          },
+          {
+            "code": "301858009",
+            "display": "Repair of labial tear"
+          },
+          {
+            "code": "14764004",
+            "display": "Repair of laceration of male perineum"
+          },
+          {
+            "code": "237029003",
+            "display": "Repair of laceration of vulva"
+          },
+          {
+            "code": "359937006",
+            "display": "Repair of obstetric laceration of anus"
+          },
+          {
+            "code": "441619002",
+            "display": "Repair of obstetric laceration of perineum and anal sphincter and mucosa of rectum"
+          },
+          {
+            "code": "112925006",
+            "display": "Repair of obstetric laceration of vulva"
+          },
+          {
+            "code": "55669006",
+            "display": "Repair of obstetrical laceration of perineum"
+          },
+          {
+            "code": "237026005",
+            "display": "Repair of perineal tear"
+          },
+          {
+            "code": "237030008",
+            "display": "Repair of superficial vulval tear"
+          },
+          {
+            "code": "238255007",
+            "display": "Second look laparotomy"
+          },
+          {
+            "code": "236947000",
+            "display": "Shirodkar cervical cerclage"
+          },
+          {
+            "code": "310604000",
+            "display": "Suction evacuation of retained products of conception"
+          },
+          {
+            "code": "473236004",
+            "display": "Suture of caesarean wound for dehiscence"
+          },
+          {
+            "code": "360362007",
+            "display": "Suture of laceration of perineum"
+          },
+          {
+            "code": "448806005",
+            "display": "Suturing of laceration of anus"
+          },
+          {
+            "code": "69422002",
+            "display": "Trial forceps delivery"
+          },
+          {
+            "code": "229761000000107",
+            "display": "Vacuum aspiration of products of conception from uterus using flexible cannula"
+          },
+          {
+            "code": "229801000000102",
+            "display": "Vacuum aspiration of products of conception from uterus using rigid cannula"
+          },
+          {
+            "code": "89053004",
+            "display": "Vaginal caesarean section"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-surgery",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:47.325035+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_surgery_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:47.325035+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
