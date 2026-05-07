@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/seizure-trigger-e137eaa9c3c1",
+  "name": "seizure-trigger",
+  "title": "Seizure trigger",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Seizure trigger</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "401019004",
+            "display": "Trigger factor for seizure"
+          },
+          {
+            "code": "182838006",
+            "display": "Change of medication"
+          },
+          {
+            "code": "1269470004",
+            "display": "Individual dose of drug or medicament not taken"
+          },
+          {
+            "code": "129834002",
+            "display": "Noncompliance with medication regimen"
+          },
+          {
+            "code": "424540004",
+            "display": "Does not follow recommended medication dosage"
+          },
+          {
+            "code": "6131000124104",
+            "display": "Medication taken at higher dose than recommended"
+          },
+          {
+            "code": "6121000124102",
+            "display": "Medication taken at lower dose than recommended"
+          },
+          {
+            "code": "448176008",
+            "display": "Uses less medication than prescribed"
+          },
+          {
+            "code": "275928001",
+            "display": "Drugs - partial non-compliance"
+          },
+          {
+            "code": "275927006",
+            "display": "Drugs - total non-compliance"
+          },
+          {
+            "code": "454161000124103",
+            "display": "Noncompliance with medication regimen due to cognitive impairment"
+          },
+          {
+            "code": "454211000124107",
+            "display": "Noncompliance with medication regimen due to visual impairment"
+          },
+          {
+            "code": "454631000124104",
+            "display": "Refuses to discontinue medication"
+          },
+          {
+            "code": "301345002",
+            "display": "Difficulty sleeping"
+          },
+          {
+            "code": "224960004",
+            "display": "Tired"
+          },
+          {
+            "code": "60119000",
+            "display": "Exhaustion"
+          },
+          {
+            "code": "130989002",
+            "display": "Sleep deprivation"
+          },
+          {
+            "code": "219006",
+            "display": "Current drinker"
+          },
+          {
+            "code": "424848002",
+            "display": "Recreational drug user"
+          },
+          {
+            "code": "73595000",
+            "display": "Stress"
+          },
+          {
+            "code": "48694002",
+            "display": "Anxiety"
+          },
+          {
+            "code": "386661006",
+            "display": "Fever"
+          },
+          {
+            "code": "39104002",
+            "display": "Illness"
+          },
+          {
+            "code": "422400008",
+            "display": "Vomiting"
+          },
+          {
+            "code": "230444006",
+            "display": "Menstrual epilepsy"
+          },
+          {
+            "code": "83765003",
+            "display": "Boredom"
+          },
+          {
+            "code": "55350005",
+            "display": "Hungry"
+          },
+          {
+            "code": "34095006",
+            "display": "Dehydration"
+          },
+          {
+            "code": "724694006",
+            "display": "Harmful pattern of use of caffeine"
+          },
+          {
+            "code": "1263514008",
+            "display": "Seizure due to migraine with aura"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "seizure-trigger",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:50.584711+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from seizure_trigger_0.1.0.xlsx",
+        "date": "2026-05-07T12:16:50.584711+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
