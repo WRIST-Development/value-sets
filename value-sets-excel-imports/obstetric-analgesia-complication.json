@@ -1,0 +1,287 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-analgesia-complication-c01471c2e13b",
+  "name": "obstetric-analgesia-complication",
+  "title": "Obstetric analgesia complication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric analgesia complication</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "427787004",
+            "display": "Abscess in epidural space of cervical spine"
+          },
+          {
+            "code": "429437003",
+            "display": "Abscess in epidural space of lumbar spine"
+          },
+          {
+            "code": "427916006",
+            "display": "Abscess in epidural space of thoracic spine"
+          },
+          {
+            "code": "305352006",
+            "display": "Admission to adult intensive care unit"
+          },
+          {
+            "code": "84901000000108",
+            "display": "Admission to high dependency unit or intensive therapy unit following anaesthetic adverse event"
+          },
+          {
+            "code": "218727000",
+            "display": "Adverse reaction to spinal anaesthetic"
+          },
+          {
+            "code": "735173007",
+            "display": "Anaphylactic shock"
+          },
+          {
+            "code": "79337003",
+            "display": "Anaphylactic transfusion reaction"
+          },
+          {
+            "code": "39579001",
+            "display": "Anaphylaxis"
+          },
+          {
+            "code": "15919521000119106",
+            "display": "Anaphylaxis caused by anaesthetic"
+          },
+          {
+            "code": "15919481000119106",
+            "display": "Anaphylaxis caused by analgesic"
+          },
+          {
+            "code": "8217007",
+            "display": "Arachnoiditis"
+          },
+          {
+            "code": "397829000",
+            "display": "Asystole"
+          },
+          {
+            "code": "703162001",
+            "display": "Bradycardic cardiac arrest"
+          },
+          {
+            "code": "410429000",
+            "display": "Cardiac arrest"
+          },
+          {
+            "code": "410430005",
+            "display": "Cardiorespiratory arrest"
+          },
+          {
+            "code": "699748007",
+            "display": "Cardiorespiratory arrest with successful resuscitation"
+          },
+          {
+            "code": "261195002",
+            "display": "Circulatory arrest"
+          },
+          {
+            "code": "310481001",
+            "display": "Complaining of paraesthesia"
+          },
+          {
+            "code": "241937000",
+            "display": "Drug-induced anaphylaxis"
+          },
+          {
+            "code": "61974008",
+            "display": "Epidural abscess"
+          },
+          {
+            "code": "192743008",
+            "display": "Epidural intracranial abscess"
+          },
+          {
+            "code": "230204001",
+            "display": "Epidural supratentorial pyogenic abscess"
+          },
+          {
+            "code": "405361005",
+            "display": "Excessive spread of local anaesthetic"
+          },
+          {
+            "code": "359844001",
+            "display": "Extradural infratentorial pyogenic abscess"
+          },
+          {
+            "code": "698826004",
+            "display": "Failed epidural anaesthesia"
+          },
+          {
+            "code": "1264229001",
+            "display": "Fetal cardiac arrest"
+          },
+          {
+            "code": "1163490004",
+            "display": "Fungal spinal epidural abscess"
+          },
+          {
+            "code": "398987004",
+            "display": "Headache following lumbar puncture"
+          },
+          {
+            "code": "428900007",
+            "display": "History of headache after dural puncture"
+          },
+          {
+            "code": "723866006",
+            "display": "Idiopathic ventricular fibrillation not Brugada type"
+          },
+          {
+            "code": "103005006",
+            "display": "Inadequate analgesia"
+          },
+          {
+            "code": "830275007",
+            "display": "Inadvertent dural tap"
+          },
+          {
+            "code": "781129002",
+            "display": "Inadvertent dural tap during anaesthesia"
+          },
+          {
+            "code": "312216007",
+            "display": "Infective meningitis"
+          },
+          {
+            "code": "295549004",
+            "display": "Local anaesthetic agent overdose"
+          },
+          {
+            "code": "288264001",
+            "display": "Maternal anaesthetic/analgesic problem"
+          },
+          {
+            "code": "180906006",
+            "display": "Neonatal cardiac arrest"
+          },
+          {
+            "code": "181869007",
+            "display": "Neonatal cardiorespiratory arrest"
+          },
+          {
+            "code": "57182000",
+            "display": "Nerve injury"
+          },
+          {
+            "code": "448584000",
+            "display": "Neuraxial haematoma"
+          },
+          {
+            "code": "264552009",
+            "display": "Neurological deficit"
+          },
+          {
+            "code": "200071001",
+            "display": "Obstetric spinal and epidural anaesthesia-induced headache"
+          },
+          {
+            "code": "200068009",
+            "display": "Obstetric toxic reaction to local anaesthesia"
+          },
+          {
+            "code": "233915000",
+            "display": "Paroxysmal familial ventricular fibrillation"
+          },
+          {
+            "code": "230479008",
+            "display": "Post dural puncture headache"
+          },
+          {
+            "code": "234172002",
+            "display": "Pulseless electrical activity"
+          },
+          {
+            "code": "309809007",
+            "display": "Pulseless electrical activity with successful resuscitation"
+          },
+          {
+            "code": "405368004",
+            "display": "Regional blockade - excessive cephalad spread of local anaesthesia"
+          },
+          {
+            "code": "200076006",
+            "display": "Spinal and epidural anaesthesia-induced headache during labour and delivery"
+          },
+          {
+            "code": "200072008",
+            "display": "Spinal and epidural anaesthesia-induced headache during pregnancy"
+          },
+          {
+            "code": "200073003",
+            "display": "Spinal and epidural anaesthesia-induced headache during the puerperium"
+          },
+          {
+            "code": "63627007",
+            "display": "Spinal epidural abscess"
+          },
+          {
+            "code": "703861005",
+            "display": "Spinal epidural haematoma"
+          },
+          {
+            "code": "231255000",
+            "display": "Spinal subdural local anaesthetic block"
+          },
+          {
+            "code": "277362007",
+            "display": "Total spinal blockade"
+          },
+          {
+            "code": "405363008",
+            "display": "Total spinal nerve blockade following local anaesthetic injection"
+          },
+          {
+            "code": "200069001",
+            "display": "Toxic reaction to local anaesthesia during pregnancy"
+          },
+          {
+            "code": "200070000",
+            "display": "Toxic reaction to local anaesthesia during the puerperium"
+          },
+          {
+            "code": "200075005",
+            "display": "Toxic reaction to local anaesthetic during labour and delivery"
+          },
+          {
+            "code": "397945004",
+            "display": "Unexpected admission to intensive care unit"
+          },
+          {
+            "code": "71908006",
+            "display": "Ventricular fibrillation"
+          },
+          {
+            "code": "195083004",
+            "display": "Ventricular fibrillation and flutter"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-analgesia-complication",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:43.859701+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_analgesia_complication_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:43.859701+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
