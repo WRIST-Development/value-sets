@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-analgesia-reason-procedure-08745ee15df1",
+  "name": "obstetric-analgesia-reason-procedure",
+  "title": "Obstetric analgesia reason procedure",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric analgesia reason procedure</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "397955000",
+            "display": "Analgesia in labour"
+          },
+          {
+            "code": "895661000000102",
+            "display": "Cannulation site infection"
+          },
+          {
+            "code": "698826004",
+            "display": "Failed epidural anaesthesia"
+          },
+          {
+            "code": "698825000",
+            "display": "Failed spinal anesthesia"
+          },
+          {
+            "code": "103005006",
+            "display": "Inadequate analgesia"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-analgesia-reason-procedure",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:45.594934+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_analgesia_reason_procedure_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:45.594934+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
