@@ -1,0 +1,291 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/epilepsy-syndrome-test-34306199a5fa",
+  "name": "epilepsy-syndrome-test",
+  "title": "Epilepsy syndrome test",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Epilepsy syndrome test</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "38281008",
+            "display": "Self-limited neonatal epilepsy"
+          },
+          {
+            "code": "230410004",
+            "display": "Self-limited familial neonatal epilepsy"
+          },
+          {
+            "code": "1231282002",
+            "display": "Self-limited familial neonatal-infantile epilepsy"
+          },
+          {
+            "code": "1237571004",
+            "display": "Self-limited familial infantile epilepsy"
+          },
+          {
+            "code": "699688008",
+            "display": "Genetic epilepsy with febrile seizures plus"
+          },
+          {
+            "code": "192990004",
+            "display": "Myoclonic epilepsy in infancy"
+          },
+          {
+            "code": "1275631007",
+            "display": "Developmental and epileptic encephalopathy"
+          },
+          {
+            "code": "723125008",
+            "display": "Epileptic encephalopathy"
+          },
+          {
+            "code": "230429005",
+            "display": "Early infantile epileptic encephalopathy with suppression bursts"
+          },
+          {
+            "code": "784345005",
+            "display": "Epilepsy of infancy with migrating focal seizures"
+          },
+          {
+            "code": "1340127006",
+            "display": "Infantile epileptic spasms syndrome"
+          },
+          {
+            "code": "230437002",
+            "display": "Dravet syndrome"
+          },
+          {
+            "code": "15523002",
+            "display": "Self-limited focal epilepsy"
+          },
+          {
+            "code": "44145005",
+            "display": "Self-limited epilepsy with centrotemporal spikes"
+          },
+          {
+            "code": "230387008",
+            "display": "Self-limited epilepsy with autonomic seizures"
+          },
+          {
+            "code": "230388003",
+            "display": "Childhood occipital visual epilepsy"
+          },
+          {
+            "code": "1335933003",
+            "display": "Photosensitive occipital lobe epilepsy"
+          },
+          {
+            "code": "1260407007",
+            "display": "Genetic generalised epilepsy"
+          },
+          {
+            "code": "716278005",
+            "display": "Epilepsy with eyelid myoclonia"
+          },
+          {
+            "code": "230422001",
+            "display": "Epilepsy with myoclonic absence"
+          },
+          {
+            "code": "50866000",
+            "display": "Childhood absence epilepsy"
+          },
+          {
+            "code": "230421008",
+            "display": "Epilepsy with myoclonic-atonic seizures"
+          },
+          {
+            "code": "230418006",
+            "display": "Lennox-Gastaut syndrome"
+          },
+          {
+            "code": "230439004",
+            "display": "Epilepsy with continuous spike wave during slow-wave sleep"
+          },
+          {
+            "code": "725413002",
+            "display": "Febrile infection related epilepsy syndrome"
+          },
+          {
+            "code": "230407006",
+            "display": "Hemiconvulsion-hemiplegia-epilepsy syndrome"
+          },
+          {
+            "code": "36803009",
+            "display": "Idiopathic generalised epilepsy"
+          },
+          {
+            "code": "6204001",
+            "display": "Juvenile myoclonic epilepsy"
+          },
+          {
+            "code": "230413002",
+            "display": "Juvenile absence epilepsy"
+          },
+          {
+            "code": "230414008",
+            "display": "Epilepsy with generalised tonic-clonic seizures alone"
+          },
+          {
+            "code": "230381009",
+            "display": "Focal epilepsy"
+          },
+          {
+            "code": "1332160004",
+            "display": "Sleep-related hypermotor epilepsy"
+          },
+          {
+            "code": "770405003",
+            "display": "Familial mesial temporal lobe epilepsy"
+          },
+          {
+            "code": "1332158001",
+            "display": "Epilepsy with auditory features"
+          },
+          {
+            "code": "764522009",
+            "display": "Familial focal epilepsy with variable foci"
+          },
+          {
+            "code": "1260117009",
+            "display": "Combined focal and generalised epilepsy"
+          },
+          {
+            "code": "7689009",
+            "display": "Reading seizure"
+          },
+          {
+            "code": "230191005",
+            "display": "Rasmussen syndrome"
+          },
+          {
+            "code": "267581004",
+            "display": "Progressive myoclonic epilepsy"
+          },
+          {
+            "code": "230425004",
+            "display": "Lafora disease"
+          },
+          {
+            "code": "783055005",
+            "display": "Progressive myoclonic epilepsy type 5"
+          },
+          {
+            "code": "783062001",
+            "display": "Progressive myoclonic epilepsy type 6"
+          },
+          {
+            "code": "1208939001",
+            "display": "Progressive myoclonic epilepsy type 7"
+          },
+          {
+            "code": "783139000",
+            "display": "Progressive myoclonic epilepsy type 8"
+          },
+          {
+            "code": "1228857005",
+            "display": "Progressive myoclonic epilepsy type 9"
+          },
+          {
+            "code": "763349002",
+            "display": "Progressive myoclonic epilepsy with dystonia"
+          },
+          {
+            "code": "702326000",
+            "display": "Progressive myoclonus epilepsy with ataxia"
+          },
+          {
+            "code": "193021002",
+            "display": "Cursive (running) epilepsy"
+          },
+          {
+            "code": "230453004",
+            "display": "Decision-making epilepsy"
+          },
+          {
+            "code": "721088003",
+            "display": "DEND syndrome"
+          },
+          {
+            "code": "230441003",
+            "display": "Drug-induced epilepsy"
+          },
+          {
+            "code": "230450001",
+            "display": "Eating epilepsy"
+          },
+          {
+            "code": "763534009",
+            "display": "Hot water reflex epilepsy"
+          },
+          {
+            "code": "1343613004",
+            "display": "Insular epilepsy"
+          },
+          {
+            "code": "230393000",
+            "display": "Lateral temporal lobe epilepsy"
+          },
+          {
+            "code": "230444006",
+            "display": "Menstrual epilepsy"
+          },
+          {
+            "code": "230404004",
+            "display": "Occipital lobe epilepsy"
+          },
+          {
+            "code": "230403005",
+            "display": "Parietal lobe epilepsy"
+          },
+          {
+            "code": "734434007",
+            "display": "Pyridoxine-dependent epilepsy"
+          },
+          {
+            "code": "763632004",
+            "display": "Startle epilepsy"
+          },
+          {
+            "code": "193000002",
+            "display": "Temporal lobe epilepsy"
+          },
+          {
+            "code": "763622006",
+            "display": "Thinking epilepsy"
+          },
+          {
+            "code": "230452009",
+            "display": "Toothbrushing epilepsy"
+          },
+          {
+            "code": "230448009",
+            "display": "Writing epilepsy"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "epilepsy-syndrome-test",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:35.552584+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Epilepsy_syndrome_0.1.0.xlsx",
+        "date": "2026-05-07T12:16:35.552584+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
