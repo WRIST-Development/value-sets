@@ -1,0 +1,295 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/seizure-type-825885f3bbea",
+  "name": "seizure-type",
+  "title": "Seizure type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Seizure type</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1287622000",
+            "display": "Neonatal focal clonic epileptic seizure"
+          },
+          {
+            "code": "1287619002",
+            "display": "Neonatal focal automatism epileptic seizure"
+          },
+          {
+            "code": "1287621007",
+            "display": "Neonatal focal tonic epileptic seizure"
+          },
+          {
+            "code": "1287620008",
+            "display": "Neonatal focal epileptic spasms"
+          },
+          {
+            "code": "1287623005",
+            "display": "Neonatal focal epileptic spasms"
+          },
+          {
+            "code": "1287624004",
+            "display": "Neonatal focal autonomic epileptic seizure"
+          },
+          {
+            "code": "1287625003",
+            "display": "Neonatal focal behavioural arrest epileptic seizure"
+          },
+          {
+            "code": "1287618005",
+            "display": "Neonatal focal sequential electro-clinical epileptic seizure"
+          },
+          {
+            "code": "398665005",
+            "display": "Vasovagal syncope"
+          },
+          {
+            "code": "440443001",
+            "display": "Reflex anoxic seizure"
+          },
+          {
+            "code": "713013008",
+            "display": "Breath holding spell"
+          },
+          {
+            "code": "68978004",
+            "display": "Hyperventilation"
+          },
+          {
+            "code": "438113009",
+            "display": "Convulsive syncope"
+          },
+          {
+            "code": "870368003",
+            "display": "Orthostatic intolerance"
+          },
+          {
+            "code": "9651007",
+            "display": "Long QT syndrome"
+          },
+          {
+            "code": "788877005",
+            "display": "Cardiac syncope"
+          },
+          {
+            "code": "1222625002",
+            "display": "Hypercyanotic spell due to congenital heart disease"
+          },
+          {
+            "code": "301795004",
+            "display": "Cyanotic attack"
+          },
+          {
+            "code": "22058002",
+            "display": "Inattention"
+          },
+          {
+            "code": "11882005",
+            "display": "Juvenile masturbation"
+          },
+          {
+            "code": "112090005",
+            "display": "Eidetic images"
+          },
+          {
+            "code": "83943005",
+            "display": "Temper tantrum"
+          },
+          {
+            "code": "307050007",
+            "display": "Out of body experience"
+          },
+          {
+            "code": "225624000",
+            "display": "Panic attack"
+          },
+          {
+            "code": "276300008",
+            "display": "Dissociative stupor"
+          },
+          {
+            "code": "864171000000103",
+            "display": "Non-epileptic attack disorder"
+          },
+          {
+            "code": "7011001",
+            "display": "Hallucinations"
+          },
+          {
+            "code": "50705009",
+            "display": "Factitious disorder"
+          },
+          {
+            "code": "430893009",
+            "display": "Sleep related rhythmic movement disorder"
+          },
+          {
+            "code": "724752004",
+            "display": "Hypnagogic hallucinations"
+          },
+          {
+            "code": "58690002",
+            "display": "Parasomnia"
+          },
+          {
+            "code": "415238003",
+            "display": "REM sleep behaviour disorder"
+          },
+          {
+            "code": "413638006",
+            "display": "Benign neonatal sleep myoclonus"
+          },
+          {
+            "code": "445140006",
+            "display": "Periodic leg movements of sleep"
+          },
+          {
+            "code": "193042000",
+            "display": "Cataplexy and narcolepsy"
+          },
+          {
+            "code": "386783003",
+            "display": "Tic"
+          },
+          {
+            "code": "191992009",
+            "display": "Repetitive routines"
+          },
+          {
+            "code": "609221008",
+            "display": "Paroxysmal kinesigenic dyskinesia"
+          },
+          {
+            "code": "609218006",
+            "display": "Paroxysmal nonkinesigenic dyskinesia"
+          },
+          {
+            "code": "763127004",
+            "display": "Benign paroxysmal tonic upgaze of childhood with ataxia"
+          },
+          {
+            "code": "404689008",
+            "display": "Alternating hemiplegia"
+          },
+          {
+            "code": "19557000",
+            "display": "Hyperexplexia"
+          },
+          {
+            "code": "230350000",
+            "display": "Opsoclonus-myoclonus syndrome"
+          },
+          {
+            "code": "699314009",
+            "display": "Migraine with persistent visual aura"
+          },
+          {
+            "code": "95656000",
+            "display": "Familial hemiplegic migraine"
+          },
+          {
+            "code": "719521002",
+            "display": "Benign paroxysmal torticollis of infancy"
+          },
+          {
+            "code": "111541001",
+            "display": "Benign paroxysmal positional vertigo"
+          },
+          {
+            "code": "18773000",
+            "display": "Cyclical vomiting syndrome"
+          },
+          {
+            "code": "446995005",
+            "display": "Shuddering attacks"
+          },
+          {
+            "code": "51402000",
+            "display": "Jittery newborn"
+          },
+          {
+            "code": "230314007",
+            "display": "Sandifer syndrome"
+          },
+          {
+            "code": "400948003",
+            "display": "Spasmus nutans"
+          },
+          {
+            "code": "271719001",
+            "display": "Raised intracranial pressure"
+          },
+          {
+            "code": "699190008",
+            "display": "Paroxysmal extreme pain disorder"
+          },
+          {
+            "code": "698836007",
+            "display": "Spinal cord myoclonus"
+          },
+          {
+            "code": "421455009",
+            "display": "Episodic ataxia"
+          },
+          {
+            "code": "421182009",
+            "display": "Episodic ataxia type 1"
+          },
+          {
+            "code": "420932006",
+            "display": "Episodic ataxia type 2"
+          },
+          {
+            "code": "718755009",
+            "display": "Episodic ataxia type 3"
+          },
+          {
+            "code": "718754008",
+            "display": "Episodic ataxia type 4"
+          },
+          {
+            "code": "718756005",
+            "display": "Episodic ataxia type 5"
+          },
+          {
+            "code": "718753002",
+            "display": "Episodic ataxia type 6"
+          },
+          {
+            "code": "718752007",
+            "display": "Episodic ataxia type 7"
+          },
+          {
+            "code": "773495009",
+            "display": "Episodic ataxia with slurred speech"
+          },
+          {
+            "code": "46808003",
+            "display": "Marie's cerebellar ataxia"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "seizure-type",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:52.209120+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Seizure_type_0.1.0.xlsx",
+        "date": "2026-05-07T12:16:52.209120+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
