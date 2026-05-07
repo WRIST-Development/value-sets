@@ -1,0 +1,407 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/anaesthesia-complication-2ebe37f2bd3d",
+  "name": "anaesthesia-complication",
+  "title": "Anaesthesia complication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Anaesthesia complication</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "427787004",
+            "display": "Abscess in epidural space of cervical spine"
+          },
+          {
+            "code": "429437003",
+            "display": "Abscess in epidural space of lumbar spine"
+          },
+          {
+            "code": "427916006",
+            "display": "Abscess in epidural space of thoracic spine"
+          },
+          {
+            "code": "737614006",
+            "display": "Accidental awareness during maintenance of general anaesthesia"
+          },
+          {
+            "code": "768804008",
+            "display": "Accidental awareness under general anaesthesia"
+          },
+          {
+            "code": "737615007",
+            "display": "Accidental awareness under general anaesthesia during emergence or extubation"
+          },
+          {
+            "code": "737613000",
+            "display": "Accidental awareness under general anaesthesia during induction or intubation"
+          },
+          {
+            "code": "305352006",
+            "display": "Admission to adult intensive care unit"
+          },
+          {
+            "code": "84901000000108",
+            "display": "Admission to high dependency unit or intensive therapy unit following anaesthetic adverse event"
+          },
+          {
+            "code": "218727000",
+            "display": "Adverse reaction to spinal anaesthetic"
+          },
+          {
+            "code": "735173007",
+            "display": "Anaphylactic shock"
+          },
+          {
+            "code": "79337003",
+            "display": "Anaphylactic transfusion reaction"
+          },
+          {
+            "code": "39579001",
+            "display": "Anaphylaxis"
+          },
+          {
+            "code": "15919521000119106",
+            "display": "Anaphylaxis caused by anaesthetic"
+          },
+          {
+            "code": "15919481000119106",
+            "display": "Anaphylaxis caused by analgesic"
+          },
+          {
+            "code": "8217007",
+            "display": "Arachnoiditis"
+          },
+          {
+            "code": "744853008",
+            "display": "Aspiration of foreign body into lung"
+          },
+          {
+            "code": "35144003",
+            "display": "Aspiration of tooth or dental material"
+          },
+          {
+            "code": "129571008",
+            "display": "Aspiration syndrome in the adult"
+          },
+          {
+            "code": "397829000",
+            "display": "Asystole"
+          },
+          {
+            "code": "703162001",
+            "display": "Bradycardic cardiac arrest"
+          },
+          {
+            "code": "410429000",
+            "display": "Cardiac arrest"
+          },
+          {
+            "code": "410430005",
+            "display": "Cardiorespiratory arrest"
+          },
+          {
+            "code": "699748007",
+            "display": "Cardiorespiratory arrest with successful resuscitation"
+          },
+          {
+            "code": "261195002",
+            "display": "Circulatory arrest"
+          },
+          {
+            "code": "310481001",
+            "display": "Complaining of paraesthesia"
+          },
+          {
+            "code": "718447001",
+            "display": "Difficult intubation"
+          },
+          {
+            "code": "241937000",
+            "display": "Drug-induced anaphylaxis"
+          },
+          {
+            "code": "405600004",
+            "display": "Endobronchial tube wrongly placed during anaesthetic procedure"
+          },
+          {
+            "code": "61974008",
+            "display": "Epidural abscess"
+          },
+          {
+            "code": "192743008",
+            "display": "Epidural intracranial abscess"
+          },
+          {
+            "code": "230204001",
+            "display": "Epidural supratentorial pyogenic abscess"
+          },
+          {
+            "code": "405361005",
+            "display": "Excessive spread of local anaesthetic"
+          },
+          {
+            "code": "359844001",
+            "display": "Extradural infratentorial pyogenic abscess"
+          },
+          {
+            "code": "698826004",
+            "display": "Failed epidural anaesthesia"
+          },
+          {
+            "code": "1263713000",
+            "display": "Failed intubation of larynx"
+          },
+          {
+            "code": "1263712005",
+            "display": "Failed intubation of trachea"
+          },
+          {
+            "code": "763327008",
+            "display": "Failed mask ventilation"
+          },
+          {
+            "code": "698825000",
+            "display": "Failed spinal anaesthesia"
+          },
+          {
+            "code": "766780003",
+            "display": "Failed supraglottic airway ventilation"
+          },
+          {
+            "code": "1264229001",
+            "display": "Fetal cardiac arrest"
+          },
+          {
+            "code": "1163490004",
+            "display": "Fungal spinal epidural abscess"
+          },
+          {
+            "code": "398987004",
+            "display": "Headache following lumbar puncture"
+          },
+          {
+            "code": "428900007",
+            "display": "History of headache after dural puncture"
+          },
+          {
+            "code": "723866006",
+            "display": "Idiopathic ventricular fibrillation not Brugada type"
+          },
+          {
+            "code": "714107007",
+            "display": "Inability to reverse neuromuscular block"
+          },
+          {
+            "code": "830275007",
+            "display": "Inadvertent dural tap"
+          },
+          {
+            "code": "781129002",
+            "display": "Inadvertent dural tap during anaesthesia"
+          },
+          {
+            "code": "397871004",
+            "display": "Incomplete reversal of neuromuscular block"
+          },
+          {
+            "code": "312216007",
+            "display": "Infective meningitis"
+          },
+          {
+            "code": "713419002",
+            "display": "Intraoperative cardiorespiratory arrest"
+          },
+          {
+            "code": "295549004",
+            "display": "Local anaesthetic agent overdose"
+          },
+          {
+            "code": "405501007",
+            "display": "Malignant hyperthermia"
+          },
+          {
+            "code": "288264001",
+            "display": "Maternal anaesthetic/analgesic problem"
+          },
+          {
+            "code": "180906006",
+            "display": "Neonatal cardiac arrest"
+          },
+          {
+            "code": "181869007",
+            "display": "Neonatal cardiorespiratory arrest"
+          },
+          {
+            "code": "57182000",
+            "display": "Nerve injury"
+          },
+          {
+            "code": "448584000",
+            "display": "Neuraxial haematoma"
+          },
+          {
+            "code": "264552009",
+            "display": "Neurological deficit"
+          },
+          {
+            "code": "200071001",
+            "display": "Obstetric spinal and epidural anaesthesia-induced headache"
+          },
+          {
+            "code": "200068009",
+            "display": "Obstetric toxic reaction to local anaesthesia"
+          },
+          {
+            "code": "10756061000119109",
+            "display": "Pain during postpartum period due to and following caesarean section"
+          },
+          {
+            "code": "398058003",
+            "display": "Pain during regional anaesthesia for caesarean section"
+          },
+          {
+            "code": "233915000",
+            "display": "Paroxysmal familial ventricular fibrillation"
+          },
+          {
+            "code": "764873005",
+            "display": "Perioperative pulmonary aspiration"
+          },
+          {
+            "code": "230479008",
+            "display": "Post dural puncture headache"
+          },
+          {
+            "code": "1268344005",
+            "display": "Postoperative anaphylaxis"
+          },
+          {
+            "code": "698504006",
+            "display": "Postoperative cardiopulmonary failure"
+          },
+          {
+            "code": "68052005",
+            "display": "Pulmonary aspiration"
+          },
+          {
+            "code": "25797006",
+            "display": "Pulmonary aspiration of blood"
+          },
+          {
+            "code": "30227006",
+            "display": "Pulmonary aspiration of gastric contents"
+          },
+          {
+            "code": "234172002",
+            "display": "Pulseless electrical activity"
+          },
+          {
+            "code": "309809007",
+            "display": "Pulseless electrical activity with successful resuscitation"
+          },
+          {
+            "code": "405368004",
+            "display": "Regional blockade - excessive cephalad spread of local anaesthesia"
+          },
+          {
+            "code": "200076006",
+            "display": "Spinal and epidural anaesthesia-induced headache during labour and delivery"
+          },
+          {
+            "code": "200072008",
+            "display": "Spinal and epidural anaesthesia-induced headache during pregnancy"
+          },
+          {
+            "code": "200073003",
+            "display": "Spinal and epidural anaesthesia-induced headache during the puerperium"
+          },
+          {
+            "code": "63627007",
+            "display": "Spinal epidural abscess"
+          },
+          {
+            "code": "703861005",
+            "display": "Spinal epidural haematoma"
+          },
+          {
+            "code": "231255000",
+            "display": "Spinal subdural local anaesthetic block"
+          },
+          {
+            "code": "54602006",
+            "display": "Suxamethonium apnoea"
+          },
+          {
+            "code": "277362007",
+            "display": "Total spinal blockade"
+          },
+          {
+            "code": "405363008",
+            "display": "Total spinal nerve blockade following local anaesthetic injection"
+          },
+          {
+            "code": "200069001",
+            "display": "Toxic reaction to local anaesthesia during pregnancy"
+          },
+          {
+            "code": "200070000",
+            "display": "Toxic reaction to local anaesthesia during the puerperium"
+          },
+          {
+            "code": "200075005",
+            "display": "Toxic reaction to local anaesthetic during labour and delivery"
+          },
+          {
+            "code": "397945004",
+            "display": "Unexpected admission to intensive care unit"
+          },
+          {
+            "code": "718446005",
+            "display": "Unexpected difficult airway"
+          },
+          {
+            "code": "718448006",
+            "display": "Unexpected difficult intubation"
+          },
+          {
+            "code": "1263661003",
+            "display": "Unintended oesophageal intubation"
+          },
+          {
+            "code": "71908006",
+            "display": "Ventricular fibrillation"
+          },
+          {
+            "code": "195083004",
+            "display": "Ventricular fibrillation and flutter"
+          },
+          {
+            "code": "398231003",
+            "display": "Wrong route of administration"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "anaesthesia-complication",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:31.629588+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Anaesthesia_complication_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:31.629588+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
