@@ -1,0 +1,383 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-surgery-reason-a7d64e640489",
+  "name": "obstetric-surgery-reason",
+  "title": "Obstetric surgery reason",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric surgery reason</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "704175009",
+            "display": "Acute chorioamnionitis"
+          },
+          {
+            "code": "1091821000000108",
+            "display": "Acute fetal compromise"
+          },
+          {
+            "code": "416413003",
+            "display": "Advanced maternal age gravida"
+          },
+          {
+            "code": "34842007",
+            "display": "Antepartum haemorrhage"
+          },
+          {
+            "code": "90532005",
+            "display": "Central laceration during delivery"
+          },
+          {
+            "code": "11612004",
+            "display": "Chorioamnionitis"
+          },
+          {
+            "code": "237274002",
+            "display": "Concealed placental abruption"
+          },
+          {
+            "code": "445548006",
+            "display": "Dead foetus in utero"
+          },
+          {
+            "code": "275429002",
+            "display": "Delayed delivery of second twin"
+          },
+          {
+            "code": "249196008",
+            "display": "Distress from pain in labour"
+          },
+          {
+            "code": "200164009",
+            "display": "Exhaustion during labour"
+          },
+          {
+            "code": "38451000119105",
+            "display": "Failed attempted vaginal birth after previous caesarean section"
+          },
+          {
+            "code": "17594002",
+            "display": "Fetal bradycardia affecting management of mother"
+          },
+          {
+            "code": "14022007",
+            "display": "Fetal death, affecting management of mother"
+          },
+          {
+            "code": "1208945009",
+            "display": "Fetal disorder due to placental abruption"
+          },
+          {
+            "code": "12867002",
+            "display": "Fetal distress affecting management of mother"
+          },
+          {
+            "code": "816967008",
+            "display": "Fetal distress due to augmentation of labour with oxytocin"
+          },
+          {
+            "code": "267256003",
+            "display": "Fetal distress-affecting care"
+          },
+          {
+            "code": "22033007",
+            "display": "Fetal growth restriction"
+          },
+          {
+            "code": "4006006",
+            "display": "Fetal tachycardia affecting management of mother"
+          },
+          {
+            "code": "57759005",
+            "display": "First degree perineal laceration"
+          },
+          {
+            "code": "70591005",
+            "display": "Foetal disorder"
+          },
+          {
+            "code": "288274003",
+            "display": "Foetal distress - in labour"
+          },
+          {
+            "code": "288273009",
+            "display": "Foetal distress - prelabour"
+          },
+          {
+            "code": "90562004",
+            "display": "Foetal distress, in liveborn infant"
+          },
+          {
+            "code": "7996008",
+            "display": "Foetal intrauterine distress first noted during labour AND/OR delivery in liveborn infant"
+          },
+          {
+            "code": "74796005",
+            "display": "Foetal intrauterine distress noted before labour in liveborn infant"
+          },
+          {
+            "code": "399031001",
+            "display": "Fourth degree perineal laceration"
+          },
+          {
+            "code": "16950007",
+            "display": "Fourth degree perineal laceration involving anal mucosa"
+          },
+          {
+            "code": "34262005",
+            "display": "Fourth degree perineal laceration involving rectal mucosa"
+          },
+          {
+            "code": "199935005",
+            "display": "Fourth degree perineal tear during delivery with postnatal problem"
+          },
+          {
+            "code": "237021000",
+            "display": "Hydrostatic replacement of inverted uterus"
+          },
+          {
+            "code": "237333004",
+            "display": "Hymen tear"
+          },
+          {
+            "code": "724490006",
+            "display": "Intrapartum haemorrhage co-occurrent and due to obstructed labour with uterine rupture"
+          },
+          {
+            "code": "249221003",
+            "display": "Labial tear"
+          },
+          {
+            "code": "1345227001",
+            "display": "Laceration of clitoris"
+          },
+          {
+            "code": "1345228006",
+            "display": "Laceration of clitoris during vaginal delivery of fetus"
+          },
+          {
+            "code": "283970001",
+            "display": "Laceration of female perineum"
+          },
+          {
+            "code": "206267000",
+            "display": "Liveborn with labour abnormal heart beat"
+          },
+          {
+            "code": "206266009",
+            "display": "Liveborn with labour foetal distress"
+          },
+          {
+            "code": "206268005",
+            "display": "Liveborn with labour hypoxia"
+          },
+          {
+            "code": "206269002",
+            "display": "Liveborn with labour meconium in liquor"
+          },
+          {
+            "code": "206262006",
+            "display": "Liveborn with prelabour abnormal heart beat"
+          },
+          {
+            "code": "206260003",
+            "display": "Liveborn with prelabour foetal distress"
+          },
+          {
+            "code": "206263001",
+            "display": "Liveborn with prelabour hypoxia"
+          },
+          {
+            "code": "206264007",
+            "display": "Liveborn with prelabour meconium in liquor"
+          },
+          {
+            "code": "237022007",
+            "display": "Manual replacement of inverted uterus"
+          },
+          {
+            "code": "9838004",
+            "display": "Manual replacement of obstetrical inverted uterus"
+          },
+          {
+            "code": "408855004",
+            "display": "Maternal choice"
+          },
+          {
+            "code": "87383005",
+            "display": "Maternal distress"
+          },
+          {
+            "code": "10808861000119105",
+            "display": "Maternal distress during childbirth"
+          },
+          {
+            "code": "704144000",
+            "display": "Maternal history of diabetes mellitus"
+          },
+          {
+            "code": "16356006",
+            "display": "Multiple pregnancy"
+          },
+          {
+            "code": "130955003",
+            "display": "Nonreassuring fetal status"
+          },
+          {
+            "code": "398019008",
+            "display": "Perineal laceration during delivery"
+          },
+          {
+            "code": "237296008",
+            "display": "Placenta accreta spectrum"
+          },
+          {
+            "code": "36813001",
+            "display": "Placenta praevia"
+          },
+          {
+            "code": "415105001",
+            "display": "Placental abruption"
+          },
+          {
+            "code": "47821001",
+            "display": "Postpartum haemorrhage"
+          },
+          {
+            "code": "724496000",
+            "display": "Postpartum haemorrhage co-occurrent and due to uterine rupture following obstructed labour"
+          },
+          {
+            "code": "1148794004",
+            "display": "Postpartum haemorrhage with retained placenta"
+          },
+          {
+            "code": "398254007",
+            "display": "Pre-eclampsia"
+          },
+          {
+            "code": "198912003",
+            "display": "Premature separation of placenta with coagulation defect"
+          },
+          {
+            "code": "270500004",
+            "display": "Prolapsed cord"
+          },
+          {
+            "code": "19644003",
+            "display": "Repair of inverted uterus"
+          },
+          {
+            "code": "22213003",
+            "display": "Repair of inverted uterus by vaginal approach"
+          },
+          {
+            "code": "109894007",
+            "display": "Retained placenta"
+          },
+          {
+            "code": "699949009",
+            "display": "Retained placenta due to morbidly adherent placenta"
+          },
+          {
+            "code": "111453004",
+            "display": "Retained placenta, without haemorrhage"
+          },
+          {
+            "code": "109895008",
+            "display": "Retained placental fragment"
+          },
+          {
+            "code": "371374003",
+            "display": "Retained products of conception"
+          },
+          {
+            "code": "1148941002",
+            "display": "Retention of part of placenta and uterine membrane without haemorrhage"
+          },
+          {
+            "code": "1148942009",
+            "display": "Retention of part of placenta without haemorrhage"
+          },
+          {
+            "code": "1148943004",
+            "display": "Retention of placenta and uterine membrane"
+          },
+          {
+            "code": "237273008",
+            "display": "Revealed placental abruption"
+          },
+          {
+            "code": "34430009",
+            "display": "Rupture of uterus"
+          },
+          {
+            "code": "6234006",
+            "display": "Second degree perineal laceration"
+          },
+          {
+            "code": "1125006",
+            "display": "Sepsis during labour"
+          },
+          {
+            "code": "309738002",
+            "display": "Fetal macrosomia suspected"
+          },
+          {
+            "code": "10217006",
+            "display": "Third degree perineal laceration"
+          },
+          {
+            "code": "29171003",
+            "display": "Trapped placenta"
+          },
+          {
+            "code": "36497006",
+            "display": "Traumatic extension of episiotomy"
+          },
+          {
+            "code": "65147003",
+            "display": "Twin pregnancy"
+          },
+          {
+            "code": "449807005",
+            "display": "Type 3a third degree laceration of perineum"
+          },
+          {
+            "code": "449808000",
+            "display": "Type 3b third degree laceration of perineum"
+          },
+          {
+            "code": "449809008",
+            "display": "Type 3c third degree laceration of perineum"
+          },
+          {
+            "code": "237332009",
+            "display": "Vulval tear"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-surgery-reason",
+    "collection": "value-sets-excel-imports",
+    "updatedAt": "2026-05-07T12:16:49.004478+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Obstetric_surgery_reason_1.0.0.xlsx",
+        "date": "2026-05-07T12:16:49.004478+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
