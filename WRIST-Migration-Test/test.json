@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "title": "test",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "38893711000001104",
+            "display": "Metformin 1g modified-release tablets"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "test",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-c09c39fbb0ef",
+  "description": "<p>Use dm+d VMP concepts</p>",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "38893711000001104": {
+        "action": "include",
+        "code": "38893711000001104",
+        "display": "Metformin 1g modified-release tablets",
+        "level": "VMP"
+      }
+    }
+  },
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "test",
+    "collection": "WRIST-Migration-Test",
+    "updatedAt": "2026-05-08T23:01:27.244259+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-08T23:01:27.244259+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
