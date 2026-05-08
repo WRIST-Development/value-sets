@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "ethnic catagory",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/ethnic_category.html",
+  "name": "ethnic-catagory",
+  "description": "<p>NHS Data Dictionary ethnic category codes</p>",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/ethnic_category.html",
+    "display": "ethnic catagory"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "ethnic-catagory",
+    "collection": "WRIST-Migration-Test",
+    "updatedAt": "2026-05-08T23:02:15.815241+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-08T23:02:15.815241+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
