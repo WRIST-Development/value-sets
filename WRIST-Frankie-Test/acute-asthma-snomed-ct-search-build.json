@@ -23,6 +23,21 @@
         "code": "10692721000119102",
         "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
         "action": "exclude"
+      },
+      {
+        "code": "707446004",
+        "display": "Exacerbation of moderate persistent asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "707445000",
+        "display": "Exacerbation of mild persistent asthma",
+        "action": "exclude"
+      },
+      {
+        "code": "707447008",
+        "display": "Exacerbation of severe persistent asthma",
+        "action": "exclude"
       }
     ],
     "search": {
@@ -41,17 +56,23 @@
         "version": 1
       },
       {
-        "version": 2,
-        "reason": "changesd someting",
+        "author": "FrankiePH",
         "date": "2026-04-28T08:13:29.088482+00:00",
+        "reason": "changesd someting",
+        "version": 2
+      },
+      {
+        "version": "2-build.1.0",
+        "reason": "removed codes",
+        "date": "2026-05-08T20:50:15.701107+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-04-28T08:13:29.088482+00:00",
-    "version": 2
+    "updatedAt": "2026-05-08T20:50:15.701107+00:00",
+    "version": "2-build.1.0"
   },
   "compose": {
     "exclude": [
@@ -64,6 +85,18 @@
           {
             "code": "10692721000119102",
             "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
+          },
+          {
+            "code": "707446004",
+            "display": "Exacerbation of moderate persistent asthma"
+          },
+          {
+            "code": "707445000",
+            "display": "Exacerbation of mild persistent asthma"
+          },
+          {
+            "code": "707447008",
+            "display": "Exacerbation of severe persistent asthma"
           }
         ],
         "system": "http://snomed.info/sct"
