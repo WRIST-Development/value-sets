@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Route of Administration",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<< 284009009 |Route of administration value|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "RouteOfAdministration",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Route of Administration</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/routeofadministration-8ae24ab7f326",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "route-of-administration",
+    "collection": "WRIST-Migration-Test",
+    "updatedAt": "2026-05-08T23:01:41.112893+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-08T23:01:41.112893+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
