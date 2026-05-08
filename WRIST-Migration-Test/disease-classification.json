@@ -9,25 +9,25 @@
         "system": "http://hl7.org/fhir/sid/icd-10",
         "concept": [
           {
-            "code": "A00-B99"
+            "code": "C00-D49"
           }
         ]
       }
     ]
   },
-  "description": "<p>ICD-10 chapter codes for infectious diseases</p>\n\n<p>ICD-10 chapter codes for infectious diseases</p>\n\nExpression: A00-B99",
+  "description": "<p>ICD-10 chapter codes for neoplasms</p>\n\n<p>ICD-10 chapter codes for neoplasms</p>\n\nExpression: C00-D49",
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "disease-classification",
     "collection": "WRIST-Migration-Test",
-    "updatedAt": "2026-05-08T23:02:23.150874+00:00",
+    "updatedAt": "2026-05-08T23:02:31.386290+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "Migrated from legacy value set: ICD Diagnosis Code",
-        "date": "2026-05-08T23:02:23.150874+00:00",
+        "version": "1-build.0.1",
+        "reason": "Migrated from legacy value set: ICD Procedure Code",
+        "date": "2026-05-08T23:02:31.386290+00:00",
         "author": "FrankiePH"
       }
     ]
