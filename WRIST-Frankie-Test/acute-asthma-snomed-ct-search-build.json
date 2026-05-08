@@ -10,6 +10,10 @@
       {
         "code": "32398004",
         "display": "Bronchitis"
+      },
+      {
+        "code": "10713101000001100",
+        "display": "Bronchosan"
       }
     ],
     "decisions": [
@@ -47,13 +51,18 @@
         "code": "32398004",
         "display": "Bronchitis",
         "action": "include-only"
+      },
+      {
+        "code": "10713101000001100",
+        "display": "Bronchosan",
+        "action": "include-only"
       }
     ],
     "search": {
       "query": "bron",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "32398004"
+      "inspectingCode": "10713101000001100"
     }
   },
   "_libraryMeta": {
@@ -77,17 +86,23 @@
         "version": "2-build.1.0"
       },
       {
-        "version": "2.0.0",
-        "reason": "added Bronchitis",
+        "author": "FrankiePH",
         "date": "2026-05-08T21:00:05.997375+00:00",
+        "reason": "added Bronchitis",
+        "version": "2.0.0"
+      },
+      {
+        "version": "2.0.1",
+        "reason": "added Bronchosan",
+        "date": "2026-05-08T21:10:13.641205+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-08T21:00:05.997375+00:00",
-    "version": "2.0.0"
+    "updatedAt": "2026-05-08T21:10:13.641205+00:00",
+    "version": "2.0.1"
   },
   "compose": {
     "exclude": [
@@ -127,6 +142,10 @@
           {
             "code": "32398004",
             "display": "Bronchitis"
+          },
+          {
+            "code": "10713101000001100",
+            "display": "Bronchosan"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -142,5 +161,5 @@
     "status": "generated"
   },
   "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-79b2135b6869"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-5f484f04c8d7"
 }
