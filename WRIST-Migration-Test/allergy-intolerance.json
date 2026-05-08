@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Allergy Intolerance",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<< 420134006 |Propensity to adverse reaction|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "AllergyIntolerance",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Allergy Intolerance</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/allergyintolerance-9ddde502d999",
+  "description": "<p>SNOMED allergy codes</p>",
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "allergy-intolerance",
+    "collection": "WRIST-Migration-Test",
+    "updatedAt": "2026-05-08T23:00:40.001450+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-08T23:00:40.001450+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
