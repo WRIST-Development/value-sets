@@ -1,7 +1,67 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Asthma",
-  "status": "draft",
+  "_bindingStrength": "preferred",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "195967001",
+        "display": "Asthma"
+      },
+      {
+        "code": "702823004",
+        "display": "Asthma clinic"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include"
+      },
+      {
+        "code": "72301000119103",
+        "display": "Asthma in pregnancy",
+        "action": "exclude"
+      },
+      {
+        "code": "10742121000119104",
+        "display": "Asthma in mother complicating childbirth",
+        "action": "exclude"
+      },
+      {
+        "code": "702823004",
+        "display": "Asthma clinic",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "702823004"
+    }
+  },
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-05-01T09:43:19.458774+00:00",
+        "reason": "init",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "added Asthma clinic",
+        "date": "2026-05-11T11:04:44.479269+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "WRIST-value-sets-testing",
+    "createdBy": "FrankiePH",
+    "slug": "asthma",
+    "updatedAt": "2026-05-11T11:04:44.479269+00:00",
+    "version": "1-build.0.1"
+  },
   "compose": {
     "exclude": [
       {
@@ -24,65 +84,24 @@
           {
             "code": "195967001",
             "display": "Asthma"
+          },
+          {
+            "code": "702823004",
+            "display": "Asthma clinic"
           }
         ],
         "system": "http://snomed.info/sct"
       }
     ]
   },
+  "description": "Testing value sets commenting",
   "name": "Asthma",
+  "resourceType": "ValueSet",
+  "status": "active",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Asthma</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-e9a9907a7ccd",
-  "description": "Testing value sets commenting",
-  "_builderState": {
-    "mode": "snomed-tree",
-    "roots": [
-      {
-        "code": "195967001",
-        "display": "Asthma"
-      }
-    ],
-    "decisions": [
-      {
-        "code": "195967001",
-        "display": "Asthma",
-        "action": "include"
-      },
-      {
-        "code": "72301000119103",
-        "display": "Asthma in pregnancy",
-        "action": "exclude"
-      },
-      {
-        "code": "10742121000119104",
-        "display": "Asthma in mother complicating childbirth",
-        "action": "exclude"
-      }
-    ],
-    "search": {
-      "query": "asth",
-      "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "195967001"
-    }
-  },
-  "_bindingStrength": "preferred",
-  "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "asthma",
-    "collection": "WRIST-value-sets-testing",
-    "updatedAt": "2026-05-01T09:43:19.458774+00:00",
-    "createdBy": "FrankiePH",
-    "changeLog": [
-      {
-        "version": "1-build.0.0",
-        "reason": "init",
-        "date": "2026-05-01T09:43:19.458774+00:00",
-        "author": "FrankiePH"
-      }
-    ]
-  }
+  "title": "Asthma",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-2b4e7bfbaa4b"
 }
