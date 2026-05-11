@@ -1,5 +1,12 @@
 {
   "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "195967001",
+        "display": "Asthma"
+      }
+    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -7,18 +14,11 @@
         "display": "Asthma"
       }
     ],
-    "decisions": [
-      {
-        "code": "195967001",
-        "display": "Asthma",
-        "action": "include"
-      }
-    ],
     "search": {
-      "query": "asthma",
       "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "195967001"
+      "inspectingCode": "195967001",
+      "query": "asthma",
+      "refsetCode": ""
     }
   },
   "_libraryMeta": {
@@ -36,17 +36,23 @@
         "version": "1.0.0"
       },
       {
-        "version": "1.0.1",
-        "reason": "added USA",
+        "author": "FrankiePH",
         "date": "2026-05-11T16:28:28.803544+00:00",
+        "reason": "added USA",
+        "version": "1.0.1"
+      },
+      {
+        "version": "1.0.2",
+        "reason": "Updated jurisdiction",
+        "date": "2026-05-11T16:33:55.777016+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-MayTesting26",
     "createdBy": "FrankiePH",
     "slug": "geographic-usage-test",
-    "updatedAt": "2026-05-11T16:28:28.803544+00:00",
-    "version": "1.0.1"
+    "updatedAt": "2026-05-11T16:33:55.777016+00:00",
+    "version": "1.0.2"
   },
   "compose": {
     "include": [
@@ -83,6 +89,9 @@
     },
     {
       "text": "USA"
+    },
+    {
+      "text": "test"
     }
   ],
   "resourceType": "ValueSet",
