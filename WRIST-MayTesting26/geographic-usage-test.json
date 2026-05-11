@@ -1,41 +1,4 @@
 {
-  "_libraryMeta": {
-    "changeLog": [
-      {
-        "author": "FrankiePH",
-        "date": "2026-05-11T16:10:55.742767+00:00",
-        "reason": "Initial creation",
-        "version": "1-build.0.0"
-      },
-      {
-        "version": "1.0.0",
-        "reason": "init",
-        "date": "2026-05-11T16:25:49.327860+00:00",
-        "author": "FrankiePH"
-      }
-    ],
-    "collection": "WRIST-MayTesting26",
-    "createdBy": "FrankiePH",
-    "slug": "geographic-usage-test",
-    "updatedAt": "2026-05-11T16:25:49.327860+00:00",
-    "version": "1.0.0"
-  },
-  "compose": {
-    "include": [
-      {
-        "concept": [
-          {
-            "code": "195967001",
-            "display": "Asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ]
-  },
-  "resourceType": "ValueSet",
-  "status": "draft",
-  "title": "geographic usage test",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -58,7 +21,46 @@
       "inspectingCode": "195967001"
     }
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/geographic-usage-test-e9a9907a7ccd",
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "FrankiePH",
+        "date": "2026-05-11T16:10:55.742767+00:00",
+        "reason": "Initial creation",
+        "version": "1-build.0.0"
+      },
+      {
+        "author": "FrankiePH",
+        "date": "2026-05-11T16:25:49.327860+00:00",
+        "reason": "init",
+        "version": "1.0.0"
+      },
+      {
+        "version": "1.0.1",
+        "reason": "added USA",
+        "date": "2026-05-11T16:28:28.803544+00:00",
+        "author": "FrankiePH"
+      }
+    ],
+    "collection": "WRIST-MayTesting26",
+    "createdBy": "FrankiePH",
+    "slug": "geographic-usage-test",
+    "updatedAt": "2026-05-11T16:28:28.803544+00:00",
+    "version": "1.0.1"
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
   "description": "",
   "jurisdiction": [
     {
@@ -78,6 +80,13 @@
           "display": "Northern Ireland"
         }
       ]
+    },
+    {
+      "text": "USA"
     }
-  ]
+  ],
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "title": "geographic usage test",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/geographic-usage-test-e9a9907a7ccd"
 }
