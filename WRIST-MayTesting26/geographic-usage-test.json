@@ -1,24 +1,83 @@
 {
-  "resourceType": "ValueSet",
-  "title": "geographic usage test",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "geographic-usage-test",
-    "collection": "WRIST-MayTesting26",
-    "updatedAt": "2026-05-11T16:10:55.742767+00:00",
-    "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "Initial creation",
+        "author": "FrankiePH",
         "date": "2026-05-11T16:10:55.742767+00:00",
+        "reason": "Initial creation",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1.0.0",
+        "reason": "init",
+        "date": "2026-05-11T16:25:49.327860+00:00",
         "author": "FrankiePH"
       }
+    ],
+    "collection": "WRIST-MayTesting26",
+    "createdBy": "FrankiePH",
+    "slug": "geographic-usage-test",
+    "updatedAt": "2026-05-11T16:25:49.327860+00:00",
+    "version": "1.0.0"
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "195967001",
+            "display": "Asthma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
     ]
-  }
+  },
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "title": "geographic usage test",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "195967001",
+        "display": "Asthma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "asthma",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "195967001"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/geographic-usage-test-e9a9907a7ccd",
+  "description": "",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ]
 }
