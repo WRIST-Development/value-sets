@@ -1,6 +1,43 @@
 {
   "_bindingStrength": "preferred",
   "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "281239006",
+        "display": "Acute asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "708094006",
+        "display": "Acute exacerbation of intrinsic asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "10692721000119102",
+        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707446004",
+        "display": "Exacerbation of moderate persistent asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707445000",
+        "display": "Exacerbation of mild persistent asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707447008",
+        "display": "Exacerbation of severe persistent asthma"
+      },
+      {
+        "action": "include-only",
+        "code": "32398004",
+        "display": "Bronchitis"
+      }
+    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -12,48 +49,11 @@
         "display": "Bronchitis"
       }
     ],
-    "decisions": [
-      {
-        "code": "281239006",
-        "display": "Acute asthma",
-        "action": "include"
-      },
-      {
-        "code": "708094006",
-        "display": "Acute exacerbation of intrinsic asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "10692721000119102",
-        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707446004",
-        "display": "Exacerbation of moderate persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707445000",
-        "display": "Exacerbation of mild persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707447008",
-        "display": "Exacerbation of severe persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "32398004",
-        "display": "Bronchitis",
-        "action": "include-only"
-      }
-    ],
     "search": {
-      "query": "bron",
       "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "32398004"
+      "inspectingCode": "32398004",
+      "query": "bron",
+      "refsetCode": ""
     }
   },
   "_libraryMeta": {
@@ -83,17 +83,23 @@
         "version": "2.0.0"
       },
       {
-        "version": "2.0.2",
-        "reason": "restored",
+        "author": "FrankiePH",
         "date": "2026-05-08T22:07:34.477990+00:00",
+        "reason": "restored",
+        "version": "2.0.2"
+      },
+      {
+        "version": "2.0.3",
+        "reason": "Updated jurisdiction",
+        "date": "2026-05-11T16:35:03.593483+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-08T22:07:34.477990+00:00",
-    "version": "2.0.2"
+    "updatedAt": "2026-05-11T16:35:03.593483+00:00",
+    "version": "2.0.3"
   },
   "compose": {
     "exclude": [
@@ -148,5 +154,16 @@
     "status": "generated"
   },
   "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-79b2135b6869"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-79b2135b6869",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB",
+          "display": "United Kingdom"
+        }
+      ]
+    }
+  ]
 }
