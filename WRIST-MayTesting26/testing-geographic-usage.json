@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "title": "testing geographic usage",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "testing-geographic-usage",
+    "collection": "WRIST-MayTesting26",
+    "updatedAt": "2026-05-11T13:10:34.674089+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-05-11T13:10:34.674089+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
