@@ -89,17 +89,23 @@
         "version": "2.0.2"
       },
       {
-        "version": "2.0.3",
-        "reason": "Updated jurisdiction",
+        "author": "FrankiePH",
         "date": "2026-05-11T16:35:03.593483+00:00",
+        "reason": "Updated jurisdiction",
+        "version": "2.0.3"
+      },
+      {
+        "version": "2.0.4",
+        "reason": "Updated jurisdiction",
+        "date": "2026-05-11T21:14:01.974136+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-11T16:35:03.593483+00:00",
-    "version": "2.0.3"
+    "updatedAt": "2026-05-11T21:14:01.974136+00:00",
+    "version": "2.0.4"
   },
   "compose": {
     "exclude": [
@@ -146,15 +152,6 @@
     ]
   },
   "description": "blah blah blah",
-  "name": "acute-asthma",
-  "resourceType": "ValueSet",
-  "status": "active",
-  "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
-    "status": "generated"
-  },
-  "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-79b2135b6869",
   "jurisdiction": [
     {
       "coding": [
@@ -164,6 +161,24 @@
           "display": "United Kingdom"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
     }
-  ]
+  ],
+  "name": "acute-asthma",
+  "resourceType": "ValueSet",
+  "status": "active",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
+    "status": "generated"
+  },
+  "title": "Acute Asthma (Snomed CT Search & Build)",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-79b2135b6869"
 }
