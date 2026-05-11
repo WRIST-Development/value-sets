@@ -95,17 +95,23 @@
         "version": "2.0.3"
       },
       {
-        "version": "2.0.4",
-        "reason": "Updated jurisdiction",
+        "author": "FrankiePH",
         "date": "2026-05-11T21:14:01.974136+00:00",
+        "reason": "Updated jurisdiction",
+        "version": "2.0.4"
+      },
+      {
+        "version": "2.0.5",
+        "reason": "Updated jurisdiction",
+        "date": "2026-05-11T21:14:10.294357+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-11T21:14:01.974136+00:00",
-    "version": "2.0.4"
+    "updatedAt": "2026-05-11T21:14:10.294357+00:00",
+    "version": "2.0.5"
   },
   "compose": {
     "exclude": [
@@ -170,6 +176,9 @@
           "display": "Northern Ireland"
         }
       ]
+    },
+    {
+      "text": "test"
     }
   ],
   "name": "acute-asthma",
