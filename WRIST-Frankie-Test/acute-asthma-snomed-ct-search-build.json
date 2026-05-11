@@ -101,17 +101,23 @@
         "version": "2.0.4"
       },
       {
-        "version": "2.0.5",
-        "reason": "Updated jurisdiction",
+        "author": "FrankiePH",
         "date": "2026-05-11T21:14:10.294357+00:00",
+        "reason": "Updated jurisdiction",
+        "version": "2.0.5"
+      },
+      {
+        "version": "2.0.6",
+        "reason": "added scotland",
+        "date": "2026-05-11T21:16:43.549517+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-11T21:14:10.294357+00:00",
-    "version": "2.0.5"
+    "updatedAt": "2026-05-11T21:16:43.549517+00:00",
+    "version": "2.0.6"
   },
   "compose": {
     "exclude": [
@@ -172,6 +178,15 @@
       "coding": [
         {
           "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
           "code": "GB-NIR",
           "display": "Northern Ireland"
         }
@@ -183,7 +198,7 @@
   ],
   "name": "acute-asthma",
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Acute Asthma (Snomed CT Search &amp; Build)</p></div>",
     "status": "generated"
