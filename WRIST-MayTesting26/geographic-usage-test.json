@@ -42,17 +42,23 @@
         "version": "1.0.1"
       },
       {
-        "version": "1.0.2",
-        "reason": "Updated jurisdiction",
+        "author": "FrankiePH",
         "date": "2026-05-11T16:33:55.777016+00:00",
+        "reason": "Updated jurisdiction",
+        "version": "1.0.2"
+      },
+      {
+        "version": "1.0.3",
+        "reason": "Updated jurisdiction",
+        "date": "2026-05-11T16:34:05.487846+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-MayTesting26",
     "createdBy": "FrankiePH",
     "slug": "geographic-usage-test",
-    "updatedAt": "2026-05-11T16:33:55.777016+00:00",
-    "version": "1.0.2"
+    "updatedAt": "2026-05-11T16:34:05.487846+00:00",
+    "version": "1.0.3"
   },
   "compose": {
     "include": [
@@ -89,9 +95,6 @@
     },
     {
       "text": "USA"
-    },
-    {
-      "text": "test"
     }
   ],
   "resourceType": "ValueSet",
