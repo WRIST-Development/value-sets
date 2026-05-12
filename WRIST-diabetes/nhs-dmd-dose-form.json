@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "NHS dm+d dose form",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "^999000781000001107"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "SnomedDoseForm",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>NHS dm+d dose form</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snomeddoseform-45891536eb8f",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "nhs-dmd-dose-form",
+    "collection": "WRIST-diabetes",
+    "updatedAt": "2026-05-12T15:15:09.671630+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-12T15:15:09.671630+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
