@@ -1,6 +1,28 @@
 {
   "_bindingStrength": "preferred",
   "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "195967001",
+        "display": "Asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "72301000119103",
+        "display": "Asthma in pregnancy"
+      },
+      {
+        "action": "exclude",
+        "code": "10742121000119104",
+        "display": "Asthma in mother complicating childbirth"
+      },
+      {
+        "action": "include",
+        "code": "702823004",
+        "display": "Asthma clinic"
+      }
+    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -12,33 +34,11 @@
         "display": "Asthma clinic"
       }
     ],
-    "decisions": [
-      {
-        "code": "195967001",
-        "display": "Asthma",
-        "action": "include"
-      },
-      {
-        "code": "72301000119103",
-        "display": "Asthma in pregnancy",
-        "action": "exclude"
-      },
-      {
-        "code": "10742121000119104",
-        "display": "Asthma in mother complicating childbirth",
-        "action": "exclude"
-      },
-      {
-        "code": "702823004",
-        "display": "Asthma clinic",
-        "action": "include"
-      }
-    ],
     "search": {
-      "query": "asth",
       "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "702823004"
+      "inspectingCode": "702823004",
+      "query": "asth",
+      "refsetCode": ""
     }
   },
   "_libraryMeta": {
@@ -50,17 +50,23 @@
         "version": "1-build.0.0"
       },
       {
-        "version": "1-build.0.1",
-        "reason": "added Asthma clinic",
+        "author": "FrankiePH",
         "date": "2026-05-11T11:04:44.479269+00:00",
+        "reason": "added Asthma clinic",
+        "version": "1-build.0.1"
+      },
+      {
+        "version": "1-build.0.2",
+        "reason": "added test",
+        "date": "2026-05-12T13:17:15.537247+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-value-sets-testing",
     "createdBy": "FrankiePH",
     "slug": "asthma",
-    "updatedAt": "2026-05-11T11:04:44.479269+00:00",
-    "version": "1-build.0.1"
+    "updatedAt": "2026-05-12T13:17:15.537247+00:00",
+    "version": "1-build.0.2"
   },
   "compose": {
     "exclude": [
@@ -103,5 +109,10 @@
     "status": "generated"
   },
   "title": "Asthma",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-2b4e7bfbaa4b"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-2b4e7bfbaa4b",
+  "jurisdiction": [
+    {
+      "text": "test"
+    }
+  ]
 }
