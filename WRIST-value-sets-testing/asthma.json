@@ -56,17 +56,23 @@
         "version": "1-build.0.1"
       },
       {
-        "version": "1-build.0.2",
-        "reason": "added test",
+        "author": "FrankiePH",
         "date": "2026-05-12T13:17:15.537247+00:00",
+        "reason": "added test",
+        "version": "1-build.0.2"
+      },
+      {
+        "version": "1-build.0.3",
+        "reason": "test",
+        "date": "2026-05-12T13:17:25.181873+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-value-sets-testing",
     "createdBy": "FrankiePH",
     "slug": "asthma",
-    "updatedAt": "2026-05-12T13:17:15.537247+00:00",
-    "version": "1-build.0.2"
+    "updatedAt": "2026-05-12T13:17:25.181873+00:00",
+    "version": "1-build.0.3"
   },
   "compose": {
     "exclude": [
@@ -101,18 +107,33 @@
     ]
   },
   "description": "Testing value sets commenting",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    }
+  ],
   "name": "Asthma",
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Asthma</p></div>",
     "status": "generated"
   },
   "title": "Asthma",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-2b4e7bfbaa4b",
-  "jurisdiction": [
-    {
-      "text": "test"
-    }
-  ]
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/asthma-2b4e7bfbaa4b"
 }
