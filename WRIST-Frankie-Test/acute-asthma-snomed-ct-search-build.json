@@ -1,6 +1,48 @@
 {
   "_bindingStrength": "preferred",
   "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "281239006",
+        "display": "Acute asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "708094006",
+        "display": "Acute exacerbation of intrinsic asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "10692721000119102",
+        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707446004",
+        "display": "Exacerbation of moderate persistent asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707445000",
+        "display": "Exacerbation of mild persistent asthma"
+      },
+      {
+        "action": "exclude",
+        "code": "707447008",
+        "display": "Exacerbation of severe persistent asthma"
+      },
+      {
+        "action": "include",
+        "code": "154991000001102",
+        "display": "Bronchlear"
+      },
+      {
+        "action": "include-only",
+        "code": "10713101000001100",
+        "display": "Bronchosan"
+      }
+    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -24,53 +66,11 @@
         "display": "Bronchiolectasis"
       }
     ],
-    "decisions": [
-      {
-        "code": "281239006",
-        "display": "Acute asthma",
-        "action": "include"
-      },
-      {
-        "code": "708094006",
-        "display": "Acute exacerbation of intrinsic asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "10692721000119102",
-        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707446004",
-        "display": "Exacerbation of moderate persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707445000",
-        "display": "Exacerbation of mild persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707447008",
-        "display": "Exacerbation of severe persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "154991000001102",
-        "display": "Bronchlear",
-        "action": "include"
-      },
-      {
-        "code": "10713101000001100",
-        "display": "Bronchosan",
-        "action": "include-only"
-      }
-    ],
     "search": {
-      "query": "bron",
       "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "29424000"
+      "inspectingCode": "29424000",
+      "query": "bron",
+      "refsetCode": ""
     }
   },
   "_libraryMeta": {
@@ -154,17 +154,23 @@
         "version": "2.0.10"
       },
       {
-        "version": "2.0.11",
-        "reason": "removed Bronchiolectasis",
+        "author": "FrankiePH",
         "date": "2026-05-13T14:03:30.105235+00:00",
+        "reason": "removed Bronchiolectasis",
+        "version": "2.0.11"
+      },
+      {
+        "version": "2.0.12",
+        "reason": "changed geo usage",
+        "date": "2026-05-13T18:35:25.962028+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-13T14:03:30.105235+00:00",
-    "version": "2.0.11"
+    "updatedAt": "2026-05-13T18:35:25.962028+00:00",
+    "version": "2.0.12"
   },
   "compose": {
     "exclude": [
@@ -219,15 +225,6 @@
     {
       "coding": [
         {
-          "system": "urn:iso:std:iso:3166",
-          "code": "GB",
-          "display": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
           "system": "urn:iso:std:iso:3166:-2",
           "code": "GB-SCT",
           "display": "Scotland"
@@ -242,9 +239,6 @@
           "display": "Northern Ireland"
         }
       ]
-    },
-    {
-      "text": "test"
     }
   ],
   "name": "acute-asthma",
