@@ -64,11 +64,6 @@
         "code": "10713101000001100",
         "display": "Bronchosan",
         "action": "include-only"
-      },
-      {
-        "code": "29424000",
-        "display": "Bronchiolectasis",
-        "action": "include-only"
       }
     ],
     "search": {
@@ -153,17 +148,23 @@
         "version": "2.0.9"
       },
       {
-        "version": "2.0.10",
-        "reason": "added Bronchiolectasis",
+        "author": "FrankiePH",
         "date": "2026-05-13T13:56:35.847550+00:00",
+        "reason": "added Bronchiolectasis",
+        "version": "2.0.10"
+      },
+      {
+        "version": "2.0.11",
+        "reason": "removed Bronchiolectasis",
+        "date": "2026-05-13T14:03:30.105235+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-13T13:56:35.847550+00:00",
-    "version": "2.0.10"
+    "updatedAt": "2026-05-13T14:03:30.105235+00:00",
+    "version": "2.0.11"
   },
   "compose": {
     "exclude": [
@@ -207,10 +208,6 @@
           {
             "code": "10713101000001100",
             "display": "Bronchosan"
-          },
-          {
-            "code": "29424000",
-            "display": "Bronchiolectasis"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -258,5 +255,5 @@
     "status": "generated"
   },
   "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-4743662bc1a8"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-d71d9aa4dd7f"
 }
