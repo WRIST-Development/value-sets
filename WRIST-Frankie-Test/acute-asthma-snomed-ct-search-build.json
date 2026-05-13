@@ -14,6 +14,10 @@
       {
         "code": "154991000001102",
         "display": "Bronchlear"
+      },
+      {
+        "code": "10713101000001100",
+        "display": "Bronchosan"
       }
     ],
     "decisions": [
@@ -56,13 +60,18 @@
         "code": "154991000001102",
         "display": "Bronchlear",
         "action": "include"
+      },
+      {
+        "code": "10713101000001100",
+        "display": "Bronchosan",
+        "action": "include-only"
       }
     ],
     "search": {
       "query": "bron",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "154991000001102"
+      "inspectingCode": "10713101000001100"
     }
   },
   "_libraryMeta": {
@@ -122,17 +131,23 @@
         "version": "2.0.6"
       },
       {
-        "version": "2.0.7",
-        "reason": "added Bronchlear",
+        "author": "FrankiePH",
         "date": "2026-05-13T12:30:03.188459+00:00",
+        "reason": "added Bronchlear",
+        "version": "2.0.7"
+      },
+      {
+        "version": "2.0.8",
+        "reason": "added Bronchosan",
+        "date": "2026-05-13T13:27:41.235455+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-13T12:30:03.188459+00:00",
-    "version": "2.0.7"
+    "updatedAt": "2026-05-13T13:27:41.235455+00:00",
+    "version": "2.0.8"
   },
   "compose": {
     "exclude": [
@@ -176,6 +191,10 @@
           {
             "code": "154991000001102",
             "display": "Bronchlear"
+          },
+          {
+            "code": "10713101000001100",
+            "display": "Bronchosan"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -223,5 +242,5 @@
     "status": "generated"
   },
   "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-8db6f11b194d"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-f33c7d39f5f1"
 }
