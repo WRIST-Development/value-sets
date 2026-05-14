@@ -1,6 +1,14 @@
 {
   "_bindingStrength": "preferred",
   "_builderState": {
+    "decisions": [
+      {
+        "action": "include",
+        "code": "195967001",
+        "display": "Asthma",
+        "operator": "descendantOf"
+      }
+    ],
     "mode": "snomed-tree",
     "roots": [
       {
@@ -8,19 +16,11 @@
         "display": "Asthma"
       }
     ],
-    "decisions": [
-      {
-        "code": "195967001",
-        "display": "Asthma",
-        "action": "include",
-        "operator": "descendantOf"
-      }
-    ],
     "search": {
-      "query": "asth",
       "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "195967001"
+      "inspectingCode": "195967001",
+      "query": "asth",
+      "refsetCode": ""
     }
   },
   "_libraryMeta": {
@@ -122,17 +122,23 @@
         "version": "2.0.13"
       },
       {
-        "version": "2.0.14",
-        "reason": "re-made the value set",
+        "author": "FrankiePH",
         "date": "2026-05-14T11:10:10.990628+00:00",
+        "reason": "re-made the value set",
+        "version": "2.0.14"
+      },
+      {
+        "version": "2.0.15",
+        "reason": "added wales",
+        "date": "2026-05-14T11:29:54.748421+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-14T11:10:10.990628+00:00",
-    "version": "2.0.14"
+    "updatedAt": "2026-05-14T11:29:54.748421+00:00",
+    "version": "2.0.15"
   },
   "compose": {
     "include": [
@@ -155,6 +161,15 @@
           "system": "urn:iso:std:iso:3166:-2",
           "code": "GB-SCT",
           "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
         }
       ]
     },
