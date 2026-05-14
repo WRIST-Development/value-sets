@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "title": "dm+d – Code Search",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "35045211000001105",
+            "display": "Paracetamol 10mg suppositories"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "dmd_CodeSearch",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>dm+d – Code Search</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/dmd-codesearch-e8c0e7a7539b",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "dmd-code-search",
+    "collection": "WRIST-MayTesting26",
+    "updatedAt": "2026-05-14T16:19:21.800917+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-05-14T16:19:21.800917+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
