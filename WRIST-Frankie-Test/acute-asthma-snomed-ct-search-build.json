@@ -4,82 +4,23 @@
     "mode": "snomed-tree",
     "roots": [
       {
-        "code": "281239006",
-        "display": "Acute asthma"
-      },
-      {
-        "code": "32398004",
-        "display": "Bronchitis"
-      },
-      {
-        "code": "154991000001102",
-        "display": "Bronchlear"
-      },
-      {
-        "code": "10713101000001100",
-        "display": "Bronchosan"
-      },
-      {
-        "code": "29424000",
-        "display": "Bronchiolectasis"
-      },
-      {
-        "code": "19568000",
-        "display": "All bronchi"
+        "code": "195967001",
+        "display": "Asthma"
       }
     ],
     "decisions": [
       {
-        "code": "281239006",
-        "display": "Acute asthma",
-        "action": "include"
-      },
-      {
-        "code": "708094006",
-        "display": "Acute exacerbation of intrinsic asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "10692721000119102",
-        "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707446004",
-        "display": "Exacerbation of moderate persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707445000",
-        "display": "Exacerbation of mild persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "707447008",
-        "display": "Exacerbation of severe persistent asthma",
-        "action": "exclude"
-      },
-      {
-        "code": "154991000001102",
-        "display": "Bronchlear",
-        "action": "include"
-      },
-      {
-        "code": "10713101000001100",
-        "display": "Bronchosan",
-        "action": "include-only"
-      },
-      {
-        "code": "19568000",
-        "display": "All bronchi",
-        "action": "include-only"
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include",
+        "operator": "descendantOf"
       }
     ],
     "search": {
-      "query": "bron",
+      "query": "asth",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "19568000"
+      "inspectingCode": "195967001"
     }
   },
   "_libraryMeta": {
@@ -175,64 +116,31 @@
         "version": "2.0.12"
       },
       {
-        "version": "2.0.13",
-        "reason": "added All bronchi",
+        "author": "FrankiePH",
         "date": "2026-05-14T10:23:28.655299+00:00",
+        "reason": "added All bronchi",
+        "version": "2.0.13"
+      },
+      {
+        "version": "2.0.14",
+        "reason": "re-made the value set",
+        "date": "2026-05-14T11:10:10.990628+00:00",
         "author": "FrankiePH"
       }
     ],
     "collection": "WRIST-Frankie-Test",
     "createdBy": "FrankiePH",
     "slug": "acute-asthma-snomed-ct-search-build",
-    "updatedAt": "2026-05-14T10:23:28.655299+00:00",
-    "version": "2.0.13"
+    "updatedAt": "2026-05-14T11:10:10.990628+00:00",
+    "version": "2.0.14"
   },
   "compose": {
-    "exclude": [
-      {
-        "concept": [
-          {
-            "code": "708094006",
-            "display": "Acute exacerbation of intrinsic asthma"
-          },
-          {
-            "code": "10692721000119102",
-            "display": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma"
-          },
-          {
-            "code": "707446004",
-            "display": "Exacerbation of moderate persistent asthma"
-          },
-          {
-            "code": "707445000",
-            "display": "Exacerbation of mild persistent asthma"
-          },
-          {
-            "code": "707447008",
-            "display": "Exacerbation of severe persistent asthma"
-          }
-        ],
-        "system": "http://snomed.info/sct"
-      }
-    ],
     "include": [
       {
         "concept": [
           {
-            "code": "281239006",
-            "display": "Acute asthma"
-          },
-          {
-            "code": "154991000001102",
-            "display": "Bronchlear"
-          },
-          {
-            "code": "10713101000001100",
-            "display": "Bronchosan"
-          },
-          {
-            "code": "19568000",
-            "display": "All bronchi"
+            "code": "195967001",
+            "display": "Asthma"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -268,5 +176,5 @@
     "status": "generated"
   },
   "title": "Acute Asthma (Snomed CT Search & Build)",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-58707d179394"
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/acute-asthma-snomed-ct-search-build-e9a9907a7ccd"
 }
