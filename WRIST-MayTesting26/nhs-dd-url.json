@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "title": "NHS DD – URL",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/ethnic_category.html",
+  "name": "NHSDD_URL",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/ethnic_category.html",
+    "display": "Ethnic Category (NHS Data Dictionary)"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "nhs-dd-url",
+    "collection": "WRIST-MayTesting26",
+    "updatedAt": "2026-05-14T16:21:04.466756+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-05-14T16:21:04.466756+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
