@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "title": "dm+d – Tree Browser",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776287003"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "dmd_TreeBrowser",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>dm+d – Tree Browser</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/dmd-treebrowser-cadbb6e9aa5e",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "776287003": {
+        "action": "include",
+        "code": "776287003",
+        "display": "Ibuprofen",
+        "level": "VTM"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "dmd-tree-browser",
+    "collection": "WRIST-MayTesting26",
+    "updatedAt": "2026-05-14T16:20:21.708942+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-05-14T16:20:21.708942+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
