@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "name": "EncounterType",
+  "title": "Encounter type",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "<< 325841000000109 |Encounter type|"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-16T22:51:48.019124+00:00",
+    "updatedAt": "2026-05-16T22:51:48.019143+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "325841000000109",
+        "display": "Encounter type"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "325841000000109",
+        "display": "Encounter type",
+        "action": "include"
+      }
+    ]
+  }
+}
