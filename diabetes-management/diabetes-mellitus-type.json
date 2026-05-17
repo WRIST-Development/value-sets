@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmellitustype-e336da48262d",
+  "name": "DiabetesMellitusType",
+  "title": "Diabetes mellitus (all types)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "73211009",
+            "display": "Diabetes mellitus"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-17T22:14:29.694778+00:00",
+    "updatedAt": "2026-05-17T22:14:29.694796+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "73211009",
+        "display": "Diabetes mellitus",
+        "action": "include"
+      }
+    ]
+  }
+}
