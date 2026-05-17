@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/bloodpressureobservable-d7a932222626",
+  "name": "BloodPressureObservable",
+  "title": "Blood pressure observable",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "75367002",
+            "display": "Blood pressure"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-17T22:14:33.933914+00:00",
+    "updatedAt": "2026-05-17T22:14:33.933932+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "75367002",
+        "display": "Blood pressure"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "75367002",
+        "display": "Blood pressure",
+        "action": "include-only"
+      }
+    ]
+  }
+}
