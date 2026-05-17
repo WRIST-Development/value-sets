@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetescomplications-3d723fa15f97",
+  "name": "DiabetesComplications",
+  "title": "Complications due to diabetes mellitus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "74627003",
+            "display": "Complication due to diabetes mellitus"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-17T22:14:40.295347+00:00",
+    "updatedAt": "2026-05-17T22:14:40.295369+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "74627003",
+        "display": "Complication due to diabetes mellitus"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "74627003",
+        "display": "Complication due to diabetes mellitus",
+        "action": "include"
+      }
+    ]
+  }
+}
