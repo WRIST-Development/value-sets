@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/bloodglucosemeasurement-2ad511258e6a",
+  "name": "BloodGlucoseMeasurement",
+  "title": "Blood glucose measurement",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "33747003",
+            "display": "Glucose measurement, blood"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-17T22:14:38.346756+00:00",
+    "updatedAt": "2026-05-17T22:14:38.346777+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "33747003",
+        "display": "Glucose measurement, blood"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "33747003",
+        "display": "Glucose measurement, blood",
+        "action": "include-only"
+      }
+    ]
+  }
+}
