@@ -1,0 +1,82 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesencountertype-28a2a2039c8b",
+  "name": "DiabetesEncounterType",
+  "title": "Diabetes encounter type",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1287705005",
+            "display": "Consultation for diabetes mellitus"
+          },
+          {
+            "code": "171183004",
+            "display": "Diabetes mellitus screening"
+          },
+          {
+            "code": "394725008",
+            "display": "Diabetes medication review"
+          },
+          {
+            "code": "956921000000109",
+            "display": "Joint consultation with General Practitioner and community diabetes specialist nurse"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": 1,
+    "createdAt": "2026-05-17T22:14:25.243971+00:00",
+    "updatedAt": "2026-05-17T22:14:25.244021+00:00"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1287705005",
+        "display": "Consultation for diabetes mellitus"
+      },
+      {
+        "code": "171183004",
+        "display": "Diabetes mellitus screening"
+      },
+      {
+        "code": "394725008",
+        "display": "Diabetes medication review"
+      },
+      {
+        "code": "956921000000109",
+        "display": "Joint consultation with General Practitioner and community diabetes specialist nurse"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1287705005",
+        "display": "Consultation for diabetes mellitus",
+        "action": "include-only"
+      },
+      {
+        "code": "171183004",
+        "display": "Diabetes mellitus screening",
+        "action": "include-only"
+      },
+      {
+        "code": "394725008",
+        "display": "Diabetes medication review",
+        "action": "include-only"
+      },
+      {
+        "code": "956921000000109",
+        "display": "Joint consultation with General Practitioner and community diabetes specialist nurse",
+        "action": "include-only"
+      }
+    ]
+  }
+}
