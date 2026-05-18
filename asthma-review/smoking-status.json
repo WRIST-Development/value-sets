@@ -1,21 +1,11 @@
 {
-  "resourceType": "ValueSet",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/smokingstatus-cd653eed0741",
-  "name": "SmokingStatus",
-  "title": "Smoking status",
-  "status": "draft",
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
         "concept": [
           {
             "code": "266919005",
             "display": "Never smoked tobacco"
-          },
-          {
-            "code": "8517006",
-            "display": "Ex-smoker"
           },
           {
             "code": "449868002",
@@ -25,30 +15,26 @@
             "code": "230059006",
             "display": "Occasional cigarette smoker"
           }
-        ]
+        ],
+        "system": "http://snomed.info/sct"
       }
     ]
   },
-  "strength": "preferred",
-  "system": "http://snomed.info/sct",
-  "_libraryMeta": {
-    "version": "1-build.0.0",
-    "createdAt": "2026-05-18T10:35:52.401144+00:00",
-    "updatedAt": "2026-05-18T10:35:52.401144+00:00",
-    "slug": "smoking-status",
-    "collection": "asthma-review",
-    "strength": "preferred"
+  "name": "SmokingStatus",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Smoking status</p></div>",
+    "status": "generated"
   },
+  "title": "Smoking status",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/smokingstatus-ce62a4295113",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
       {
         "code": "266919005",
         "display": "Never smoked tobacco"
-      },
-      {
-        "code": "8517006",
-        "display": "Ex-smoker"
       },
       {
         "code": "449868002",
@@ -67,12 +53,6 @@
         "operator": "self"
       },
       {
-        "code": "8517006",
-        "display": "Ex-smoker",
-        "action": "include",
-        "operator": "self"
-      },
-      {
         "code": "449868002",
         "display": "Smokes tobacco daily",
         "action": "include",
@@ -83,6 +63,21 @@
         "display": "Occasional cigarette smoker",
         "action": "include",
         "operator": "self"
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.1",
+    "slug": "smoking-status",
+    "collection": "asthma-review",
+    "updatedAt": "2026-05-18T13:42:09.810622+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.1",
+        "reason": "Converted to current smoking status. Removed ex-smoker code.",
+        "date": "2026-05-18T13:42:09.810622+00:00",
+        "author": "FrankiePH"
       }
     ]
   }
