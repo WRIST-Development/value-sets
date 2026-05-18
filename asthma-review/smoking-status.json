@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/smokingstatus-cd653eed0741",
+  "name": "SmokingStatus",
+  "title": "Smoking status",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "266919005",
+            "display": "Never smoked tobacco"
+          },
+          {
+            "code": "8517006",
+            "display": "Ex-smoker"
+          },
+          {
+            "code": "449868002",
+            "display": "Smokes tobacco daily"
+          },
+          {
+            "code": "230059006",
+            "display": "Occasional cigarette smoker"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T10:35:52.401144+00:00",
+    "updatedAt": "2026-05-18T10:35:52.401144+00:00",
+    "slug": "smoking-status",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "266919005",
+        "display": "Never smoked tobacco"
+      },
+      {
+        "code": "8517006",
+        "display": "Ex-smoker"
+      },
+      {
+        "code": "449868002",
+        "display": "Smokes tobacco daily"
+      },
+      {
+        "code": "230059006",
+        "display": "Occasional cigarette smoker"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "266919005",
+        "display": "Never smoked tobacco",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "8517006",
+        "display": "Ex-smoker",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "449868002",
+        "display": "Smokes tobacco daily",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "230059006",
+        "display": "Occasional cigarette smoker",
+        "action": "include",
+        "operator": "self"
+      }
+    ]
+  }
+}
