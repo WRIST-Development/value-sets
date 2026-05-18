@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/relieverinhalers-0ca0b341d5e0",
+  "name": "RelieverInhalers",
+  "title": "Reliever inhalers (SABA)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777483005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777711003"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "https://dmd.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T14:51:30.913247+00:00",
+    "updatedAt": "2026-05-18T14:51:30.913247+00:00",
+    "slug": "reliever-inhalers",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "dmd",
+    "decisions": [
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Salbutamol",
+        "code": "777483005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Terbutaline",
+        "code": "777711003"
+      }
+    ]
+  }
+}
