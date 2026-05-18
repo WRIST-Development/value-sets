@@ -1,0 +1,202 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/preventerinhalers-752968ec75d2",
+  "name": "PreventerInhalers",
+  "title": "Preventer inhalers (ICS / ICS+LABA)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774745004"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774924004"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776016008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775240002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776818008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "12913411000001108"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774925003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1201841005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776017004"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776019001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "39110211000001109"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "https://dmd.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T14:51:26.221493+00:00",
+    "updatedAt": "2026-05-18T14:51:26.221493+00:00",
+    "slug": "preventer-inhalers",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "dmd",
+    "decisions": [
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Beclometasone",
+        "code": "774745004"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Budesonide",
+        "code": "774924004"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Fluticasone",
+        "code": "776016008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Ciclesonide",
+        "code": "775240002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Mometasone",
+        "code": "776818008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Beclometasone + Formoterol",
+        "code": "12913411000001108"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Budesonide + Formoterol",
+        "code": "774925003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Fluticasone + Formoterol",
+        "code": "1201841005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Fluticasone + Salmeterol",
+        "code": "776017004"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Fluticasone + Vilanterol",
+        "code": "776019001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Indacaterol + Mometasone",
+        "code": "39110211000001109"
+      }
+    ]
+  }
+}
