@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cessationadviceoutcome-f5e37cba14cb",
+  "name": "CessationAdviceOutcome",
+  "title": "Cessation advice outcome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "225323000",
+            "display": "Smoking cessation education"
+          },
+          {
+            "code": "527151000000107",
+            "display": "Smoking cessation advice declined"
+          },
+          {
+            "code": "871661000000106",
+            "display": "Referral to smoking cessation service"
+          },
+          {
+            "code": "770729006",
+            "display": "Referral for brief intervention for smoking cessation"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T14:51:21.903981+00:00",
+    "updatedAt": "2026-05-18T14:51:21.903981+00:00",
+    "slug": "cessation-advice-outcome",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "225323000",
+        "display": "Smoking cessation education"
+      },
+      {
+        "code": "527151000000107",
+        "display": "Smoking cessation advice declined"
+      },
+      {
+        "code": "871661000000106",
+        "display": "Referral to smoking cessation service"
+      },
+      {
+        "code": "770729006",
+        "display": "Referral for brief intervention for smoking cessation"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "225323000",
+        "display": "Smoking cessation education",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "527151000000107",
+        "display": "Smoking cessation advice declined",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "871661000000106",
+        "display": "Referral to smoking cessation service",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "770729006",
+        "display": "Referral for brief intervention for smoking cessation",
+        "action": "include",
+        "operator": "self"
+      }
+    ]
+  }
+}
