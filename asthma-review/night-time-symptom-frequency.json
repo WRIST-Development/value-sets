@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/nighttimesymptomfrequency-446847b61f6c",
+  "name": "NightTimeSymptomFrequency",
+  "title": "Night-time symptom frequency",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "782559003",
+            "display": "Asthma never causes night symptoms"
+          },
+          {
+            "code": "370205009",
+            "display": "Asthma causes night symptoms 1 to 2 times per month"
+          },
+          {
+            "code": "771901000000100",
+            "display": "Asthma causes night time symptoms 1 to 2 times per week"
+          },
+          {
+            "code": "771941000000102",
+            "display": "Asthma causes symptoms most nights"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T14:51:17.169594+00:00",
+    "updatedAt": "2026-05-18T14:51:17.169594+00:00",
+    "slug": "night-time-symptom-frequency",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "782559003",
+        "display": "Asthma never causes night symptoms"
+      },
+      {
+        "code": "370205009",
+        "display": "Asthma causes night symptoms 1 to 2 times per month"
+      },
+      {
+        "code": "771901000000100",
+        "display": "Asthma causes night time symptoms 1 to 2 times per week"
+      },
+      {
+        "code": "771941000000102",
+        "display": "Asthma causes symptoms most nights"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "782559003",
+        "display": "Asthma never causes night symptoms",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "370205009",
+        "display": "Asthma causes night symptoms 1 to 2 times per month",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "771901000000100",
+        "display": "Asthma causes night time symptoms 1 to 2 times per week",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "771941000000102",
+        "display": "Asthma causes symptoms most nights",
+        "action": "include",
+        "operator": "self"
+      }
+    ]
+  }
+}
