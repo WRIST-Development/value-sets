@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/daytimesymptomfrequency-ce91e3d71211",
+  "name": "DaytimeSymptomFrequency",
+  "title": "Daytime symptom frequency",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "370208006",
+            "display": "Asthma never causes daytime symptoms"
+          },
+          {
+            "code": "370202007",
+            "display": "Asthma causes daytime symptoms 1 to 2 times per month"
+          },
+          {
+            "code": "370203002",
+            "display": "Asthma causes daytime symptoms 1 to 2 times per week"
+          },
+          {
+            "code": "370204008",
+            "display": "Asthma causes daytime symptoms most days"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-18T13:29:22.820534+00:00",
+    "updatedAt": "2026-05-18T13:29:22.820534+00:00",
+    "slug": "daytime-symptom-frequency",
+    "collection": "asthma-review",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "370208006",
+        "display": "Asthma never causes daytime symptoms"
+      },
+      {
+        "code": "370202007",
+        "display": "Asthma causes daytime symptoms 1 to 2 times per month"
+      },
+      {
+        "code": "370203002",
+        "display": "Asthma causes daytime symptoms 1 to 2 times per week"
+      },
+      {
+        "code": "370204008",
+        "display": "Asthma causes daytime symptoms most days"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "370208006",
+        "display": "Asthma never causes daytime symptoms",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "370202007",
+        "display": "Asthma causes daytime symptoms 1 to 2 times per month",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "370203002",
+        "display": "Asthma causes daytime symptoms 1 to 2 times per week",
+        "action": "include",
+        "operator": "self"
+      },
+      {
+        "code": "370204008",
+        "display": "Asthma causes daytime symptoms most days",
+        "action": "include",
+        "operator": "self"
+      }
+    ]
+  }
+}
