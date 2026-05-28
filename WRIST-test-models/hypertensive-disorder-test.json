@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Hypertensive disorder",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<<38341003"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "HypertensiveDisorder",
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "hypertensive-disorder-test",
+    "collection": "WRIST-test-models",
+    "updatedAt": "2026-05-28T14:23:16.109628+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "test",
+        "date": "2026-05-28T14:23:16.109628+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
