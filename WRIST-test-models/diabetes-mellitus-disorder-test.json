@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes mellitus (disorder)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<<73211009"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "DiabetesMellitusDisorder",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diabetes mellitus (disorder)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmellitusdisorder-edd86e6c29df",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "diabetes-mellitus-disorder-test",
+    "collection": "WRIST-test-models",
+    "updatedAt": "2026-05-28T13:20:03.968096+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-05-28T13:20:03.968096+00:00",
+        "author": ""
+      }
+    ]
+  }
+}
