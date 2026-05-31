@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/significanthypoglycaemicepisodes-698bd2d86ef2",
+  "name": "SignificantHypoglycaemicEpisodes",
+  "title": "Significant hypoglycaemic episodes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464911000000101",
+            "display": "Number of clinically significant hypoglycaemic episodes recorded by continuous glucose monitoring device"
+          },
+          {
+            "code": "1464901000000103",
+            "display": "Number of clinically significant hypoglycaemic episodes recorded by self-monitoring of capillary blood glucose"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:48.967377+00:00",
+    "updatedAt": "2026-05-31T21:34:48.967377+00:00",
+    "slug": "significant-hypoglycaemic-episodes",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464911000000101",
+        "display": "Number of clinically significant hypoglycaemic episodes recorded by continuous glucose monitoring device"
+      },
+      {
+        "code": "1464901000000103",
+        "display": "Number of clinically significant hypoglycaemic episodes recorded by self-monitoring of capillary blood glucose"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464911000000101",
+        "display": "Number of clinically significant hypoglycaemic episodes recorded by continuous glucose monitoring device",
+        "action": "include-only"
+      },
+      {
+        "code": "1464901000000103",
+        "display": "Number of clinically significant hypoglycaemic episodes recorded by self-monitoring of capillary blood glucose",
+        "action": "include-only"
+      }
+    ]
+  }
+}
