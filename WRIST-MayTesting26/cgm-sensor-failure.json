@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cgmsensorfailure-cb80ec202fea",
+  "name": "CGMSensorFailure",
+  "title": "CGM sensor failure",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1597741000000102",
+            "display": "Failure of continuous glucose monitoring device sensor reported by subject of record"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:54.940456+00:00",
+    "updatedAt": "2026-05-31T21:34:54.940456+00:00",
+    "slug": "cgm-sensor-failure",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1597741000000102",
+        "display": "Failure of continuous glucose monitoring device sensor reported by subject of record"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1597741000000102",
+        "display": "Failure of continuous glucose monitoring device sensor reported by subject of record",
+        "action": "include-only"
+      }
+    ]
+  }
+}
