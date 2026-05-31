@@ -1,0 +1,394 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/insulinproducts-892d7514e727",
+  "name": "InsulinProducts",
+  "title": "Insulin products",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776338003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776340008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776342000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776343005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776344004"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "42777311000001108"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776551009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816007008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776341007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "36630811000001108"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "815998000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816005000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816017003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816008003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "9826011000001101"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774899002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776207001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777260009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "9820811000001105"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1055241000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774898005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776208006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "19902111000001101"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "https://dmd.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:38:44.028665+00:00",
+    "updatedAt": "2026-05-31T21:38:44.028665+00:00",
+    "slug": "insulin-products",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "dmd",
+    "decisions": [
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin aspart",
+        "code": "776338003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin degludec",
+        "code": "776340008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin detemir",
+        "code": "776342000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glargine",
+        "code": "776343005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glulisine",
+        "code": "776344004"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin human",
+        "code": "42777311000001108"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin lispro",
+        "code": "776551009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin aspart biphasic",
+        "code": "816007008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin degludec + Liraglutide",
+        "code": "776341007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glargine + Lixisenatide",
+        "code": "36630811000001108"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane bovine",
+        "code": "815998000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane human",
+        "code": "816005000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane porcine",
+        "code": "816017003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin lispro biphasic",
+        "code": "816008003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin mixed bovine",
+        "code": "9826011000001101"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble bovine",
+        "code": "774899002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble human",
+        "code": "776207001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble porcine",
+        "code": "777260009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane biphasic human",
+        "code": "9820811000001105"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane biphasic porcine",
+        "code": "1055241000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin protamine zinc bovine",
+        "code": "774898005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin zinc crystalline human",
+        "code": "776208006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin zinc mixed human",
+        "code": "19902111000001101"
+      }
+    ]
+  }
+}
