@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/insulinadvisorysoftware-8f8cb36041b2",
+  "name": "InsulinAdvisorySoftware",
+  "title": "Insulin advisory software",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1516041000000101",
+            "display": "Uses bolus advisor software"
+          },
+          {
+            "code": "1577091000000104",
+            "display": "Insulin dose calculated by continuous subcutaneous automated insulin delivery system"
+          },
+          {
+            "code": "1577101000000107",
+            "display": "Insulin dose calculated using bolus advisor software"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:19.127264+00:00",
+    "updatedAt": "2026-05-31T21:35:19.127264+00:00",
+    "slug": "insulin-advisory-software",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1516041000000101",
+        "display": "Uses bolus advisor software"
+      },
+      {
+        "code": "1577091000000104",
+        "display": "Insulin dose calculated by continuous subcutaneous automated insulin delivery system"
+      },
+      {
+        "code": "1577101000000107",
+        "display": "Insulin dose calculated using bolus advisor software"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1516041000000101",
+        "display": "Uses bolus advisor software",
+        "action": "include-only"
+      },
+      {
+        "code": "1577091000000104",
+        "display": "Insulin dose calculated by continuous subcutaneous automated insulin delivery system",
+        "action": "include-only"
+      },
+      {
+        "code": "1577101000000107",
+        "display": "Insulin dose calculated using bolus advisor software",
+        "action": "include-only"
+      }
+    ]
+  }
+}
