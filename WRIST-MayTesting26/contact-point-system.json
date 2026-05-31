@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/contactpointsystem-fd3ebb0839d2",
+  "name": "ContactPointSystem",
+  "title": "Contact point system",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "concept": [
+          {
+            "code": "phone",
+            "display": "Phone"
+          },
+          {
+            "code": "fax",
+            "display": "Fax"
+          },
+          {
+            "code": "email",
+            "display": "Email"
+          },
+          {
+            "code": "url",
+            "display": "URL"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://hl7.org/fhir/contact-point-system",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:38:53.936662+00:00",
+    "updatedAt": "2026-05-31T21:38:53.936662+00:00",
+    "slug": "contact-point-system",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  }
+}
