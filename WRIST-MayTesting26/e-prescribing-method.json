@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/eprescribingmethod-d2262932315f",
+  "name": "EPrescribingMethod",
+  "title": "E-prescribing method",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "^999000041000001103"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:36:50.595128+00:00",
+    "updatedAt": "2026-05-31T21:36:50.595128+00:00",
+    "slug": "e-prescribing-method",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  }
+}
