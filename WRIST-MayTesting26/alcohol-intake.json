@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/alcoholintake-bdd765a89bf5",
+  "name": "AlcoholIntake",
+  "title": "Alcohol intake",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "219006",
+            "display": "Current drinker of alcohol"
+          },
+          {
+            "code": "105542008",
+            "display": "Current non-drinker of alcohol"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:33:55.461696+00:00",
+    "updatedAt": "2026-05-31T21:33:55.461696+00:00",
+    "slug": "alcohol-intake",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "219006",
+        "display": "Current drinker of alcohol"
+      },
+      {
+        "code": "105542008",
+        "display": "Current non-drinker of alcohol"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "219006",
+        "display": "Current drinker of alcohol",
+        "action": "include-only"
+      },
+      {
+        "code": "105542008",
+        "display": "Current non-drinker of alcohol",
+        "action": "include-only"
+      }
+    ]
+  }
+}
