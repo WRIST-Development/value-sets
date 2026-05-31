@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/glucosecoefficientofvariation-6c11c11ace2d",
+  "name": "GlucoseCoefficientOfVariation",
+  "title": "Glucose coefficient of variation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464761000000101",
+            "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device"
+          },
+          {
+            "code": "1464771000000108",
+            "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:27.947422+00:00",
+    "updatedAt": "2026-05-31T21:34:27.947422+00:00",
+    "slug": "glucose-coefficient-of-variation",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464761000000101",
+        "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device"
+      },
+      {
+        "code": "1464771000000108",
+        "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464761000000101",
+        "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device",
+        "action": "include-only"
+      },
+      {
+        "code": "1464771000000108",
+        "display": "Coefficient of variation of mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter",
+        "action": "include-only"
+      }
+    ]
+  }
+}
