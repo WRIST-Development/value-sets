@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/documenttype-5e175a65c577",
+  "name": "DocumentType",
+  "title": "Document type",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "419891008",
+            "display": "Record artifact"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:36:12.595417+00:00",
+    "updatedAt": "2026-05-31T21:36:12.595417+00:00",
+    "slug": "document-type",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "419891008",
+        "display": "Record artifact"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "419891008",
+        "display": "Record artifact",
+        "action": "include-only"
+      }
+    ]
+  }
+}
