@@ -1,0 +1,954 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetesmedications-f4ee9ad54db4",
+  "name": "DiabetesMedications",
+  "title": "Diabetes medications",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776338003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776340008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776342000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776343005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776344004"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "42777311000001108"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776551009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816007008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776341007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "36630811000001108"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "815998000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816005000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816017003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "816008003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "9826011000001101"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774899002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776207001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777260009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "9820811000001105"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1055241000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774898005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776208006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "19902111000001101"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776713006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1208565007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775026006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1303102000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775754009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776542001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776714000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "784227008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776717007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1172786009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777541003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776541008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777934001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777501007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774490009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775752008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775753003"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775447002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "1303123006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775025005"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775821002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776548002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777514008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775712006"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "775913009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776560001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "41145911000001106"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776108001"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776109009"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776112007"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777798008"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777205002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "777419000"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "776878002"
+          }
+        ]
+      },
+      {
+        "system": "https://dmd.nhs.uk",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "=",
+            "value": "774404008"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "https://dmd.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:38:35.138922+00:00",
+    "updatedAt": "2026-05-31T21:38:35.138922+00:00",
+    "slug": "diabetes-medications",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "dmd",
+    "decisions": [
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin aspart",
+        "code": "776338003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin degludec",
+        "code": "776340008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin detemir",
+        "code": "776342000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glargine",
+        "code": "776343005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glulisine",
+        "code": "776344004"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin human",
+        "code": "42777311000001108"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin lispro",
+        "code": "776551009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin aspart biphasic",
+        "code": "816007008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin degludec + Liraglutide",
+        "code": "776341007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin glargine + Lixisenatide",
+        "code": "36630811000001108"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane bovine",
+        "code": "815998000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane human",
+        "code": "816005000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane porcine",
+        "code": "816017003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin lispro biphasic",
+        "code": "816008003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin mixed bovine",
+        "code": "9826011000001101"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble bovine",
+        "code": "774899002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble human",
+        "code": "776207001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin soluble porcine",
+        "code": "777260009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane biphasic human",
+        "code": "9820811000001105"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin isophane biphasic porcine",
+        "code": "1055241000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin protamine zinc bovine",
+        "code": "774898005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin zinc crystalline human",
+        "code": "776208006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Insulin zinc mixed human",
+        "code": "19902111000001101"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Metformin",
+        "code": "776713006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Alogliptin + Metformin",
+        "code": "1208565007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Canagliflozin + Metformin",
+        "code": "775026006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Dapagliflozin + Metformin",
+        "code": "1303102000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Empagliflozin + Metformin",
+        "code": "775754009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Linagliptin + Metformin",
+        "code": "776542001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Pioglitazone + Metformin",
+        "code": "776714000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Saxagliptin + Metformin",
+        "code": "784227008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Sitagliptin + Metformin",
+        "code": "776717007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Vildagliptin + Metformin",
+        "code": "1172786009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Sitagliptin",
+        "code": "777541003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Linagliptin",
+        "code": "776541008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Vildagliptin",
+        "code": "777934001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Saxagliptin",
+        "code": "777501007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Alogliptin",
+        "code": "774490009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Empagliflozin",
+        "code": "775752008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Empagliflozin + Linagliptin",
+        "code": "775753003"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Dapagliflozin",
+        "code": "775447002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Saxagliptin + Dapagliflozin",
+        "code": "1303123006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Canagliflozin",
+        "code": "775025005"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Ertugliflozin",
+        "code": "775821002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Liraglutide",
+        "code": "776548002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Semaglutide",
+        "code": "777514008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Dulaglutide",
+        "code": "775712006"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Exenatide",
+        "code": "775913009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Lixisenatide",
+        "code": "776560001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Tirzepatide",
+        "code": "41145911000001106"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Gliclazide",
+        "code": "776108001"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Glimepiride",
+        "code": "776109009"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Glipizide",
+        "code": "776112007"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Tolbutamide",
+        "code": "777798008"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Pioglitazone",
+        "code": "777205002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Repaglinide",
+        "code": "777419000"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Nateglinide",
+        "code": "776878002"
+      },
+      {
+        "action": "include",
+        "level": "VTM",
+        "display": "Acarbose",
+        "code": "774404008"
+      }
+    ]
+  }
+}
