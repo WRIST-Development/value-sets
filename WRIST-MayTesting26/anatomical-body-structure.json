@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/anatomicalbodystructure-5ddb688c93a6",
+  "name": "AnatomicalBodyStructure",
+  "title": "Anatomical body structure",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "442083009",
+            "display": "Anatomical or acquired body structure"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:04.285123+00:00",
+    "updatedAt": "2026-05-31T21:34:04.285123+00:00",
+    "slug": "anatomical-body-structure",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "442083009",
+        "display": "Anatomical or acquired body structure"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "442083009",
+        "display": "Anatomical or acquired body structure",
+        "action": "include",
+        "operator": "descendantOf"
+      }
+    ]
+  }
+}
