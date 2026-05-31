@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/primingdoseindicator-1e0a7a5001b6",
+  "name": "PrimingDoseIndicator",
+  "title": "Priming dose indicator",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1516021000000108",
+            "display": "Insulin priming dose"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:16.248219+00:00",
+    "updatedAt": "2026-05-31T21:35:16.248219+00:00",
+    "slug": "priming-dose-indicator",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1516021000000108",
+        "display": "Insulin priming dose"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1516021000000108",
+        "display": "Insulin priming dose",
+        "action": "include-only"
+      }
+    ]
+  }
+}
