@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/assessmentscales-dbe066e6f150",
+  "name": "AssessmentScales",
+  "title": "Assessment scales",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "273249006",
+            "display": "Assessment scales"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:07.482724+00:00",
+    "updatedAt": "2026-05-31T21:35:07.482724+00:00",
+    "slug": "assessment-scales",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "273249006",
+        "display": "Assessment scales"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "273249006",
+        "display": "Assessment scales",
+        "action": "include",
+        "operator": "descendantOf"
+      }
+    ]
+  }
+}
