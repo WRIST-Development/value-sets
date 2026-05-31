@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/totaldailybasaldosemean-109980fbe23c",
+  "name": "TotalDailyBasalDoseMean",
+  "title": "Total daily basal dose mean",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1515601000000101",
+            "display": "Total daily basal insulin dose mean"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:36:03.326034+00:00",
+    "updatedAt": "2026-05-31T21:36:03.326034+00:00",
+    "slug": "total-daily-basal-dose-mean",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1515601000000101",
+        "display": "Total daily basal insulin dose mean"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1515601000000101",
+        "display": "Total daily basal insulin dose mean",
+        "action": "include-only"
+      }
+    ]
+  }
+}
