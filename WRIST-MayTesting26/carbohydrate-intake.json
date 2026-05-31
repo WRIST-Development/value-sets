@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/carbohydrateintake-f987f8f98c4d",
+  "name": "CarbohydrateIntake",
+  "title": "Carbohydrate intake",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1505281000000106",
+            "display": "Estimated quantity of carbohydrate intake in grams during breakfast meal"
+          },
+          {
+            "code": "1515521000000109",
+            "display": "Estimated quantity of carbohydrate intake in grams during lunch meal"
+          },
+          {
+            "code": "1515531000000106",
+            "display": "Estimated quantity of carbohydrate intake in grams during evening meal"
+          },
+          {
+            "code": "1515541000000102",
+            "display": "Estimated quantity of carbohydrate intake in grams during snack time"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:23.088375+00:00",
+    "updatedAt": "2026-05-31T21:35:23.088375+00:00",
+    "slug": "carbohydrate-intake",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1505281000000106",
+        "display": "Estimated quantity of carbohydrate intake in grams during breakfast meal"
+      },
+      {
+        "code": "1515521000000109",
+        "display": "Estimated quantity of carbohydrate intake in grams during lunch meal"
+      },
+      {
+        "code": "1515531000000106",
+        "display": "Estimated quantity of carbohydrate intake in grams during evening meal"
+      },
+      {
+        "code": "1515541000000102",
+        "display": "Estimated quantity of carbohydrate intake in grams during snack time"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1505281000000106",
+        "display": "Estimated quantity of carbohydrate intake in grams during breakfast meal",
+        "action": "include-only"
+      },
+      {
+        "code": "1515521000000109",
+        "display": "Estimated quantity of carbohydrate intake in grams during lunch meal",
+        "action": "include-only"
+      },
+      {
+        "code": "1515531000000106",
+        "display": "Estimated quantity of carbohydrate intake in grams during evening meal",
+        "action": "include-only"
+      },
+      {
+        "code": "1515541000000102",
+        "display": "Estimated quantity of carbohydrate intake in grams during snack time",
+        "action": "include-only"
+      }
+    ]
+  }
+}
