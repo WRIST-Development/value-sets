@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/dosecontext-6bbf6605a2de",
+  "name": "DoseContext",
+  "title": "Dose context",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "182856006",
+            "display": "Drug dosage"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:09.979650+00:00",
+    "updatedAt": "2026-05-31T21:35:09.979650+00:00",
+    "slug": "dose-context",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "182856006",
+        "display": "Drug dosage"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "182856006",
+        "display": "Drug dosage",
+        "action": "include-only"
+      }
+    ]
+  }
+}
