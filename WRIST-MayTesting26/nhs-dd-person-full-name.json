@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/nhsddpersonfullname-5519a95c4ada",
+  "name": "NhsDdPersonFullName",
+  "title": "Person full name (NHS Data Dictionary)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://datadictionary.nhs.uk",
+        "concept": [
+          {
+            "code": "person_full_name",
+            "display": "Person full name"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "example",
+  "system": "https://datadictionary.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T22:04:42.956773+00:00",
+    "updatedAt": "2026-05-31T22:04:42.956773+00:00",
+    "slug": "nhs-dd-person-full-name",
+    "collection": "WRIST-MayTesting26",
+    "strength": "example"
+  }
+}
