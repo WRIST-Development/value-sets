@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/meandailymonitoringfrequency-18ed8b2f1495",
+  "name": "MeanDailyMonitoringFrequency",
+  "title": "Mean daily monitoring frequency",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464931000000109",
+            "display": "Mean number of self-monitored capillary blood glucose measurements per day"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:06.597609+00:00",
+    "updatedAt": "2026-05-31T21:34:06.597609+00:00",
+    "slug": "mean-daily-monitoring-frequency",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464931000000109",
+        "display": "Mean number of self-monitored capillary blood glucose measurements per day"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464931000000109",
+        "display": "Mean number of self-monitored capillary blood glucose measurements per day",
+        "action": "include-only"
+      }
+    ]
+  }
+}
