@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/nhsddpersongivenname-bfe7972ac6cd",
+  "name": "NhsDdPersonGivenName",
+  "title": "Person given name (NHS Data Dictionary)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://datadictionary.nhs.uk",
+        "concept": [
+          {
+            "code": "person_given_name",
+            "display": "Person given name"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "example",
+  "system": "https://datadictionary.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T22:04:36.803197+00:00",
+    "updatedAt": "2026-05-31T22:04:36.803197+00:00",
+    "slug": "nhs-dd-person-given-name",
+    "collection": "WRIST-MayTesting26",
+    "strength": "example"
+  }
+}
