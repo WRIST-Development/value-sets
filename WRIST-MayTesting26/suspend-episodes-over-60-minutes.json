@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/suspendepisodesover60minutes-84c5a465866a",
+  "name": "SuspendEpisodesOver60Minutes",
+  "title": "Suspend episodes over 60 minutes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1597861000000105",
+            "display": "Number of suspend episodes over 60 minutes"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:54.718851+00:00",
+    "updatedAt": "2026-05-31T21:35:54.718851+00:00",
+    "slug": "suspend-episodes-over-60-minutes",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1597861000000105",
+        "display": "Number of suspend episodes over 60 minutes"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1597861000000105",
+        "display": "Number of suspend episodes over 60 minutes",
+        "action": "include-only"
+      }
+    ]
+  }
+}
