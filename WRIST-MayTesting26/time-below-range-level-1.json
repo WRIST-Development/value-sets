@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/timebelowrangelevel1-ddc13a49fcc6",
+  "name": "TimeBelowRangeLevel1",
+  "title": "Time below range level 1",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464831000000100",
+            "display": "Percentage of time below level 1 hypoglycaemic threshold to total continuous glucose monitoring time"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:40.943120+00:00",
+    "updatedAt": "2026-05-31T21:34:40.943120+00:00",
+    "slug": "time-below-range-level-1",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464831000000100",
+        "display": "Percentage of time below level 1 hypoglycaemic threshold to total continuous glucose monitoring time"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464831000000100",
+        "display": "Percentage of time below level 1 hypoglycaemic threshold to total continuous glucose monitoring time",
+        "action": "include-only"
+      }
+    ]
+  }
+}
