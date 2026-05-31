@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/observationinterpretation-0d9931650eb4",
+  "name": "ObservationInterpretation",
+  "title": "Observation interpretation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "concept": [
+          {
+            "code": "H",
+            "display": "High"
+          },
+          {
+            "code": "L",
+            "display": "Low"
+          },
+          {
+            "code": "N",
+            "display": "Normal"
+          },
+          {
+            "code": "HH",
+            "display": "Critical high"
+          },
+          {
+            "code": "LL",
+            "display": "Critical low"
+          },
+          {
+            "code": "A",
+            "display": "Abnormal"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:38:57.156900+00:00",
+    "updatedAt": "2026-05-31T21:38:57.156900+00:00",
+    "slug": "observation-interpretation",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  }
+}
