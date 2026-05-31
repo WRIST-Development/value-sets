@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/percentsensordataavailable-6ec7d8e4c13a",
+  "name": "PercentSensorDataAvailable",
+  "title": "Percent sensor data available",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464941000000100",
+            "display": "Percentage of successful data capture time to total expected continuous glucose monitoring sensor wear time"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:09.389385+00:00",
+    "updatedAt": "2026-05-31T21:34:09.389385+00:00",
+    "slug": "percent-sensor-data-available",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464941000000100",
+        "display": "Percentage of successful data capture time to total expected continuous glucose monitoring sensor wear time"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464941000000100",
+        "display": "Percentage of successful data capture time to total expected continuous glucose monitoring sensor wear time",
+        "action": "include-only"
+      }
+    ]
+  }
+}
