@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/insulinsensitivityfactor-964f5fbcfaef",
+  "name": "InsulinSensitivityFactor",
+  "title": "Insulin sensitivity factor",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1515591000000107",
+            "display": "Insulin sensitivity factor - snack time"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:35:28.095670+00:00",
+    "updatedAt": "2026-05-31T21:35:28.095670+00:00",
+    "slug": "insulin-sensitivity-factor",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1515591000000107",
+        "display": "Insulin sensitivity factor - snack time"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1515591000000107",
+        "display": "Insulin sensitivity factor - snack time",
+        "action": "include-only"
+      }
+    ]
+  }
+}
