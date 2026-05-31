@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/nhsddpersonbirthdate-f28afa5aa9c5",
+  "name": "NhsDdPersonBirthDate",
+  "title": "Person birth date (NHS Data Dictionary)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://datadictionary.nhs.uk",
+        "concept": [
+          {
+            "code": "person_birth_date",
+            "display": "Person birth date"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "example",
+  "system": "https://datadictionary.nhs.uk",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T22:04:45.897682+00:00",
+    "updatedAt": "2026-05-31T22:04:45.897682+00:00",
+    "slug": "nhs-dd-person-birth-date",
+    "collection": "WRIST-MayTesting26",
+    "strength": "example"
+  }
+}
