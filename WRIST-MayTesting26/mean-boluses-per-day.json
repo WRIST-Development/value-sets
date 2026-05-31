@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/meanbolusesperday-e14a416c5ecb",
+  "name": "MeanBolusesPerDay",
+  "title": "Mean boluses per day",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1515621000000105",
+            "display": "Mean number of boluses per day"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:36:09.691742+00:00",
+    "updatedAt": "2026-05-31T21:36:09.691742+00:00",
+    "slug": "mean-boluses-per-day",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1515621000000105",
+        "display": "Mean number of boluses per day"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1515621000000105",
+        "display": "Mean number of boluses per day",
+        "action": "include-only"
+      }
+    ]
+  }
+}
