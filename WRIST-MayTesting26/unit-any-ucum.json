@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/unitanyucum-1ff2405e8c65",
+  "name": "UnitAnyUcum",
+  "title": "Any UCUM unit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Any UCUM unit"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "example",
+  "system": "http://unitsofmeasure.org",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T22:04:12.198372+00:00",
+    "updatedAt": "2026-05-31T22:04:12.198372+00:00",
+    "slug": "unit-any-ucum",
+    "collection": "WRIST-MayTesting26",
+    "strength": "example"
+  }
+}
