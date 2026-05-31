@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/devicetype-b3d8689ffd83",
+  "name": "DeviceType",
+  "title": "Device type",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "49062001",
+            "display": "Device"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:01.464152+00:00",
+    "updatedAt": "2026-05-31T21:34:01.464152+00:00",
+    "slug": "device-type",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "49062001",
+        "display": "Device"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "49062001",
+        "display": "Device",
+        "action": "include-only"
+      }
+    ]
+  }
+}
