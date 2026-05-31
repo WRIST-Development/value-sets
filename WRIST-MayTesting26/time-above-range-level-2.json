@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/timeaboverangelevel2-573e8338ad2e",
+  "name": "TimeAboveRangeLevel2",
+  "title": "Time above range level 2",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464791000000107",
+            "display": "Percentage of time above level 2 hyperglycaemic threshold to total continuous glucose monitoring time"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:37.947457+00:00",
+    "updatedAt": "2026-05-31T21:34:37.947457+00:00",
+    "slug": "time-above-range-level-2",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464791000000107",
+        "display": "Percentage of time above level 2 hyperglycaemic threshold to total continuous glucose monitoring time"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464791000000107",
+        "display": "Percentage of time above level 2 hyperglycaemic threshold to total continuous glucose monitoring time",
+        "action": "include-only"
+      }
+    ]
+  }
+}
