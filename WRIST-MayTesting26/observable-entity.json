@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/observableentity-a060d8336a7c",
+  "name": "ObservableEntity",
+  "title": "Observable entity",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "363787002",
+            "display": "Observable entity"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:33:58.515261+00:00",
+    "updatedAt": "2026-05-31T21:33:58.515261+00:00",
+    "slug": "observable-entity",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "363787002",
+        "display": "Observable entity"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "363787002",
+        "display": "Observable entity",
+        "action": "include",
+        "operator": "descendantOf"
+      }
+    ]
+  }
+}
