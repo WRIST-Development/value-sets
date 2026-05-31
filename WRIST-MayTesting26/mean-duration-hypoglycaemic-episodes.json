@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/meandurationhypoglycaemicepisodes-b1b830e1aa02",
+  "name": "MeanDurationHypoglycaemicEpisodes",
+  "title": "Mean duration of hypoglycaemic episodes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464921000000107",
+            "display": "Mean duration of hypoglycaemic episodes in minutes"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:51.724112+00:00",
+    "updatedAt": "2026-05-31T21:34:51.724112+00:00",
+    "slug": "mean-duration-hypoglycaemic-episodes",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464921000000107",
+        "display": "Mean duration of hypoglycaemic episodes in minutes"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464921000000107",
+        "display": "Mean duration of hypoglycaemic episodes in minutes",
+        "action": "include-only"
+      }
+    ]
+  }
+}
