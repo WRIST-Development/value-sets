@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/glucosemanagementindicator-1f8b880747ed",
+  "name": "GlucoseManagementIndicator",
+  "title": "Glucose management indicator",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1464891000000104",
+            "display": "Glucose Management Indicator expressed as substance concentration ratio"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "preferred",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-05-31T21:34:45.941962+00:00",
+    "updatedAt": "2026-05-31T21:34:45.941962+00:00",
+    "slug": "glucose-management-indicator",
+    "collection": "WRIST-MayTesting26",
+    "strength": "preferred"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464891000000104",
+        "display": "Glucose Management Indicator expressed as substance concentration ratio"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464891000000104",
+        "display": "Glucose Management Indicator expressed as substance concentration ratio",
+        "action": "include-only"
+      }
+    ]
+  }
+}
