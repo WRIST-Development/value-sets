@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood group",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "112144000",
+            "display": "Blood group A"
+          },
+          {
+            "code": "112149005",
+            "display": "Blood group B"
+          },
+          {
+            "code": "165743006",
+            "display": "Blood group O"
+          },
+          {
+            "code": "115752009",
+            "display": "Blood group AB"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Blood group — test inline value set",
+  "name": "Blood group",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-group-test",
+  "_builderState": {
+    "mode": "snomed-tree"
+  },
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-group-1",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-02T15:05:27.015804+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Bulk migration to library",
+        "date": "2026-06-02T15:05:27.015804+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
