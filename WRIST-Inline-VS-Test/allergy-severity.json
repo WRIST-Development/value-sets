@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Allergy severity",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "255604002",
+            "display": "Mild"
+          },
+          {
+            "code": "6736007",
+            "display": "Moderate"
+          },
+          {
+            "code": "24484000",
+            "display": "Severe"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Allergy severity — test inline value set",
+  "name": "Allergy severity",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/allergy-severity-test",
+  "_builderState": {
+    "mode": "snomed-tree"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "allergy-severity",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-02T15:05:29.662510+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Bulk migration to library",
+        "date": "2026-06-02T15:05:29.662510+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
