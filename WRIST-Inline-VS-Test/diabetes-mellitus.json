@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Diabetes mellitus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "<< 73211009 |Diabetes mellitus|"
+          }
+        ]
+      }
+    ]
+  },
+  "name": "Diabetes mellitus",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/diabetes-mellitus-lib",
+  "description": "Pre-seeded to match the model's Diabetes value set EXACTLY (\u2192 exact match / link).",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "diabetes-mellitus",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-02T00:00:00+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "seed for inline-VS migration test",
+        "date": "2026-06-02T00:00:00+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
