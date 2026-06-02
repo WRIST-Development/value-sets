@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood group",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "<< 365636006 |Finding of blood group|"
+          }
+        ]
+      }
+    ]
+  },
+  "name": "Blood group",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-group-lib",
+  "description": "Pre-seeded with DIFFERENT content than the model's Blood group VS (\u2192 name clash).",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": 1,
+    "slug": "blood-group",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-02T00:00:00+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": 1,
+        "reason": "seed for inline-VS migration test",
+        "date": "2026-06-02T00:00:00+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
