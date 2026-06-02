@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Smoking status",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "266919005",
+            "display": "Never smoked tobacco"
+          },
+          {
+            "code": "77176002",
+            "display": "Smoker"
+          },
+          {
+            "code": "8517006",
+            "display": "Ex-smoker"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Smoking status — test inline value set",
+  "name": "Smoking status",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/smoking-status-test",
+  "_builderState": {
+    "mode": "snomed-tree"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "smoking-status",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-02T15:05:21.106706+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Bulk migration to library",
+        "date": "2026-06-02T15:05:21.106706+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
