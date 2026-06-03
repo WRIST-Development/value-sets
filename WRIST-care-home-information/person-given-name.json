@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "person given name",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/person_given_name.html",
+  "name": "person-given-name",
+  "description": "test",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/person_given_name.html",
+    "display": "person given name"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "person-given-name",
+    "collection": "WRIST-care-home-information",
+    "updatedAt": "2026-06-03T20:29:37.776980+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-03T20:29:37.776980+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
