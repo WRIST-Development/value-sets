@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "title": "fvsdf",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "17487711000001105"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "init",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>fvsdf</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/init-e70f5442e3fb",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "17487711000001105": {
+        "action": "include",
+        "code": "17487711000001105",
+        "display": "Ash mistletoe",
+        "level": "VTM"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "fvsdf",
+    "collection": "WRIST-care-home-information",
+    "updatedAt": "2026-06-03T20:33:31.080606+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-03T20:33:31.080606+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
