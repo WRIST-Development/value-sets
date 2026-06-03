@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "title": "regarga",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/person_family_name.html",
+  "name": "tetag",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/person_family_name.html",
+    "display": "test"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "regarga",
+    "collection": "WRIST-care-home-information",
+    "updatedAt": "2026-06-03T20:29:52.184778+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-03T20:29:52.184778+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
