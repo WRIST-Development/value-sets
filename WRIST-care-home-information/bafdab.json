@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "bafdab",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pers/person_title_de.asp",
+  "name": "fabbad",
+  "description": "afda",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pers/person_title_de.asp",
+    "display": "tsstatg"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "bafdab",
+    "collection": "WRIST-care-home-information",
+    "updatedAt": "2026-06-03T20:30:36.545688+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-03T20:30:36.545688+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
