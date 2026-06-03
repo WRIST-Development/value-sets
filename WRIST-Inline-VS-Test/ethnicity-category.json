@@ -4,12 +4,8 @@
       {
         "concept": [
           {
-            "code": "364699009",
-            "display": "Ethnic group"
-          },
-          {
-            "code": "372148003",
-            "display": "Ethnic group"
+            "code": "195967001",
+            "display": "Asthma"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -24,50 +20,42 @@
     "status": "generated"
   },
   "title": "Ethnicity category",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/ethnicity-category-37d63467c905",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/ethnicity-category-e9a9907a7ccd",
   "description": "Ethnicity category — test inline value set",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
       {
-        "code": "364699009",
-        "display": "Ethnic group"
-      },
-      {
-        "code": "372148003",
-        "display": "Ethnic group"
+        "code": "195967001",
+        "display": "Asthma"
       }
     ],
     "decisions": [
       {
-        "code": "364699009",
-        "display": "Ethnic group",
-        "action": "include"
-      },
-      {
-        "code": "372148003",
-        "display": "Ethnic group",
-        "action": "include"
+        "code": "195967001",
+        "display": "Asthma",
+        "action": "include",
+        "operator": "descendantOf"
       }
     ],
     "search": {
-      "query": "ethnic",
+      "query": "asthma",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "372148003"
+      "inspectingCode": "195967001"
     }
   },
   "_libraryMeta": {
-    "version": "1-build.0.1",
+    "version": "1-build.0.2",
     "slug": "ethnicity-category",
     "collection": "WRIST-Inline-VS-Test",
-    "updatedAt": "2026-06-03T20:13:16.864819+00:00",
+    "updatedAt": "2026-06-03T20:14:18.165905+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.1",
-        "reason": "added new codes",
-        "date": "2026-06-03T20:13:16.864819+00:00",
+        "version": "1-build.0.2",
+        "reason": "added codes",
+        "date": "2026-06-03T20:14:18.165905+00:00",
         "author": "FrankiePH"
       }
     ]
