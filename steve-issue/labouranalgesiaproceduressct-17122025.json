@@ -1,0 +1,135 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/labouranalgesiaproceduressct-17122025-ba48fcea652d",
+  "name": "labouranalgesiaproceduressct-17122025",
+  "title": "Labouranalgesiaproceduressct 17122025",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Labouranalgesiaproceduressct 17122025</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "67716003",
+            "display": "Epidural injection of anaesthetic substance, therapeutic, caudal, continuous"
+          },
+          {
+            "code": "231259006",
+            "display": "Administration of epidural test dose"
+          },
+          {
+            "code": "231260001",
+            "display": "Administration of epidural top-up"
+          },
+          {
+            "code": "231261002",
+            "display": "Combined spinal/epidural local anaesthetic block"
+          },
+          {
+            "code": "231263004",
+            "display": "Combined spinal/epidural technique - spinal needle through Tuohy needle"
+          },
+          {
+            "code": "231262009",
+            "display": "Combined spinal/epidural technique with needles at separate spaces"
+          },
+          {
+            "code": "427060008",
+            "display": "Continuous thoracic epidural analgesia"
+          },
+          {
+            "code": "1285642008",
+            "display": "Dural puncture epidural"
+          },
+          {
+            "code": "18946005",
+            "display": "Epidural anaesthesia"
+          },
+          {
+            "code": "58611004",
+            "display": "Epidural injection of anaesthetic substance, therapeutic, lumbar, continuous"
+          },
+          {
+            "code": "1287360000",
+            "display": "Injection of epidural anaesthesia during maternal intrapartum period"
+          },
+          {
+            "code": "16388003",
+            "display": "Injection of spinal anaesthetic agent for analgesia"
+          },
+          {
+            "code": "2549821000000101",
+            "display": "Intramuscular injection of opioid"
+          },
+          {
+            "code": "2549841000000108",
+            "display": "Intravenous injection of opioid"
+          },
+          {
+            "code": "180885006",
+            "display": "Local anaesthetic lumbar epidural block"
+          },
+          {
+            "code": "231253007",
+            "display": "Local anaesthetic lumbar intrathecal block"
+          },
+          {
+            "code": "398044000",
+            "display": "Low dose epidural"
+          },
+          {
+            "code": "427035008",
+            "display": "Nitrous oxide and oxygen gas analgesia"
+          },
+          {
+            "code": "426060003",
+            "display": "Nitrous oxide and oxygen gas analgesia in labour"
+          },
+          {
+            "code": "397905008",
+            "display": "Patient controlled epidural analgesia"
+          },
+          {
+            "code": "2549861000000109",
+            "display": "Patient controlled intravenous analgesia of opioid"
+          },
+          {
+            "code": "2549871000000102",
+            "display": "Patient controlled intravenous analgesia of remifentanil"
+          },
+          {
+            "code": "2570311000000106",
+            "display": "PIEB (programmed intermittent epidural bolus) infusion of therapeutic substance"
+          },
+          {
+            "code": "231254001",
+            "display": "Saddle block"
+          },
+          {
+            "code": "231249005",
+            "display": "Spinal anaesthesia"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "labouranalgesiaproceduressct-17122025",
+    "collection": "steve-issue",
+    "updatedAt": "2026-06-04T13:39:57.204362+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Labouranalgesiaproceduressct_17122025.xlsx",
+        "date": "2026-06-04T13:39:57.204362+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
