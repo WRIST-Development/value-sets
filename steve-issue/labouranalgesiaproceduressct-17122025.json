@@ -118,16 +118,16 @@
     ]
   },
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "labouranalgesiaproceduressct-17122025",
     "collection": "steve-issue",
-    "updatedAt": "2026-06-04T13:39:57.204362+00:00",
+    "updatedAt": "2026-06-04T13:43:17.758436+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
-        "version": "1-build.0.0",
+        "version": "1-build.0.1",
         "reason": "Import from Labouranalgesiaproceduressct_17122025.xlsx",
-        "date": "2026-06-04T13:39:57.204362+00:00",
+        "date": "2026-06-04T13:43:17.758436+00:00",
         "author": "FrankiePH"
       }
     ]
