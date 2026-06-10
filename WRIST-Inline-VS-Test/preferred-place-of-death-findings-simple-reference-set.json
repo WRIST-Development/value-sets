@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Preferred place of death findings simple reference set",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "^ 1556561000000101"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Preferred-place-of-death-findings-simple-reference-set",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Preferred place of death findings simple reference set</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/preferred-place-of-death-findings-simple-reference-set-ff078442b1f1",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1556561000000101",
+        "display": "Preferred place of death findings simple reference set",
+        "isRefset": true
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1556561000000101",
+        "display": "Preferred place of death findings simple reference set",
+        "action": "include",
+        "operator": "memberOf"
+      }
+    ],
+    "search": {
+      "query": "Preferred place of death findings simple reference set",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1556561000000101"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB",
+          "display": "United Kingdom"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "preferred-place-of-death-findings-simple-reference-set",
+    "collection": "WRIST-Inline-VS-Test",
+    "updatedAt": "2026-06-10T11:54:12.517416+00:00",
+    "createdBy": "FrankiePH",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-10T11:54:12.517416+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
