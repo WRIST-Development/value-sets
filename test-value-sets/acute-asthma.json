@@ -79,7 +79,7 @@
     }
   },
   "_libraryMeta": {
-    "version": 4,
+    "version": "4-build.0.0",
     "slug": "acute-asthma",
     "collection": "test-value-sets",
     "updatedAt": "2026-04-24T13:05:04.616935+00:00",
@@ -91,6 +91,7 @@
         "date": "2026-04-24T13:05:04.616935+00:00",
         "author": "FrankiePH"
       }
-    ]
+    ],
+    "createdAt": "2026-04-24T13:05:04.616935+00:00"
   }
 }
