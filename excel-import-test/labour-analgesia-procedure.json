@@ -18,7 +18,8 @@
     "createdBy": "FrankiePH",
     "slug": "labour-analgesia-procedure",
     "updatedAt": "2026-04-28T13:26:34.354010+00:00",
-    "version": 3
+    "version": "3-build.0.0",
+    "createdAt": "2026-04-28T13:25:43.762698+00:00"
   },
   "compose": {
     "include": [
