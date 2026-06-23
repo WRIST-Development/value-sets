@@ -64,7 +64,8 @@
     "createdBy": "FrankiePH",
     "slug": "search-and-build-made-value-set",
     "updatedAt": "2026-04-23T17:20:30.107821+00:00",
-    "version": 2
+    "version": "2-build.0.0",
+    "createdAt": "2026-04-23T17:18:36.231327+00:00"
   },
   "compose": {
     "exclude": [
