@@ -41,7 +41,8 @@
     "createdBy": "FrankiePH",
     "slug": "snomed-ct-search-build",
     "updatedAt": "2026-05-15T08:15:35.387301+00:00",
-    "version": "1-build.0.1"
+    "version": "1-build.0.1",
+    "createdAt": "2026-05-14T16:16:40.385220+00:00"
   },
   "compose": {
     "include": [
