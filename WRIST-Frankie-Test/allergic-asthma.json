@@ -51,7 +51,8 @@
     "createdBy": "FrankiePH",
     "slug": "allergic-asthma",
     "updatedAt": "2026-04-28T22:10:54.387119+00:00",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "createdAt": "2026-04-27T11:56:06.044185+00:00"
   },
   "compose": {
     "exclude": [
