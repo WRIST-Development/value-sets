@@ -54,7 +54,8 @@
     "createdBy": "FrankiePH",
     "slug": "metolazone",
     "updatedAt": "2026-05-05T10:02:27.103971+00:00",
-    "version": "1-build.0.1"
+    "version": "1-build.0.1",
+    "createdAt": "2026-05-05T09:45:36.595578+00:00"
   },
   "compose": {
     "exclude": [
