@@ -18,10 +18,10 @@
   },
   "name": "Blood group",
   "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-group-lib",
-  "description": "Pre-seeded with DIFFERENT content than the model's Blood group VS (\u2192 name clash).",
+  "description": "Pre-seeded with DIFFERENT content than the model's Blood group VS (→ name clash).",
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": 1,
+    "version": "1-build.0.0",
     "slug": "blood-group",
     "collection": "WRIST-Inline-VS-Test",
     "updatedAt": "2026-06-02T00:00:00+00:00",
@@ -33,6 +33,7 @@
         "date": "2026-06-02T00:00:00+00:00",
         "author": "FrankiePH"
       }
-    ]
+    ],
+    "createdAt": "2026-06-02T00:00:00+00:00"
   }
 }
