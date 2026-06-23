@@ -46,7 +46,7 @@
   },
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": 1,
+    "version": "1-build.0.0",
     "slug": "library-asthma",
     "collection": "test-value-sets",
     "updatedAt": "2026-04-24T13:21:24.072333+00:00",
@@ -58,6 +58,7 @@
         "date": "2026-04-24T13:21:24.072333+00:00",
         "author": "FrankiePH"
       }
-    ]
+    ],
+    "createdAt": "2026-04-24T13:21:24.072333+00:00"
   }
 }
