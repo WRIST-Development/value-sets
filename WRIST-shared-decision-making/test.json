@@ -3,15 +3,54 @@
   "title": "test",
   "status": "draft",
   "compose": {
-    "include": [
+    "exclude": [
       {
         "concept": [
           {
-            "code": "195967001",
-            "display": "Asthma"
+            "code": "15411211000001106",
+            "display": "Metformin 1g oral powder sachets sugar free"
+          },
+          {
+            "code": "39461411000001102",
+            "display": "Metformin 1g tablets"
+          },
+          {
+            "code": "12012111000001104",
+            "display": "Aspirin 100mg/5ml oral solution"
           }
         ],
-        "system": "http://snomed.info/sct"
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "776713006"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      },
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "parent",
+            "value": "774656009"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      },
+      {
+        "concept": [
+          {
+            "code": "34865511000001109",
+            "display": "Glucose interstitial fluid detection sensor"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
       }
     ]
   },
@@ -20,44 +59,63 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-e9a9907a7ccd",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-a243de45b148",
   "_builderState": {
-    "mode": "snomed-tree",
-    "roots": [
-      {
-        "code": "195967001",
-        "display": "Asthma"
+    "mode": "dmd-tree",
+    "decisions": {
+      "774656009": {
+        "action": "include",
+        "code": "774656009",
+        "display": "Aspirin",
+        "level": "VTM"
+      },
+      "776713006": {
+        "action": "include",
+        "code": "776713006",
+        "display": "Metformin",
+        "level": "VTM"
+      },
+      "15411211000001106": {
+        "action": "exclude",
+        "code": "15411211000001106",
+        "display": "Metformin 1g oral powder sachets sugar free",
+        "level": "VMP"
+      },
+      "39461411000001102": {
+        "action": "exclude",
+        "code": "39461411000001102",
+        "display": "Metformin 1g tablets",
+        "level": "VMP"
+      },
+      "12012111000001104": {
+        "action": "exclude",
+        "code": "12012111000001104",
+        "display": "Aspirin 100mg/5ml oral solution",
+        "level": "VMP"
+      },
+      "34865511000001109": {
+        "action": "include",
+        "code": "34865511000001109",
+        "display": "Glucose interstitial fluid detection sensor",
+        "level": "VMP"
       }
-    ],
-    "decisions": [
-      {
-        "code": "195967001",
-        "display": "Asthma",
-        "action": "include"
-      }
-    ],
-    "search": {
-      "query": "asth",
-      "activeOnly": true,
-      "refsetCode": "",
-      "inspectingCode": "195967001"
     }
   },
-  "_bindingStrength": "example",
+  "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "test",
     "collection": "WRIST-shared-decision-making",
-    "updatedAt": "2026-06-18T14:39:00.825363+00:00",
+    "updatedAt": "2026-07-08T13:41:50.870419+00:00",
     "createdBy": "FrankiePH",
+    "createdAt": "2026-07-08T13:41:50.870419+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "test",
-        "date": "2026-06-18T14:39:00.825363+00:00",
+        "version": "1-build.0.1",
+        "reason": "init",
+        "date": "2026-07-08T13:41:50.870419+00:00",
         "author": "FrankiePH"
       }
-    ],
-    "createdAt": "2026-06-18T14:39:00.825363+00:00"
+    ]
   }
 }
