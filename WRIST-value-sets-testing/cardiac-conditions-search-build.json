@@ -100,18 +100,24 @@
       "inspectingCode": "410429000"
     }
   },
-  "_bindingStrength": "preferred",
+  "_bindingStrength": "required",
   "_libraryMeta": {
     "version": "1-build.0.0",
     "slug": "cardiac-conditions-search-build",
     "collection": "WRIST-value-sets-testing",
-    "updatedAt": "2026-05-05T20:49:10.812573+00:00",
+    "updatedAt": "2026-08-18T13:32:08.766607+00:00",
     "createdBy": "FrankiePH",
     "changeLog": [
       {
         "version": "1-build.0.0",
         "reason": "init",
         "date": "2026-05-05T20:49:10.812573+00:00",
+        "author": "FrankiePH"
+      },
+      {
+        "version": "1-build.0.0",
+        "reason": "Binding strength: Preferred → Required",
+        "date": "2026-08-18T13:32:08.766607+00:00",
         "author": "FrankiePH"
       }
     ],
