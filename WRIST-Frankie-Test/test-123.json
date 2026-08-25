@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "MyTestValueSet",
+  "status": "draft",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>MyTestValueSet</p></div>"
+  },
+  "description": "This is a test",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/mytestvalueset-4405f353ab7d",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "display": "Diabetologist",
+            "code": "309350005"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "MyTestValueSet",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "test-123",
+    "collection": "WRIST-Frankie-Test",
+    "updatedAt": "2026-08-25T09:12:21.710974+00:00",
+    "createdBy": "FrankiePH",
+    "createdAt": "2026-08-25T09:12:21.710974+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Promoted from reviewer suggestion SUG-0004",
+        "date": "2026-08-25T09:12:21.710974+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
