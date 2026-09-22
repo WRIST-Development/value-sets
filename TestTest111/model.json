@@ -1,0 +1,58 @@
+{
+  "name": "TestTest111",
+  "version": "0.0.1",
+  "description": "",
+  "concept": [],
+  "component_sets": [],
+  "ui": {
+    "media_queries": [
+      {
+        "max_width": "1880px",
+        "hide_cols": [],
+        "col_widths": {
+          "name": "14%",
+          "description": "24%",
+          "mro": "3%",
+          "cardinality": "7%",
+          "implementation_guidance": "24%",
+          "data_types": "8%",
+          "value_sets": "12%",
+          "information_type": "8%"
+        },
+        "font_size": "85%"
+      },
+      {
+        "max_width": "1200px",
+        "hide_cols": [
+          "information_type"
+        ],
+        "col_widths": {
+          "name": "15%",
+          "description": "26%",
+          "mro": "4%",
+          "cardinality": "7%",
+          "implementation_guidance": "26%",
+          "data_types": "10%",
+          "value_sets": "12%"
+        },
+        "font_size": "80%"
+      },
+      {
+        "max_width": "900px",
+        "hide_cols": [
+          "information_type",
+          "data_types",
+          "cardinality"
+        ],
+        "col_widths": {
+          "name": "18%",
+          "description": "30%",
+          "mro": "5%",
+          "implementation_guidance": "30%",
+          "value_sets": "17%"
+        },
+        "font_size": "75%"
+      }
+    ]
+  }
+}
