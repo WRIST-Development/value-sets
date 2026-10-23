@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/dmdrouteofadministration-1807f39b35f2",
+  "name": "DmdRouteOfAdministration",
+  "title": "dm+d route of administration",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "^ 999000051000001100 |ePrescribing route of administration simple reference set|"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-10-23T13:04:56.949255+00:00",
+    "updatedAt": "2026-10-23T13:04:56.949255+00:00",
+    "slug": "route-of-administration",
+    "collection": "WRIST-SNF",
+    "strength": "required"
+  }
+}
