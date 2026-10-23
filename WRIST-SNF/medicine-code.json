@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snfmedicinecode-4774466ba002",
+  "name": "SnfMedicineCode",
+  "title": "SNF medicine code (dm+d VTM, VMP or AMP medicines)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "(^ 999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set| OR ^ 999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^ 999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set|) AND < 373873005 |Pharmaceutical / biologic product|"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-10-23T13:04:54.238658+00:00",
+    "updatedAt": "2026-10-23T13:04:54.238658+00:00",
+    "slug": "medicine-code",
+    "collection": "WRIST-SNF",
+    "strength": "required"
+  }
+}
