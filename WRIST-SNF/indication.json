@@ -1,0 +1,72 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snfindication-53be9a041081",
+  "name": "SnfIndication",
+  "title": "SNF indication (findings, situations and procedures)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "404684003",
+            "display": "Clinical finding"
+          },
+          {
+            "code": "243796009",
+            "display": "Situation with explicit context"
+          },
+          {
+            "code": "71388002",
+            "display": "Procedure"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "http://snomed.info/sct",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-10-23T13:04:22.534025+00:00",
+    "updatedAt": "2026-10-23T13:04:22.534025+00:00",
+    "slug": "indication",
+    "collection": "WRIST-SNF",
+    "strength": "required"
+  },
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "404684003",
+        "display": "Clinical finding"
+      },
+      {
+        "code": "243796009",
+        "display": "Situation with explicit context"
+      },
+      {
+        "code": "71388002",
+        "display": "Procedure"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "404684003",
+        "display": "Clinical finding",
+        "action": "include"
+      },
+      {
+        "code": "243796009",
+        "display": "Situation with explicit context",
+        "action": "include"
+      },
+      {
+        "code": "71388002",
+        "display": "Procedure",
+        "action": "include"
+      }
+    ]
+  }
+}
