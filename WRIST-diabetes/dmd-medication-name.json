@@ -5,13 +5,14 @@
   "compose": {
     "include": [
       {
-        "concept": [
+        "system": "http://snomed.info/sct",
+        "filter": [
           {
-            "code": "VTM",
-            "display": "Any code from VTM, VMP, AMP, VMPP, AMPP concept classes"
+            "property": "constraint",
+            "op": "=",
+            "value": "(^ 999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set| OR ^ 999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^ 999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set|) AND < 373873005 |Pharmaceutical / biologic product|"
           }
-        ],
-        "system": "https://dmd.nhs.uk"
+        ]
       }
     ]
   },
@@ -23,19 +24,25 @@
   "url": "https://ramseysystems.co.uk/fhir/ValueSet/dmdmedicationname-d3586ee360e5",
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.1.0",
     "slug": "dmd-medication-name",
     "collection": "WRIST-diabetes",
-    "updatedAt": "2026-05-06T22:13:26.046906+00:00",
+    "updatedAt": "2026-10-26T14:15:26.326872+00:00",
     "createdBy": "FrankiePH",
+    "createdAt": "2026-05-06T22:13:26.046906+00:00",
     "changeLog": [
       {
         "version": "1-build.0.0",
         "reason": "init",
         "date": "2026-05-06T22:13:26.046906+00:00",
         "author": "FrankiePH"
+      },
+      {
+        "version": "1-build.1.0",
+        "reason": "Replace placeholder code 'VTM' with the all-medicines ECL (any dm+d VTM, VMP or AMP)",
+        "date": "2026-10-26T14:15:26.326872+00:00",
+        "author": "FrankiePH"
       }
-    ],
-    "createdAt": "2026-05-06T22:13:26.046906+00:00"
+    ]
   }
 }
