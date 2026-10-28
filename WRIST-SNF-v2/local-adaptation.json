@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snflocaladaptationprovisional-52d3e2d52ec3",
+  "name": "SnfLocalAdaptationProvisional",
+  "title": "SNF local adaptation (provisional codes)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-local-adaptation",
+        "concept": [
+          {
+            "code": "awaiting-implementation",
+            "display": "Awaiting implementation"
+          },
+          {
+            "code": "adopted",
+            "display": "Adopted"
+          },
+          {
+            "code": "extended",
+            "display": "Extended"
+          },
+          {
+            "code": "restricted",
+            "display": "Restricted"
+          },
+          {
+            "code": "deferred",
+            "display": "Deferred"
+          },
+          {
+            "code": "not-adopted",
+            "display": "Not adopted"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-local-adaptation",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-10-28T10:23:00.215349+00:00",
+    "updatedAt": "2026-10-28T10:23:00.215349+00:00",
+    "slug": "local-adaptation",
+    "collection": "WRIST-SNF-v2",
+    "strength": "required"
+  }
+}
