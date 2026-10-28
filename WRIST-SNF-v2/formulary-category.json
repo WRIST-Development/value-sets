@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snfformularycategoryprovisional-1278a1fba687",
+  "name": "SnfFormularyCategoryProvisional",
+  "title": "SNF formulary category (provisional codes)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-formulary-category",
+        "concept": [
+          {
+            "code": "all-settings",
+            "display": "All settings"
+          },
+          {
+            "code": "specialist-advice",
+            "display": "Specialist advice"
+          },
+          {
+            "code": "specialist-initiation",
+            "display": "Specialist initiation"
+          },
+          {
+            "code": "shared-care",
+            "display": "Shared care"
+          },
+          {
+            "code": "specialist-only",
+            "display": "Specialist only"
+          },
+          {
+            "code": "do-not-prescribe",
+            "display": "Do not prescribe"
+          },
+          {
+            "code": "self-care",
+            "display": "Self care"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-formulary-category",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-10-28T10:22:58.166181+00:00",
+    "updatedAt": "2026-10-28T10:22:58.166181+00:00",
+    "slug": "formulary-category",
+    "collection": "WRIST-SNF-v2",
+    "strength": "required"
+  }
+}
