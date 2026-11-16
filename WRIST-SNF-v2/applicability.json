@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/snfapplicabilityprovisional-9718e29af231",
+  "name": "SnfApplicabilityProvisional",
+  "title": "SNF applicability (provisional codes)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-applicability",
+        "concept": [
+          {
+            "code": "all-local-formularies",
+            "display": "All local formularies"
+          },
+          {
+            "code": "specialist-centres-only",
+            "display": "Specialist centres only under commissioned service"
+          }
+        ]
+      }
+    ]
+  },
+  "strength": "required",
+  "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-applicability",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "createdAt": "2026-11-16T17:31:32.587814+00:00",
+    "updatedAt": "2026-11-16T17:31:32.587814+00:00",
+    "slug": "applicability",
+    "collection": "WRIST-SNF-v2",
+    "strength": "required"
+  }
+}
