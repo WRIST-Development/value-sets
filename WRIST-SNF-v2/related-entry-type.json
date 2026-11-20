@@ -4,6 +4,7 @@
   "name": "SnfRelatedEntryTypeProvisional",
   "title": "SNF related entry type (provisional codes)",
   "status": "draft",
+  "description": "How a new SNF Entry links back to an earlier one. Split from and Replaces withdraw the earlier Entry; Relates to does not. 'Derived from' was removed on 19 Nov 2026 because it overlapped Split from and Replaces (Questions and Decisions log, Q30).",
   "compose": {
     "include": [
       {
@@ -20,10 +21,6 @@
           {
             "code": "relates-to",
             "display": "Relates to"
-          },
-          {
-            "code": "derived-from",
-            "display": "Derived from"
           }
         ]
       }
@@ -32,9 +29,9 @@
   "strength": "required",
   "system": "https://ramseysystems.co.uk/fhir/CodeSystem/snf-provisional-related-entry-type",
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "createdAt": "2026-11-16T17:31:18.447750+00:00",
-    "updatedAt": "2026-11-16T17:31:18.447750+00:00",
+    "updatedAt": "2026-11-20T14:49:36.058931+00:00",
     "slug": "related-entry-type",
     "collection": "WRIST-SNF-v2",
     "strength": "required"
